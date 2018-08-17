@@ -1,0 +1,436 @@
+/* Table of contents
+-------------------------------------------------- 
+- Layout
+- Basic styles
+- Category sorting
+- Logo
+- Menu
+- Footer
+- Video
+- Utility
+*/
+
+
+/*#Layout
+-------------------------------------------------- */
+html{
+	overflow-y: scroll;
+}
+
+html, body{
+	height:100%;
+	min-height:100%;
+	width:100%;
+}
+
+.container{
+	max-width:1280px;
+	min-width:300px;
+	padding:0px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.container{
+		width:100%;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.container{
+		width:100%;
+	}
+}
+
+.content{
+	padding: 0 2rem;
+}
+
+
+@media (min-width: 400px) {
+	.content{
+		padding: 0 1rem;
+	}
+}
+
+@media (min-width: 1300px) {
+	.content{
+		padding: 0;
+	}
+}
+
+/*#Basic Styles
+-------------------------------------------------- */
+ul{
+	margin-left:2rem;
+	list-style-position: outside;
+}
+
+a {
+	text-decoration:none;
+	color:#3db3ef;
+}
+
+h3 b{
+	color:#ff8080;
+}
+
+.caption {
+	margin-left:1rem;
+	margin-right:1rem;
+	font-size: 1.3rem;
+	font-weight:bold;
+	/*text-align:center;*/
+}
+
+figcaption{
+	text-align:center;
+	margin: 7px 0px 7px 0px;
+}
+
+iframe{
+	border:0px;
+}
+
+ul.sub-categories {
+	list-style:none;
+	margin-left:0;
+	display:inline-block;
+	margin-bottom:2rem;
+}
+
+.sub-categories li{
+	background:#fff;
+    padding:0 1rem;
+	margin:0;
+	margin-bottom:0rem;
+	display:inline-block;
+	/*border-left:solid;
+	border-width: 1px;
+	border-color: #363636;
+}
+
+.sub-categories li:last-child{
+	border-right:solid;
+	border-width: 1px;
+	border-color: #363636;*/
+}
+
+.sub-categories h3{
+	margin-bottom:-1rem;
+	margin-left:-1rem;
+}
+
+.sub-categories a{
+}
+.sub-categories a.active{
+	border-bottom:solid;
+	border-width: .1rem;
+	border-color: #ff8080;
+}
+.sub-categories a:hover{
+	border-bottom:solid;
+	border-width: .2rem;
+	border-color: #ff8080;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+
+/*Logo - uses:
+http://nicolasgallagher.com/another-css-image-replacement-technique/
+-------------------------------------------------- */
+
+h1.logo {
+	/*margin: 10px 0  0px 0;*/
+	margin: 0 0 0 0;
+	float: left;
+	background-color:#3db3ef;
+	width:100%;
+	height:100px;
+}
+
+h1.logo a {
+	height:94px;
+	width: 96%;
+	margin: 1rem 2rem;
+	/*margin:0 2%;*/
+	max-width:174px;
+	display: block;
+	background: url(/images/BannerText2.svg) no-repeat;
+	/*background-position: left bottom;*/
+	background-size: 100% auto;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+h1.logo img {
+	display:block;
+	position:absolute;
+	height:8rem;
+	top:0;
+	right:2rem;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	h1.logo img {
+		display:block;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	h1.logo img {
+		top:-1rem;
+	}
+	h1.logo a {
+		height:100px;
+		max-width:605px;
+		margin:2rem;
+		background: url(/images/BannerText.svg) no-repeat;
+		/*background-position: left bottom;*/
+		background-size: 100% auto;
+		width: 82%;
+	}
+}
+
+@media (min-width: 1300px) {
+	h1.logo a {
+		margin:2rem 0;
+	}
+}
+
+/*#Menu - adapted from:
+http://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css/
+-------------------------------------------------- */
+/*Create a horizontal list with spacing*/
+
+.nav-menu{
+	background: #363636;
+	margin: 0 0 2rem 0;
+}
+
+.nav-menu ul {
+	/*margin:1px 0 20px 0;*/
+	margin:0;
+    display: table;
+	width:100%;
+	list-style-type:none;
+	position: relative;
+} 
+.nav-menu li {
+    display: table-cell;
+    list-style:none;
+}
+.nav-menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height:4rem;
+    text-align: center;
+    /*border-right: 1px solid #fff;*/
+    background: #363636;
+	-webkit-transition: background .1s; /* For Safari 3.1 to 6.0 */
+    transition: background .1s;
+}
+.nav-menu li:last-child a {
+    border-right:none;
+}
+
+.nav-menu a.active {
+	background:#ff8080;
+	/* 
+	-webkit-box-shadow:inset -12px 0px 0px -5px #ff8080;
+    -moz-box-shadow:inset -12px 0px 0px -5px #ff8080;
+    box-shadow:inset 0px -12px 0px -5px #ff8080;*/
+}
+
+.nav-menu a:hover{
+    background:#ff8080;
+} 
+
+* {
+   box-sizing:border-box; 
+}
+
+
+/* Advanced Checkbox Hack */
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} }
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+label { 
+  display:none;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-weight: 400;
+}
+/* custom-dropdown */
+nav[role="navigation"] {
+  position:relative;
+  width: 100%;
+}
+
+
+/* small screens */
+@media screen and (max-width: 750px) {
+    .nav-menu ul {
+      display:none;
+      height:100%;
+    }
+	.nav-menu li a {
+		text-align:left;
+		padding-left:2rem;
+	}
+	.nav-menu a.active {
+	background:#363636;
+	}
+	.nav-menu a.active:hover{
+    background:#ff8080;
+	}	 
+    label {
+      position:relative;
+      display:block;
+      width:100%;
+      line-height:4rem;
+      padding: 0 2rem;
+      /*margin:1px 0 10px 0;*/
+	  margin: 0;
+	  background-color:#363636;
+	  color:#FFF;
+    }   
+    label:after {
+      text-align:center;
+      content:"\2261  Menu";
+    }
+    input[type=checkbox]:checked ~ label{
+		background:#ff8080;
+		/*margin: 1px 0 1px 0;*/
+		margin: 0;
+    }    
+    input[type=checkbox]:checked ~ ul.menu {
+      display: block;
+	}
+	input[type=checkbox]:checked ~ ul.menu li {
+        width:100%;
+        text-align:left;
+		display: block;
+		margin: 0;
+	}
+}
+
+/*#Footer
+-------------------------------------------------- */
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding:0 0 0 0;
+	margin: 0 auto -10rem;
+}
+
+.push{
+	height:10rem;
+}
+
+.footer{
+	height:10rem;
+	width:100%;
+	min-width:300px;
+	margin:0 auto;
+	text-align:center;
+	color: #CCC;
+	font-size:80%;
+	position:relative;
+	background-color:#363636;
+	border-top: 1rem solid #ff8080;
+}
+
+.footer div{
+  width:100%;
+  overflow:hidden;
+  padding:0 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.footer p{
+	margin:0;
+	padding:0;
+}
+
+/* #Video - adapted from: 
+http://avexdesigns.com/responsive-youtube-embed/#sthash.qUeQZNDg.dpuf
+================================================== */
+.video-container {
+	margin-top:0rem;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0; overflow: hidden;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.video-container {
+		margin-top:.8rem;
+	}
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:#000;
+}
+
+.video-container-half {
+	position: relative;
+	padding-bottom: 28.125%;
+	height: 0; overflow: hidden;
+	width:50%;
+}
+ 
+.video-container-half iframe,
+.video-container-half object,
+.video-container-half embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* #Utility
+-------------------------------------------------- */
+.u-pull-right {
+  margin-right:0%;
+  margin-left:4%;
+  margin-bottom:2.5rem;
+  float: right; }
+.u-pull-left {
+  margin-left:0%;
+  margin-right:4%;
+  margin-bottom:2.5rem;
+  float: left; }
+

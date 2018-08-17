@@ -1,0 +1,275 @@
+/* Adapted from http://www.barrelny.com/blog/text-align-justify-and-rwd/
+--------------------------------------------------------- */
+.grid li, .grid ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* -- FLUID GRID STYLES -- */
+
+.grid{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	line-height:0rem;
+}
+
+.grid ul{
+	margin: 1rem 0 -1rem 0;
+	padding-bottom:2rem;
+}
+
+.grid li{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+
+.grid li a{
+	text-align:left;
+	color: #000;
+	display: block;
+	position: relative;
+	box-shadow: 0px 3px 8px #ddd;
+	overflow:hidden;
+}
+
+.grid li a:hover{
+	text-decoration: none;
+	text-align:left;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.grid img{
+	width:100%;
+	display: block;
+	position: relative;
+	
+}
+
+.grid li span{
+	display: block;
+	text-align:center;
+	line-height:5rem;
+}
+
+.grid li a:after{
+  position: absolute;
+  content: '';
+  top: 0rem;
+  left: 0rem;
+  bottom: 4rem;
+  right: 0rem;
+  opacity:0;
+  border:.5rem solid #ff8080;
+  border-bottom:none;
+  z-index: 100;
+}
+
+.grid li a:hover:after{
+	opacity:1;
+	border:.5rem solid #ff8080;
+	border-bottom:none;
+}
+
+.grid li a:hover span{
+	background-color:#ff8080;
+	color:white;
+}
+
+.grid:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height:5px;
+	font-size:0em;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.grid ul{
+		margin: 0 0 -2.5% 0;
+	}
+	.grid li{
+		width: 48.7%;
+		margin: 0 0 2.5% 0;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.grid ul{
+		margin: 0 0 -2.2% 0;
+	}
+	.grid li{
+		width: 32%;
+		margin: 0 0 2.2% 0;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.grid ul{
+		margin: 0 0 -3% 0;
+	}
+	.grid li{
+		width: 23%;
+		margin: 0 0 3% 0;
+	}
+}
+
+/*#Pictures and video gallery
+-------------------------------------------------- */
+
+.grid.gallery li{
+	width: 48%;
+	padding-top: 48%;
+	margin: 0 0 1rem 0;
+	overflow:hidden;
+}
+.grid.gallery li a{
+  box-shadow: none;
+  padding-top: 100%;
+  margin-top: -100%;
+}
+
+.grid.gallery img {
+  /*left: -100%;*/
+  top: 0;
+  position: absolute;
+  width: auto;
+  height: 100%;
+  /*
+  -webkit-transform: translate(50%,0%);
+  -ms-transform: translate(50%,0%);
+  -moz-transform: translate(50%,0%);
+  transform: translate(50%,0);*/
+}
+
+.grid.gallery img.portrait {
+  width: 100%;
+  height: auto;
+  left: 0;
+  margin:0;
+  margin-top: 50%;
+  -webkit-transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+  -moz-transform: translate(0%,-50%);
+  transform: translate(0,-50%);
+}
+
+.grid.gallery figure {
+	display:none;
+}
+
+/* Larger than mobile */
+@media (min-width:400px) {
+	.grid.gallery ul{
+		margin: 2.5% 0 -2.5% 0;
+	}
+	.grid.gallery li{
+		width: 31.5%;
+		padding-top: 31.5%;
+		margin: 0 0 2.5% 0;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.grid.gallery ul{
+		margin: 0 0 -2.5% 0;
+	}
+	.grid.gallery li{
+		width: 31.5%;
+		padding-top: 31.5%;
+		margin: 0 0 2.5% 0;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.grid.gallery ul{
+		margin: 0 0 -2% 0;
+	}
+	.grid.gallery li{
+		width: 23.5%;
+		padding-top: 23.5%;
+		margin: 0 0 2% 0;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.grid.gallery ul{
+		margin: 0 0 -1.2% 0;
+	}
+	.grid.gallery li{
+		width: 19%;
+		padding-top: 19%;
+		margin: 0 0 1.2% 0;
+	}
+}
+
+.grid.gallery li a:hover:after{
+	opacity:1;
+	bottom:0rem;
+	border:.5rem solid #ff8080;
+}
+
+li.placeholder{
+	font-size:0em;
+	margin: 0;
+	padding: 0;
+	height:0px;
+}
+
+/*#Gallery for sub-pages such as robots and applications
+-------------------------------------------------- */
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.grid.gallery.small ul{
+		margin: 3.5% 0 -3.5% 0;
+	}
+	.grid.gallery.small li{
+		width: 48%;
+		padding-top: 48%;
+		margin: 0 0 3.5% 0;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.grid.gallery.small ul{
+		margin: 2.5% 0 -2.5% 0;
+	}
+	.grid.gallery.small li{
+		width: 31.5%;
+		padding-top: 31.5%;
+		margin: 0 0 2.5% 0;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.grid.gallery.small ul{
+		margin: 2% 0 -2% 0;
+	}
+	.grid.gallery.small li{
+		width: 23.5%;
+		padding-top: 23.5%;
+		margin: 0 0 2% 0;
+	}
+}
+
+.grid.gallery.small li.placeholder{
+	font-size:0em;
+	margin: 0;
+	padding: 0;
+	height:0px;
+}
+

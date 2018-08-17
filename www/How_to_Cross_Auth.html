@@ -1,0 +1,55 @@
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">How to get access 
+to /afs/cs.cmu.edu/project/biorobotics</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">Taken from:
+<a href="http://www.cs.cmu.edu/%7Ehelp/afs/cross_realm.html">http://www.cs.cmu.edu/~help/afs/cross_realm.html</a>
+</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">1. 
+
+
+
+The first time you try to use Cross Auth:
+
+</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">kinit &lt;username&gt;<br>
+aklog cs.cmu.edu </p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">pts createuser 
+&lt;username&gt;@andrew.cmu.edu -cell cs.cmu.edu </p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">to verify:
+</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">pts examine 
+&lt;username&gt;@andrew.cmu.edu -cell cs.cmu.edu</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">2. Email Matt (<a href="mailto:mtesch@cmu.edu">mtesch@cmu.edu</a>) 
+with: 1. Andrew ID,&nbsp; 2. Which directory do you need permission.</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">3.<span style="text-decoration: line-through;"> In order to 
+edit contents in /afs/cs folder you should install SSH secure shell software.
+
+</span></p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;"><span style="text-decoration: line-through;">you can find a 
+copy in myandrew
+</span><a href="https://www.cmu.edu/myandrew/auth/q?doc=software/alphalist.html"><span style="text-decoration: line-through;">
+https://www.cmu.edu/myandrew/auth/q?doc=software/alphalist.html </span><br></a></p><p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">Feb 2011: SSH secure is not avilable any more, you should now probably use SSH Tectia:</p><p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;"><a href="https://www.cmu.edu/computing/software/all/tectia/download.html">https://www.cmu.edu/computing/software/all/tectia/download.html</a>
+
+</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">Everytime you run 
+SSH shell and want to reach biorobotics on AFS:</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">you should open a 
+shell</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">kinit <username>
+&lt;username&gt;</username></p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">aklog cs.cmu.edu
+</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">then you can go 
+back to the SSH GUI and change directory 
+to your folder /afs/cs.cmu.edu/project/biorobotics/www/... </p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">&nbsp;</p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">Notes: </p>
+<p style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt;">kinit is not 
+needed if you are doing this from an andrew unix machine.<br>
+Also, you can add the aklog cs.cmu.edu line to your ~/.ssh/rc file and it will 
+happen whenever you log in (this may cause issues with X forwarding.)</p>

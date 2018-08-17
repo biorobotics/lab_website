@@ -1,0 +1,7 @@
+    <ul class="nav">
+      <li><a href="./">Overview</a></li>
+      <li><a href="syllabus.html">Syllabus</a></li>
+      <li><a href="textbook.html">Texbook</a></li>
+      <li><a href="coursenotes.html">Coursenotes</a></li>
+      <li><a href="instructors.html">Instructors</a></li>
+    </ul>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4th Biennial North American Summer School on Surgical Robotics</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+
+	<h1>4<sup>th</sup> Biennial North American Summer School on Surgical Robotics</h1>
+	<!--<h2>by free css templates </h2>-->
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#" class="active">About</a></li>
+		<li><a href="participants.html">Participants</a></li>
+		<li><a href="schedule.html">Schedule</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</div>
+<div id="content">
+	<div id="columnA">
+		<h2>About the summer school</h2>
+		<ul class="list1">
+			<li><a href="#Abstract">Abstract</a></li>
+			<li><a href="#Facts">Key Facts</a></li>
+			<li><a href="#Directions">Travel and Lodging</a></li>
+			<li><a href="#History">History</a></li>
+			<li><a href="#Organizers">Organizing Committee</a></li>
+			<li><a href="#Sponsors">Sponsors</a></li>
+		</ul>
+		<a name="Key"></a>
+		<h2>Key Facts </h2>
+		<ul class="list2">
+			<li>Approximately 62 trainees</li>
+			<li>5 days of lectures and laboratories: July 21-25, 2014</li>
+			<li>Location:  Pittsburgh, Pennsylvania, USA:  Carnegie Mellon University / Allegheny Health Network</li>
+			<li>Student poster sessions</li>
+			<li>Industry participation (through attendees and an Industry Forum)</li>
+			<li>Clinician participation</li>
+			<li>Social events and networking opportunities</li>
+			<li>Hands-on animal laboratories and surgical robot laboratories at Allegheny General Hospital (Allegheny Health Network)</li>
+		</ul>
+		<a name="Directions"></a>
+		<h2>Travel and Lodging</h2>
+		<p> Each link will open in a new window.
+		<ul class="list2">
+		<li>
+		<a href="http://www.cmu.edu/about/visit/accommodations.shtml" target="_blank">
+		Lodging (for those who prefer to arrange their own)
+		</a>
+		</li>
+		<li>
+		<a href="http://www.cmu.edu/about/visit/directions-parking.shtml" target="_blank">
+		For travel to the school, by car, plane, bus, or train
+		</a>
+		</li>
+		<li>
+		<a href="http://www.cmu.edu/about/visit/campus-map.shtml" target="_blank">
+		Campus maps
+		</a>
+		</li>
+		</ul>
+		</p>
+		<a name="History"></a>
+		<h2>History</h2>
+		<p>
+		The European Summer School on Surgical Robotics was started in 2003 and is held in odd-numbered years; the 6th European Summer School was held in 2013. In 2007, Dr. Russell Taylor and Dr. Blake Hannaford  proposed  a  North  American  version  of  the  Surgical  Robotics  School with the intention of it being held biennially in even-numbered years. Due to scheduling constraints, the First North American Surgical Robotics School was held in Winter 2009 (instead of Summer 2008) at Johns Hopkins University. The School was supported by the National Science Foundation (NSF) and the IEEE Robotics and Automation Society (IEEE-RAS).  The 2nd North American Summer School on Surgical Robotics was held in July 2010 at the University of Washington, Seattle, and was supported by Covidien, Intuitive Surgical Inc., Telemedicine & Advanced Technology Research Center (TATRC) and Johns Hopkins University.  The 3rd North American Summer School was held in July 2012 at Canadian Surgical Technologies and Advanced Robotics (CSTAR) and the University of Western Ontario, and was supported by a number of organizations, including IEEE-RAS, Intuitive Surgical Inc., CSTAR, Lawson Health Research Institute, Robarts Research Institute, Covidien, and an NSERC (CREATE)-funded program in Computer-Assisted Medical Interventions.
+		</p>
+		<a name="Organizers"></a>
+		<h2>Organizing Committee </h2>
+		<ul class="list2">
+			<li>Cameron Riviere, Carnegie Mellon University</li>
+			<li>Howie Choset, Carnegie Mellon University</li>
+			<li>George Stetten, University of Pittsburgh / Carnegie Mellon University</li>
+			<li>Rajni Patel, CSTAR / University of Western Ontario</li>
+			<li>Blake Hannaford, University of Washington</li>
+			<li>Russell Taylor, Johns Hopkins University</li>
+		</ul>
+		<a name="Sponsors"></a>
+		<h2>Sponsors</h2>
+		<ul class="list2">
+		<li>National Institute of Biomedical Imaging and Bioengineering (NIH)</li>
+		<li>Intuitive Surgical, Inc.</li>
+		<li>Medtronic</li>
+		<li>Blue Belt Technologies</li>
+		<li>IEEE Robotics & Automation Society</li>
+		</ul>
+	</div>
+	<!--
+	<div id="columnB">
+		<h3>Co-Chairs</h3>
+		<ul class="list1">
+			<li><a href="#">Dr. Cameron Riviere</a></li>
+			<li><a href="#">Dr. Howie Choset</a></li>
+		</ul>
+		<p>Carnegie Mellon University, Pittsburgh, Pennsylvania, USA</p>
+
+		<ul class="list1">
+			<li><a href="#">Suspendisse quis  massa</a></li>
+			<li><a href="#">Vivamus sagittis bibendum</a></li>
+			<li><a href="#">Nullam  erat viverra ornare</a></li>
+		</ul>
+		<h3>Curabitur Malesuadas  </h3>
+		<p>Nunc pellentesque amorsit. Sed vestibulum blandit nisl. Quisque elementum convallis purus.<a href="#">More...</a></p>
+		<h3>Lorem Ipsum Dolor
+		</h3>
+		<p>Nunc pellentesque amorsit. Sed vestibulum blandit nisl. <a href="#">More...</a></p>
+		<p><br />
+		</p>
+	</div>
+	-->
+</div>
+<div id="footer">
+	<p></p>
+</div>
+<div align=center></div></body>
+</html>

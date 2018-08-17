@@ -1,0 +1,47 @@
+Sysplotter user tips:
+
+========
+
+System functions should be modeled on sysf_diffdrive.m, and placed in system directory. In particular, the filename should start with sysf_ to make it detectable by the GUI as a system file.
+
+Be sure to turn off the xy_no_opt setting when working with a swimmer
+
+=========
+
+Shape change functions should be modeled on shchf_diffdriveexample. 
+
+To calculate the cBVI over a shape change that forms a closed loop in the shape space, uncomment the relevant line (the implementation of this calculation is currently slow, however).
+
+If you want to plot multiple gaits together, you can specify them in the same shchf_ file by creating multiple cells in the p-structure fields. For example, 
+p.phi_def{1} = {@gait1}
+p.phi_def{2} = {@gait2}
+
+would define two gaits that would each be evaluated and saved into the same data structure (you would then also want to define multiple cells for the other fields in the p-structure to match).
+
+
+
+=========
+
+Sysplotter stores all of the data generated for a system and shape change in a subfolder of the sysplotter_data folder it creates in your user files directory. The files in this directory may become large, so it is a good idea to keep this generated folder outside of version control. The subfolders allow the code to isolate the results of different versions of the sysplotter code.
+
+For most purposes, you'll want to find the file whose name is the concatenation of the sysf_ and shchf_ filenames you plotted. This information is contained within two data structures saved in the file:
+
+"s" contains system information
+"p" contains path information, (shape, and the path for the specific system)
+
+The most important of these fields is "p.G_locus_full", which contains a cell array. In each cell is a structure containing
+
+        bvi: body velocity integral in original coordinates
+    bvi_opt: body velocity integral in optimal coordinates
+          G: displacement in original coordinates
+      G_opt: displacement in optimal coordinates
+          S: arclength under the chosen metric (defaults to euclidean
+             metric in parameters)
+
+Also useful are
+
+    p.time_full -- cell array with the time vector for each trajectory
+    p.cBVI -- cBVI values if calculated
+    p.phi_locus -- points traversed in the shape space
+
+Other structure fields are function calls with built-in interpolation methods for finding shape change values at specified times.

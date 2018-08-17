@@ -1,0 +1,84 @@
+/* Adapted from http://www.barrelny.com/blog/text-align-justify-and-rwd/
+--------------------------------------------------------- */
+
+.form-grid li, .form-grid ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-grid ul{
+	margin:0 0 -3% 0;
+}
+
+/* -- FLUID form-grid STYLES -- */
+
+.form-grid{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	margin-top:-2rem;
+}
+
+.form-grid p{
+	line-height:1rem;
+	margin:0;
+}
+
+.form-grid li{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+.form-grid li:last-child {
+	line-height:0rem;
+	padding-right:0;
+	width:100%;
+}
+
+.form-grid:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height:5px;
+	font-size:0em;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.form-grid li{
+		width: 48.7%;
+		margin: 0 0 2.5% 0;
+	}
+}
+
+/* Larger than phablet (also point when form-grid becomes active) */
+@media (min-width: 550px) {
+	.form-grid li{
+		width: 49%;
+		margin: 0 0 2.2% 0;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.form-grid ul{
+		display: table;
+		min-width:100%;
+		list-style-type:none;
+		position: relative;
+	}
+	.form-grid li {
+		padding-right:2rem;
+		display: table-cell;
+		width:auto;
+	}
+	.form-grid li:last-child {
+		padding-right:0;
+		width:auto;
+	}
+	.form-grid li:last-child p{
+		line-height:1rem;
+	}
+}

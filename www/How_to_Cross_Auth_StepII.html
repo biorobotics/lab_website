@@ -1,0 +1,46 @@
+After <userid>@andrew.cmu.edu got cross realm, the admin needs to give permission to the folders they need to edit.
+<br/>
+<br/>
+Add user to adegani:modsnake pts group (or another group):
+<br/>
+<br/>
+pts adduser <userid>@andrew.cmu.edu adegani:modsnake
+<br/>
+<br/>
+this should automatically add premissions to these two folders.
+<br/>
+<br/>
+Check membership:
+<br/>
+pts membership adegani:modsnake 
+<br/>
+<br/>
+other groups:
+<br/>
+adegani:16311admin
+<br/>
+adegani:admin
+<br/>
+<br/>
+To add individual user to all subdirs:
+<br/>
+this gives full permissions (rlidwka) to projects/modsnake and to www/modsnake and all of its subdirectories:
+<br/>
+see:http://www.cs.cmu.edu/~help/afs/afs_acls.html for more info.
+<br/>
+<br/>
+find /afs/cs.cmu.edu/project/biorobotics/www/projects/modsnake -type d -print | xargs fs sa -acl <userid>@andrew.cmu.edu all -dir
+<br/>
+<br/>
+or
+<br/>
+<br/>
+find /afs/cs.cmu.edu/project/biorobotics/www/projects/modsnake -type d -exec fs sa -acl <userid>@andrew.cmu.edu all -dir '{}' ';'
+<br/>
+<br/>
+and also do:
+<br/>
+<br/>
+ find /afs/cs.cmu.edu/project/biorobotics/www/modsnake -type d -exec fs sa -acl <userid>@andrew.cmu.edu all -dir '{}' ';'
+
+

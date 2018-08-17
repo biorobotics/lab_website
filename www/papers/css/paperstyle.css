@@ -1,0 +1,19 @@
+/*--------Main structures--------*/
+
+/*--------Padded Table Style -------*/
+
+#formTable td
+{
+    padding-right: 40px;
+}
+
+#formTable p
+{
+    display: block;
+}
+
+#formTable
+{
+	padding-top: 15px;
+	padding-bottom: 30px;
+}

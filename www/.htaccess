@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteBase /
+
+#### Send people going to the old site to the new URL
+RewriteCond %{HTTP_HOST} ^cs.cmu.edu$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.cs.cmu.edu$ [NC]
+RewriteRule ^(.*)$ http://biorobotics.ri.cmu.edu/$1 [R=301,L]
+
+#### Redirect anyone trying to access old/nonexistant parts of the site
+RewriteCond $1 !^index.php$ [NC]
+RewriteCond $1 !^mission.php$ [NC]
+RewriteCond $1 !^How_to_Cross_Auth.html$ [NC]
+RewriteCond $1 !^How_to_Cross_Auth_StepII.txt$ [NC]
+RewriteCond $1 !^css(.*)$ [NC]
+RewriteCond $1 !^js(.*)$ [NC]
+# RewriteCond $1 !^header(.*)$ [NC]
+RewriteCond $1 !^images(.*)$ [NC]
+RewriteCond $1 !^papers(.*)$ [NC]
+RewriteCond $1 !^media(.*)$ [NC]
+RewriteCond $1 !^research(.*)$ [NC]
+RewriteCond $1 !^robots(.*)$ [NC]
+RewriteCond $1 !^education(.*)$ [NC]
+RewriteCond $1 !^applications(.*)$ [NC]
+RewriteCond $1 !^projects/modsnake(.*)$ [NC]
+RewriteCond $1 !^book(.*)$ [NC]
+RewriteCond $1 !^puppyCMS(.*) [NC]
+RewriteCond $1 !^signup(.*)$ [NC]
+RewriteCond $1 !^geometricmechanics(.*)$ [NC]
+RewriteRule ^(.*)$ http://biorobotics.ri.cmu.edu/index.php [R=301,L]
+
+#### Rewrite old HTML files to php files
+RewriteCond $1 ^media/index(.*)$ [OR]
+RewriteCond $1 ^research/index(.*)$ [OR]
+RewriteCond $1 ^robots/index(.*)$ [OR]
+RewriteCond $1 ^education/index(.*)$ [OR]
+RewriteCond $1 ^applications/index(.*)$
+RewriteRule ^(.*)\.html $1.php
+
+##### Let the server read .html files for PHP code
+AddHandler php5-script .php .html .htm
+php_flag short_open_tag off

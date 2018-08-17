@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4th Biennial North American Summer School on Surgical Robotics</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+
+	<h1>4<sup>th</sup> Biennial North American Summer School on Surgical Robotics</h1>
+	<!--<h2>by free css templates </h2>-->
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="participants.html">Participants</a></li>
+		<li><a href="schedule.html">Schedule</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</div>
+<div id="content">
+	<div id="columnA">
+		<table>
+		<tr>
+		<td style="border-bottom: none; width:50%;">
+			<h2>July 21-25, 2014</h2>
+			<h2>Pittsburgh, Pennsylvania, USA</h2>
+			<h3 style="margin-top:0px;">Co-Chairs</h3>
+			<ul class="list2">
+			<li><a href="http://www.cs.cmu.edu/~camr/">Dr. Cameron Riviere</a></li>
+			<li><a href="http://www.cs.cmu.edu/~./choset/">Dr. Howie Choset</a></li>
+			</ul>
+			<h3>Carnegie Mellon University</h3>
+		</td>
+		<td style="border-bottom: none; text-align:center; width:50%;">
+		<h3>Sponsors</h3>
+		<table>
+		<tr>
+			<td  style="border-bottom: none; text-align:center;">
+			<img src="images/NIH_NIBIB.png" height="40px">
+			</td>
+			<td style="border-bottom: none; text-align:center;">
+			<img src="images/BlueBelt.jpg"  height="80px">
+			</td>
+		</tr>
+		<tr>
+			<td  style="border-bottom: none; text-align:center;">
+			<img src="images/medtronic.jpg"  height="80px">
+			</td>
+			<td  style="border-bottom: none; text-align:center;">
+			<img src="images/intuitive.jpg" height="80px">
+			</td>
+		</table>
+		<br />
+		<img src="images/RAS_logo.jpg"  height="50px">
+		</td>
+		</tr>
+		</table>
+		<h2> Objectives</h2>
+		<p>
+		The goal of this one-week Summer School is to provide trainees (PhD or MD students and postdoctoral fellows) with lectures, hands-on laboratory experience, introduction to novel technologies and emerging themes, and informal interactions with internationally-renowned researchers.
+		</p>
+		<h2>Costs</h2>
+		<p>
+		Students are responsible for transportation costs to Pittsburgh. The Summer School has received generous support from the IEEE Robotics and Automation Society, Intuitive Surgical, the National Institutes of Health, Medtronic, and Blue Belt Technologies. A registration fee will be required from students prior to the start of the school which covers tuition, accommodations, meals, and social events. At the current time this fee is $595 for students from academia (or $292 for students who do not require lodging or who prefer to arrange their own lodging).  For participants from industry the fee is $1600. We have applications pending for further support which may reduce the registration fee. Updates on possible reductions in the student fee will be posted here. Room and board is included with tuition.
+		</p>
+ 
+ 
+		<h2>Eligibility</h2>
+		<p>
+		There will be an application process designed to select the students most likely to benefit from the school and to ensure a diverse and stimulating mix of backgrounds and expertise. Click <A HREF="http://www.ri.cmu.edu/surgical-robotics-form-2014.html"> here </A> to apply. 
+		</p>
+
+<h2>Registration</h2> 
+<p>
+Click <A HREF="register.html"> here </A> to register 
+</p>
+
+	</div>
+</div>
+<div id="footer">
+	<p></p>
+</div>
+<div align=center></div></body>
+</html>
