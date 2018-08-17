@@ -69,6 +69,12 @@ carnegie mellon, pipe robot, flexible robot">
 					<div><span>SEA Modularity</span></div>
 				</a>
 			</li>
+			<li>
+				<a href="SEAModularity.php">
+					<img src="images/snakeMonster.png" alt="SEAModularity.png" width="100%;">
+					<div><span>Modular Hexapod</span></div>
+				</a>
+			</li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
