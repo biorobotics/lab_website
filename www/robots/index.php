@@ -34,7 +34,6 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="medSnake.php">
-
 					<img src="images/SurgerySnake.png" alt="Medical Snake"/>
 					<div><span>Medical Snake</span></div>
 				</a>
@@ -46,9 +45,9 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
-				<a href="modularDistribution.php">
-					<img src="images/ModularDist.png" alt="Modular Distribution"/>
-					<div><span>MDMS</span></div>
+				<a href="ModularArray.php">
+					<img src="images/ModularArray.png" alt="ModularArray"/>
+					<div><span>Modular Array</span></div>
 				</a>
 			</li>
 			<li>
@@ -65,14 +64,62 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="SEAModularity.php">
-					<img src="images/snakeMonster.png" alt="SEAModularity.png" width="100%;">
+					<img src="images/SEAModularity.png" alt="SEAModularity.png" width="100%;">
 					<div><span>SEA Modularity</span></div>
 				</a>
 			</li>
 			<li>
-				<a href="SEAModularity.php">
-					<img src="images/snakeMonster.png" alt="SEAModularity.png" width="100%;">
+				<a href="ModularHexapod.php">
+					<img src="images/ModularHexapod.png" alt="ModularHexapod.png" width="100%;">
 					<div><span>Modular Hexapod</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularCobots.php">
+					<img src="images/ModularCobots.png" alt="ModularCobots.png" width="100%;">
+					<div><span>Modular Co-bots</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularSEASnake.php">
+					<img src="images/ModularSEASnake.png" alt="ModularSEASnake.png" width="100%;">
+					<div><span>Modular SEA Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="IMR.php">
+					<img src="images/IMR.png" alt="IMR.png" width="100%;">
+					<div><span>IMR</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="Flyped.php">
+					<img src="images/Flyped.png" alt="Flyped.png" width="100%;">
+					<div><span>Flyped</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="FallingCat.php">
+					<img src="images/FallingCat.png" alt="FallingCat.png" width="100%;">
+					<div><span>Falling Cat</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="Goat.php">
+					<img src="images/Goat.png" alt="Goat.png" width="100%;">
+					<div><span>Goat</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="IWAMP.php">
+					<img src="images/IWAMP.png" alt="IWAMP.png" width="100%;">
+					<div><span>IWAMP</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="BackBendinQauadruped.php">
+					<img src="images/BackBendinQauadruped.png" alt="BackBendinQauadruped.png" width="100%;">
+					<div><span>Back-bending quadruped</span></div>
 				</a>
 			</li>
 			<li class="placeholder"></li>

@@ -47,7 +47,7 @@
 			<li class = "locomotion">
 				<a href="snakeRobotControl.php">
 					<img src="images/VirtualChasis.png"alt="SnakeRobotControl"/>
-					<div><span> Snake Robot Control</span></div>
+					<div><span>Virtual Chassis</span></div>
 				</a>
 			</li>
 			<li class = "locomotion">
@@ -59,12 +59,10 @@
 			<li class = "locomotion">
 				<a href="machineLearning.php">
 					<img src="images/machineLearning.png" alt="Machine Learning"/>
-					<div><span>Machine Learning</span></div>
+					<div><span> Machine Learning for gait discovery</span></div>
 					
 				</a>
 			</li>
-			
-			
 			<li class = "locomotion">
 				<a href="geometricMechanics.php">
 					<img src="images/geometric.png" alt="Gaits"/>
@@ -74,21 +72,67 @@
 			<li class = "medical pathplanning">
 				<a href="medicalSLAM.php">
 					<img src="images/medical.png"alt="Medical SLAM"/>
-					<div><span>Medical SLAM</span></div>
+					<div><span>Body SLAM</span></div>
 				</a>
 			</li>
 			<li class = "pathplanning">
 				<a href="multi-robot.php">
 					<img src="images/multiRobot.png" alt="Series Elasticity"/>
 					<div><span>Multi-Robot Planning</span></div>
-					
 				</a>
 			</li>
 			<li class = "pathplanning manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Coverage</span></div>
-					
+					<div><span>Multi robot search</span></div>					
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Shaky perception</span></div>			
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Augmented reality for medical system</span></div>
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Novel legged locomotion</span></div>	
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Graphical models</span></div>	
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Force sensors</span></div>
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Micro Scale Locomotion</span></div>
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Learning Science</span></div>
+				</a>
+			</li>
+			<li class = "pathplanning manufacturing">
+				<a href="coverage.php">
+					<img src="images/coverage.png" alt="Coverage"/>
+					<div><span>Human Robot Collaboration</span></div>
 				</a>
 			</li>
 			<li class="placeholder"></li>
