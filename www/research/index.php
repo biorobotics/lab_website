@@ -12,20 +12,21 @@
 
 <!-- Content - Gallery of the lab's research
 ============================= -->
-<div class="row">
-	
+<div class="row">	
 	<ul class="sub-categories">
-		<li><h3>Our Research</h3></li>
+		<li><h2>Our Research</h2></li>
 		<li><a <?php if (empty($_GET)) echo " class=\"active\""; ?> 
-				href="?">All</li></a>
+				href="?"><h4>All</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="locomotion") echo " class=\"active\""; ?> 
-				href="?sort=locomotion">Locomotion</li></a>
-		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="pathplanning") echo " class=\"active\""; ?> 
-				href="?sort=pathplanning">Path Planning</li></a>
+				href="?sort=locomotion"><h4>Locomotion</h4></li></a>
+		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Multi-agent") echo " class=\"active\""; ?> 
+				href="?sort=Multi-agent"><h4>Multi-agent</h4></li></a>
+		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Learning") echo " class=\"active\""; ?> 
+				href="?sort=Learning"><h4>Learning</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="medical") echo " class=\"active\""; ?> 
-				href="?sort=medical">Medical</li></a>
+				href="?sort=medical"><h4>Medical</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="manufacturing") echo " class=\"active\""; ?> 
-				href="?sort=manufacturing">Manufacturing</li></a>
+				href="?sort=manufacturing"><h4>Manufacturing</h4></li></a>
 	</ul>
 	<style>
 		.grid li:not(.<?php
@@ -45,8 +46,8 @@
 				</a>
 			</li>
 			<li class = "locomotion">
-				<a href="snakeRobotControl.php">
-					<img src="images/VirtualChasis.png"alt="SnakeRobotControl"/>
+				<a href="VirtualChasis.php">
+					<img src="images/VirtualChasis.png"alt="VirtualChasis"/>
 					<div><span>Virtual Chassis</span></div>
 				</a>
 			</li>
@@ -58,7 +59,7 @@
 			</li>
 			<li class = "locomotion">
 				<a href="machineLearning.php">
-					<img src="images/machineLearning.png" alt="Machine Learning"/>
+					<img src="images/machineLearning.png" alt="Machine Learning for gait discovery"/>
 					<div><span> Machine Learning for gait discovery</span></div>
 					
 				</a>
@@ -69,69 +70,75 @@
 					<div><span>Geometric Mechanics</font></span></div>
 				</a>
 			</li>
-			<li class = "medical pathplanning">
-				<a href="medicalSLAM.php">
-					<img src="images/medical.png"alt="Medical SLAM"/>
+			<li class = "medical Multi-agent">
+				<a href="BodySLAM.php">
+					<img src="images/BodySLAM.png"alt="Body SLAM"/>
 					<div><span>Body SLAM</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning">
+			<li class = "Multi-agent">
 				<a href="multi-robot.php">
 					<img src="images/multiRobot.png" alt="Series Elasticity"/>
 					<div><span>Multi-Robot Planning</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Multi robot search</span></div>					
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Shaky perception</span></div>			
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Augmented reality for medical system</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Novel legged locomotion</span></div>	
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Graphical models</span></div>	
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "Multi-agent manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Force sensors</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Micro Scale Locomotion</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
+			<li class = "manufacturing">
+				<a href="Modularity.php">
+					<img src="images/Modularity.png" alt="Modularity"/>
+					<div><span>Modularity</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
 				<a href="coverage.php">
 					<img src="images/coverage.png" alt="Coverage"/>
 					<div><span>Learning Science</span></div>
 				</a>
 			</li>
-			<li class = "pathplanning manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
+			<li class = "manufacturing">
+				<a href="HumanRobotCollaboration.php">
+					<img src="images/HumanRobotCollaboration.png" alt="HumanRobotCollaboration"/>
 					<div><span>Human Robot Collaboration</span></div>
 				</a>
 			</li>

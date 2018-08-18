@@ -3,9 +3,9 @@
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
 
-	<title>Machine Learning Research - Biorobotics</title>
+	<title>Machine Learning for gait discovery Research - Biorobotics</title>
 	<meta name="Keywords" content="Biorobotics, machine learning research, parameter optimization, gait optimization, snake learning, snake robot, bayesian optimization, system model">
-	<meta name="description" content ="Fullabot - Carnegie Mellon Biorobotics" />
+	<meta name="description" content ="Machine Learning for gait discovery - Carnegie Mellon Biorobotics" />
 
 <!-- Banner and Menu - Do not change
 ============================= -->
@@ -15,7 +15,7 @@
 ============================= -->
 	<div class="row">
 		<div class="twelve columns">
-			<h3><b>Machine Learning</b> for Locomotion</h3>
+			<h3><b>Machine Learning</b> for gait discovery</h3>
 		</div>
 	</div>
 	<div class="row">

@@ -37,7 +37,7 @@
 		</div>
 		<div  class="six columns">
 		<div class="video-container">
-				<iframe src=https://www.youtube.com/embed/ajhZiGYq3Pw frameborder="0"></iframe>
+				<iframe src="https://www.youtube.com/embed/ajhZiGYq3Pw" frameborder="0"></iframe>
 			</div>
 		</div>
 	</div>

@@ -3,13 +3,13 @@
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
 
-	<title>Modular Distribution - Biorobotics</title>
-	<meta name="Keywords" content="MDMS, Modular Distribution, Snake Robot, snakerobot, snakebot,
+	<title>Modular Array - Biorobotics</title>
+	<meta name="Keywords" content="Modular Array, Snake Robot, snakerobot, snakebot,
 	snake bot, robot, robotics, snake, hyper-redundant, hyperredundant,
 	hyper redundant, snake robots, snake bots, medical robots, surgical robot, search 
 	and rescue, inspection robot, military robot, climbing robot, biorobotics, biological robot, cmu, 
 	carnegie mellon, pipe robot, flexible robot">
-	<meta name="description" content ="Modular Distribution - Carnegie Mellon Biorobotics" />
+	<meta name="description" content ="Modular Array - Carnegie Mellon Biorobotics" />
 	
 <!-- Banner and Menu - Do not change
 ============================= -->
@@ -18,7 +18,7 @@
 <!-- Content - Modular Distribution robot
 ============================= -->
 	<div class="row">
-		<h3><b> Distributed Manipulation </b></h3>
+		<h3><b> Modular Array </b></h3>
 		<p>
 		We are developing an alternative method for manipulating objects in the plane, where many small
 		manipulation cells fixed in a planar array cooperate to handle objects. In our system, each

@@ -2,9 +2,9 @@
 
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
-	<title>Snake Robot Control - Biorobotics</title>
+	<title>VirtualChasis - Biorobotics</title>
 	<meta name="Keywords" content="Biorobotics, snake robot, robot control, snake control, gaits, snake gaits, robot gaits, gait parameters, snake feedback, robot feedback, sensor feedback, virtual chassis, body frame, robot frame, state estimation">
-	<meta name="description" content ="Series Elastic Research - Carnegie Mellon Biorobotics" />
+	<meta name="description" content ="VirtualChasis Research - Carnegie Mellon Biorobotics" />
 <!-- Banner and Menu - Do not change
 ============================= -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/banner.php";?>
@@ -12,10 +12,10 @@
 <!-- Content - Add content for your page here
 ============================= -->
                 <p>
-				<h3> <b> Snake Robot Control </b></h3>
+				<h3> <b> VirtualChasis </b></h3>
 				</p>
 				<div style="text-align:center">
-				<img  src="images/snakeRobotControl/fig_1.png" alt="Snake Estimation" width="75%;">
+				<img  src="images/VirtualChasis/fig_1.png" alt="Snake Estimation" width="75%;">
 				</div>
 				<p>
 				The goal of this project is to use the sensors in our snake robots to better estimate their state. By
@@ -64,7 +64,7 @@
 				entire robot throughout a complete gait cycle.
 				</p>
 				<div style="text-align:center;">
-				<img  src="images/snakeRobotControl/fig_2.png" alt="Bicycle Example" width="75%;">
+				<img  src="images/VirtualChasis/fig_2.png" alt="Bicycle Example" width="75%;">
 				</div>
 				<p>
 				To illustrate this problem, consider a simple two-wheeled differential drive robot with a body frame fixed
@@ -82,7 +82,7 @@
 			<div class="row">
 				<div class="twelve columns">	
 				<div class="four columns">
-				<img src="images/snakeRobotControl/fig_3.png" alt="Virtual Chassis" width="100%;">
+				<img src="images/VirtualChasis/fig_3.png" alt="Virtual Chassis" width="100%;">
 				</div>
 				<p>
 				The overall method of deriving the virtual chassis can be thought of as performing
@@ -103,7 +103,7 @@
 			<div class="twelve columns">	
 			
 				<div class="five columns">
-				<img  src="images/snakeRobotControl/fig_4.png" alt="Virtual Chassis" width="100%:">
+				<img  src="images/VirtualChasis/fig_4.png" alt="Virtual Chassis" width="100%:">
 				</div>
 				
 				<p>				

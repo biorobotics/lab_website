@@ -2,7 +2,7 @@
 
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
-		<title>Medical SLAM - Biorobotics</title>
+		<title>Body SLAM - Biorobotics</title>
 	<meta name="Keywords" content="Biorobotics, SLAM, Medical robot, surgical robot, medical slam, localization, mapping, simultaneous localization, minimally invasive surgery, surgery robot, HARP, extended kalman filter, kalman filter">
 	<meta name="description" content ="Medical SLAM - Carnegie Mellon Biorobotics" />
 <!-- Banner and Menu - Do not change
@@ -13,12 +13,12 @@
 ============================= -->
     <div class="row">
 		<div class="twelve columns">       
-			<h3>Medical<b> SLAM </b></h3>
+			<h3>Body<b> SLAM </b></h3>
 		</div>	
 	</div>
 	<div class="row">
 		<div class="twelve columns">	
-			<image src="images/medicalSLAM/Heart1.png" alt="Heart rendering" width="100%;">
+			<image src="images/BodySLAM/Heart1.png" alt="Heart rendering" width="100%;">
 			
 			<p style="text-align:justify;">
 			Minimally invasive surgery (MIS) has been shown to reduce patient trauma
@@ -47,7 +47,7 @@
 	 <div class="row">
 		<div class="twelve columns">		
 			<div class="five columns" class="u-pull-left">
-			<image src = "images/medicalSLAM/SnakeEstimate.png" alt="Snake Estimation" width="100%;">
+			<image src = "images/BodySLAM/SnakeEstimate.png" alt="Snake Estimation" width="100%;">
 			</div>
 		
 			<p> A sub-topic of our Medical SLAM project is the estimation of shape and end-effector
@@ -71,7 +71,7 @@
 		<div class="row">
 			<div class="twelve columns" >
 			<div class="five columns" class="u-pull-left">
-			<image src = "images/medicalSLAM/Heart2.jpg" alt="Snake Estimation" width="100%;">
+			<image src = "images/BodySLAM/Heart2.jpg" alt="Snake Estimation" width="100%;">
 			</div>
 			
 			<p>Another sub-topic of our Medical SLAM project is constrained filtering for registering
