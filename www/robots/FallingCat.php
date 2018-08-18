@@ -53,6 +53,12 @@
 			</div>
 		</div>
 	</div>
+	<div class="row" style= "padding-top: 3rem;">
+		<center>
+			<iframe width="800" height="500" src="https://www.youtube.com/embed/rq2wpRNUbDI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</center>
+	</div>
+
 	
 	
 <!-- Gallery - include if page has gallery elements
