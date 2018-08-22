@@ -94,6 +94,42 @@
 					<div><span>Human Robot Collaboration</span></div>
 				</a>
 			</li>
+			<li class = "manufacturing">
+				<a href="MRErgodicSearch.php">
+					<img src="images/MRErgodicSearch.jpg" alt="MRErgodicSearch"/>
+					<div><span>Multi-Robot Ergodic Search</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="MAPathFinding.php">
+					<img src="images/MAPathFinding.jpg" alt="MAPathFinding"/>
+					<div><span>Multi-Agent Path Finding</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="MRConstruction.php">
+					<img src="images/MRConstruction.gif" alt="MRConstruction"/>
+					<div><span>Multi-Robot Construction</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="Shakyperception.php">
+					<img src="images/Shakyperception.gif" alt="Shakyperception"/>
+					<div><span>Shaky perception</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="DRLfordecentralizedcontrol.php">
+					<img src="images/DRLfordecentralizedcontrol.gif" alt="DRLfordecentralizedcontrol"/>
+					<div><span>Distributed RL for decentralized control</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="ISCPG.php">
+					<img src="images/ISCPG.jpg" alt="ISCPG"/>
+					<div><span>Inertial-stabilized CPG</span></div>
+				</a>
+			</li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>

@@ -82,13 +82,13 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="ModularSEASnake.php">
-					<img src="images/ModularSEASnake.png" alt="ModularSEASnake.png" width="100%;">
+					<img src="images/ModularSEASnake.gif" alt="ModularSEASnake.png" width="100%;">
 					<div><span>Modular SEA Snake</span></div>
 				</a>
 			</li>
 			<li>
 				<a href="Flyped.php">
-					<img src="images/Flyped.png" alt="Flyped.png" width="100%;">
+					<img src="images/Flyped.gif" alt="Flyped.png" width="100%;">
 					<div><span>Flyped</span></div>
 				</a>
 			</li>
@@ -96,6 +96,12 @@ carnegie mellon, pipe robot, flexible robot">
 				<a href="FallingCat.php">
 					<img src="images/FallingCat.png" alt="FallingCat.png" width="100%;">
 					<div><span>Falling Cat</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="MagneticSwimmer.php">
+					<img src="images/MagneticSwimmer.png" alt="MagneticSwimmer.png" width="100%;">
+					<div><span>Magnetic Swimmer</span></div>
 				</a>
 			</li>
 			<li class="placeholder"></li>
