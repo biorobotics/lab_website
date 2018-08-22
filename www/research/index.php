@@ -82,58 +82,10 @@
 					<div><span>Multi-Robot Planning</span></div>
 				</a>
 			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Multi robot search</span></div>					
-				</a>
-			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Shaky perception</span></div>			
-				</a>
-			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Augmented reality for medical system</span></div>
-				</a>
-			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Novel legged locomotion</span></div>	
-				</a>
-			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Graphical models</span></div>	
-				</a>
-			</li>
-			<li class = "Multi-agent manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Force sensors</span></div>
-				</a>
-			</li>
-			<li class = "manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Micro Scale Locomotion</span></div>
-				</a>
-			</li>
 			<li class = "manufacturing">
 				<a href="Modularity.php">
 					<img src="images/Modularity.png" alt="Modularity"/>
 					<div><span>Modularity</span></div>
-				</a>
-			</li>
-			<li class = "manufacturing">
-				<a href="coverage.php">
-					<img src="images/coverage.png" alt="Coverage"/>
-					<div><span>Learning Science</span></div>
 				</a>
 			</li>
 			<li class = "manufacturing">
