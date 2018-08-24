@@ -104,6 +104,18 @@ carnegie mellon, pipe robot, flexible robot">
 					<div><span>Magnetic Swimmer</span></div>
 				</a>
 			</li>
+			<li>
+				<a href="IMR.php">
+					<img src="images/IMR.png" alt="IMR.png" width="100%;">
+					<div><span>Indoor/Factory Robots (PF330, IMR)</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="BackbendingQuadruped.php">
+					<img src="images/BackbendingQuadruped.png" alt="BackbendingQuadruped.png" width="100%;">
+					<div><span>Back-bending Quadruped</span></div>
+				</a>
+			</li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
