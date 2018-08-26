@@ -130,6 +130,12 @@
 					<div><span>Inertial-stabilized CPG</span></div>
 				</a>
 			</li>
+			<li class = "manufacturing">
+				<a href="ARforMedicalSystem.php">
+					<img src="images/ARforMedicalSystem.png" alt="ARforMedicalSystem"/>
+					<div><span>Augmented reality for medical system</span></div>
+				</a>
+			</li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
