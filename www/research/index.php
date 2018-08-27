@@ -136,6 +136,12 @@
 					<div><span>Augmented reality for medical system</span></div>
 				</a>
 			</li>
+			<li class = "manufacturing">
+				<a href="MicroScaleLocomotion.php">
+					<img src="images/MicroScaleLocomotion.png" alt="MicroScaleLocomotion"/>
+					<div><span>Micro Scale Locomotion</span></div>
+				</a>
+			</li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>

@@ -3,9 +3,9 @@
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
 
-	<title>Magnetic Swimmer - Biorobotics</title>
-	<meta name="Keywords" content="Magnetic Swimmer, Microrobots, Carnegie Mellon University, robotics">
-	<meta name="description" content ="Magnetic Swimmer- Carnegie Mellon Biorobotics" />
+	<title>Micro Scale Locomotion Research - Biorobotics</title>
+	<meta name="Keywords" content="Micro Scale Locomotion, Microrobots, Locomotion, Micro Scale, Carnegie Mellon University, robotics">
+	<meta name="description" content ="Micro Scale Locomotion Research - Carnegie Mellon Biorobotics" />
 
 	<!-- Banner and Menu - Do not change
 ============================= -->
@@ -16,7 +16,7 @@
     
 	<div class="row">
 		<div class="six columns">
-			<h3><b>Magnetic Swimmer</b> and 3D Swimmer</h3> 
+			<h3><b>Micro Scale Locomotion</h3> 
 			<p>
 				Microrobots have the potential to impact many areas of medicine such as microsurgery, targeted drug delivery and minimally invasive sensing. Just like microorganisms themselves, microrobots developed for these applications need to swim in a low-Reynolds number regime which warrants locomotive strategies that differ from their macroscopic counterparts. To this end, Purcell’s three-link planar swimmer has served as an iconic model of a simple mechanism that can navigate this regime by leveraging internal actuation using analytically computed strokes. We consider two different versions of this swimmer in this project. In the first class, we develop a novel three-dimensional counterpart to this swimmer and describe how enabling yaw-pitch movements at the two actuated joints as opposed to the conventional yaw-yaw movements allow it to navigate a three-dimensional environment. Using analytical tools from geometric mechanics, we design gaits that enable this swimmer to reorient itself and swim along canonical directions in the inertial frame. We validate these results on a hardware prototype and reproduce the simulated trajectories on the robot executing these gaits. <br>
 
@@ -24,18 +24,18 @@
 			</p>
 		</div>
 		<div  class="six columns">
-			<img src="images/MagneticSwimmer/fig1.png" alt="MagneticSwimmerF1" width="100%;" style="padding-left:1rem; padding-top:10rem;">
-			<img src="images/MagneticSwimmer/fig4.png" alt="MagneticSwimmerF4" width="40%;" style="padding-left:1rem; padding-top:3rem;">
-			<img src="images/MagneticSwimmer/fig5.png" alt="MagneticSwimmerF5" width="40%;" style="padding-left:50px; padding-top:3rem; padding-bottom: 3rem">
+			<img src="images/MicroScaleLocomotion/fig1.png" alt="MicroScaleLocomotionF1" width="100%;" style="padding-left:1rem; padding-top:10rem;">
+			<img src="images/MicroScaleLocomotion/fig4.png" alt="MicroScaleLocomotionF4" width="40%;" style="padding-left:1rem; padding-top:3rem;">
+			<img src="images/MicroScaleLocomotion/fig5.png" alt="MicroScaleLocomotionF5" width="40%;" style="padding-left:50px; padding-top:3rem; padding-bottom: 3rem">
 		</div>
 
 	</div>
 	<div class="row">
 		<div  class="six columns">
-			<img src="images/MagneticSwimmer/fig2.png" alt="MagneticSwimmerF2" width="100%;" style="padding-left:1rem;">
+			<img src="images/MicroScaleLocomotion/fig2.png" alt="MicroScaleLocomotionF2" width="100%;" style="padding-left:1rem;">
 		</div>
 		<div  class="six columns">
-			<img src="images/MagneticSwimmer/fig3.png" alt="MagneticSwimmerF3" width="100%;" style="padding-left:1rem;">
+			<img src="images/MicroScaleLocomotion/fig3.png" alt="MicroScaleLocomotionF3" width="100%;" style="padding-left:1rem;">
 		</div>
 	</div>
 
