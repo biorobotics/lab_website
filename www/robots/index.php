@@ -27,48 +27,6 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
-				<a href="trunkSnake.php">
-					<img src="images/Trunksnake.png" alt="Trunk Snake"/>
-					<div><span>Trunk Snake</span></div>
-				</a>
-			</li>
-			<li>
-				<a href="medSnake.php">
-					<img src="images/SurgerySnake.png" alt="Medical Snake"/>
-					<div><span>Medical Snake</span></div>
-				</a>
-			</li>
-			<li>
-				<a href="skinDrive.php">
-					<img src="images/Skinsnake.png" alt="Skin Drive"/>
-					<div><span>Skin Drive Snake</span></div>
-				</a>
-			</li>
-			<li>
-				<a href="ModularArray.php">
-					<img src="images/ModularArray.png" alt="ModularArray"/>
-					<div><span>Modular Array</span></div>
-				</a>
-			</li>
-			<li>
-				<a href="fullabot.php">
-					<img src="images/Fullabot.png" alt="Fullabot"/>
-					<div><span>Fullabot</span></div>
-				</a>
-			</li>
-			<li>
-				<a href="daVinci.php">
-					<img src="images/daVinci.png" alt="da Vinci"/>
-					<div><span>da Vinci</span></div>
-				</a>			
-			</li>
-			<li>
-				<a href="SEAModularity.php">
-					<img src="images/SEAModularity.png" alt="SEAModularity.png" width="100%;">
-					<div><span>SEA Modularity</span></div>
-				</a>
-			</li>
-			<li>
 				<a href="ModularHexapod.php">
 					<img src="images/ModularHexapod.png" alt="ModularHexapod.png" width="100%;">
 					<div><span>Modular Hexapod</span></div>
@@ -114,6 +72,54 @@ carnegie mellon, pipe robot, flexible robot">
 				<a href="BackbendingQuadruped.php">
 					<img src="images/BackbendingQuadruped.png" alt="BackbendingQuadruped.png" width="100%;">
 					<div><span>Back-bending Quadruped</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="OutdoorGroundVehicle.php">
+					<img src="images/OutdoorGroundVehicle.png" alt="OutdoorGroundVehicle.png" width="100%;">
+					<div><span>Outdoor Ground Vehicle</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="trunkSnake.php">
+					<img src="images/Trunksnake.png" alt="Trunk Snake"/>
+					<div><span>Trunk Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="medSnake.php">
+					<img src="images/SurgerySnake.png" alt="Medical Snake"/>
+					<div><span>Medical Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="skinDrive.php">
+					<img src="images/Skinsnake.png" alt="Skin Drive"/>
+					<div><span>Skin Drive Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularArray.php">
+					<img src="images/ModularArray.png" alt="ModularArray"/>
+					<div><span>Modular Array</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="fullabot.php">
+					<img src="images/Fullabot.png" alt="Fullabot"/>
+					<div><span>Fullabot</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="daVinci.php">
+					<img src="images/daVinci.png" alt="da Vinci"/>
+					<div><span>da Vinci</span></div>
+				</a>			
+			</li>
+			<li>
+				<a href="SEAModularity.php">
+					<img src="images/SEAModularity.png" alt="SEAModularity.png" width="100%;">
+					<div><span>SEA Modularity</span></div>
 				</a>
 			</li>
 			<li class="placeholder"></li>

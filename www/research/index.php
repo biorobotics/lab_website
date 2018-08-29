@@ -45,43 +45,6 @@
 					<div><span>Series Elasticity</span></div>
 				</a>
 			</li>
-			<li class = "locomotion">
-				<a href="VirtualChasis.php">
-					<img src="images/VirtualChasis.png"alt="VirtualChasis"/>
-					<div><span>Virtual Chassis</span></div>
-				</a>
-			</li>
-			<li class = "locomotion">
-				<a href="gaitResearch.php">
-					<img src="images/gait.png"alt="Gait research"/>
-					<div><span> Gait Research</span></div>
-				</a>
-			</li>
-			<li class = "locomotion">
-				<a href="machineLearning.php">
-					<img src="images/machineLearning.png" alt="Machine Learning for gait discovery"/>
-					<div><span> Machine Learning for gait discovery</span></div>
-					
-				</a>
-			</li>
-			<li class = "locomotion">
-				<a href="geometricMechanics.php">
-					<img src="images/geometric.png" alt="Gaits"/>
-					<div><span>Geometric Mechanics</font></span></div>
-				</a>
-			</li>
-			<li class = "medical Multi-agent">
-				<a href="BodySLAM.php">
-					<img src="images/BodySLAM.png"alt="Body SLAM"/>
-					<div><span>Body SLAM</span></div>
-				</a>
-			</li>
-			<li class = "Multi-agent">
-				<a href="multi-robot.php">
-					<img src="images/multiRobot.png" alt="Series Elasticity"/>
-					<div><span>Multi-Robot Planning</span></div>
-				</a>
-			</li>
 			<li class = "manufacturing">
 				<a href="Modularity.php">
 					<img src="images/Modularity.png" alt="Modularity"/>
@@ -140,6 +103,43 @@
 				<a href="MicroScaleLocomotion.php">
 					<img src="images/MicroScaleLocomotion.png" alt="MicroScaleLocomotion"/>
 					<div><span>Micro Scale Locomotion</span></div>
+				</a>
+			</li>
+			<li class = "locomotion">
+				<a href="VirtualChasis.php">
+					<img src="images/VirtualChasis.png"alt="VirtualChasis"/>
+					<div><span>Virtual Chassis</span></div>
+				</a>
+			</li>
+			<li class = "locomotion">
+				<a href="gaitResearch.php">
+					<img src="images/gait.png"alt="Gait research"/>
+					<div><span> Gait Research</span></div>
+				</a>
+			</li>
+			<li class = "locomotion">
+				<a href="machineLearning.php">
+					<img src="images/machineLearning.png" alt="Machine Learning for gait discovery"/>
+					<div><span> Machine Learning for gait discovery</span></div>
+					
+				</a>
+			</li>
+			<li class = "locomotion">
+				<a href="geometricMechanics.php">
+					<img src="images/geometric.png" alt="Gaits"/>
+					<div><span>Geometric Mechanics</font></span></div>
+				</a>
+			</li>
+			<li class = "medical Multi-agent">
+				<a href="BodySLAM.php">
+					<img src="images/BodySLAM.png"alt="Body SLAM"/>
+					<div><span>Body SLAM</span></div>
+				</a>
+			</li>
+			<li class = "Multi-agent">
+				<a href="multi-robot.php">
+					<img src="images/multiRobot.png" alt="Series Elasticity"/>
+					<div><span>Multi-Robot Planning</span></div>
 				</a>
 			</li>
 			<li class="placeholder"></li>

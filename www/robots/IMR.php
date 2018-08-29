@@ -15,6 +15,7 @@
 <!-- Content - Add content for your page here
 ============================= -->
     <div class="row">
+    	<h3><b>Modular Mobile Robots for Automation </b></h3>
     	<div class="twelve columns">
 			<center>
 				The Modular Mobile Robots for Automation projects are focused on developing modular hardware and software platforms that can be used in a variety of applications. By utilizing the architectures developed we can create new robots faster and more reliably. Key areas of robot development have been for assembly, inspection and manufacturing. Novel methods of indoor localization and multi-agent coordination are being developed as art of this research.
