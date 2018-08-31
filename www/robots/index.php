@@ -40,7 +40,7 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="ModularSEASnake.php">
-					<img src="images/ModularSEASnake.gif" alt="ModularSEASnake.png" width="100%;">
+					<img src="images/ModularSEASnake.png" alt="ModularSEASnake.png" width="100%;">
 					<div><span>Modular SEA Snake</span></div>
 				</a>
 			</li>
