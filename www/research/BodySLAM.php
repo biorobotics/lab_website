@@ -2,9 +2,9 @@
 
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
-		<title>Body SLAM - Biorobotics</title>
+	<title>Body SLAM - Biorobotics</title>
 	<meta name="Keywords" content="Biorobotics, SLAM, Medical robot, surgical robot, medical slam, localization, mapping, simultaneous localization, minimally invasive surgery, surgery robot, HARP, extended kalman filter, kalman filter">
-	<meta name="description" content ="Medical SLAM - Carnegie Mellon Biorobotics" />
+	<meta name="description" content ="Body SLAM - Carnegie Mellon Biorobotics" />
 <!-- Banner and Menu - Do not change
 ============================= -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/banner.php";?>

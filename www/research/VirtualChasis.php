@@ -2,9 +2,9 @@
 
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
-	<title>VirtualChasis - Biorobotics</title>
+	<title>Virtual Chasis - Biorobotics</title>
 	<meta name="Keywords" content="Biorobotics, snake robot, robot control, snake control, gaits, snake gaits, robot gaits, gait parameters, snake feedback, robot feedback, sensor feedback, virtual chassis, body frame, robot frame, state estimation">
-	<meta name="description" content ="VirtualChasis Research - Carnegie Mellon Biorobotics" />
+	<meta name="description" content ="Virtual Chasis Research - Carnegie Mellon Biorobotics" />
 <!-- Banner and Menu - Do not change
 ============================= -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/banner.php";?>

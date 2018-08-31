@@ -76,6 +76,12 @@
 				</a>
 			</li>
 			<li class = "manufacturing">
+				<a href="Graphicalmodels.php">
+					<img src="images/Graphicalmodels.png" alt="Graphicalmodels"/>
+					<div><span>Graphical models</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
 				<a href="Shakyperception.php">
 					<img src="images/Shakyperception.gif" alt="Shakyperception"/>
 					<div><span>Shaky perception</span></div>
