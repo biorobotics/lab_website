@@ -27,6 +27,60 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
+				<a href="ModularHexapod.php">
+					<img src="images/ModularHexapod.png" alt="ModularHexapod.png" width="100%;">
+					<div><span>Modular Hexapod</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularCobots.php">
+					<img src="images/ModularCobots.png" alt="ModularCobots.png" width="100%;">
+					<div><span>Modular Co-bots</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularSEASnake.php">
+					<img src="images/ModularSEASnake.png" alt="ModularSEASnake.png" width="100%;">
+					<div><span>Modular SEA Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="Flyped.php">
+					<img src="images/Flyped.gif" alt="Flyped.png" width="100%;">
+					<div><span>Flyped</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="FallingCat.php">
+					<img src="images/FallingCat.png" alt="FallingCat.png" width="100%;">
+					<div><span>Falling Cat</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="MagneticSwimmer.php">
+					<img src="images/MagneticSwimmer.png" alt="MagneticSwimmer.png" width="100%;">
+					<div><span>Magnetic Swimmer</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="IMR.php">
+					<img src="images/IMR.png" alt="IMR.png" width="100%;">
+					<div><span>Indoor/Factory Robots (PF330, IMR)</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="BackbendingQuadruped.php">
+					<img src="images/BackbendingQuadruped.png" alt="BackbendingQuadruped.png" width="100%;">
+					<div><span>Back-bending Quadruped</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="OutdoorGroundVehicle.php">
+					<img src="images/OutdoorGroundVehicle.png" alt="OutdoorGroundVehicle.png" width="100%;">
+					<div><span>Outdoor Ground Vehicle</span></div>
+				</a>
+			</li>
+			<li>
 				<a href="trunkSnake.php">
 					<img src="images/Trunksnake.png" alt="Trunk Snake"/>
 					<div><span>Trunk Snake</span></div>
@@ -34,7 +88,6 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="medSnake.php">
-
 					<img src="images/SurgerySnake.png" alt="Medical Snake"/>
 					<div><span>Medical Snake</span></div>
 				</a>
@@ -46,9 +99,9 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
-				<a href="modularDistribution.php">
-					<img src="images/ModularDist.png" alt="Modular Distribution"/>
-					<div><span>MDMS</span></div>
+				<a href="ModularArray.php">
+					<img src="images/ModularArray.png" alt="ModularArray"/>
+					<div><span>Modular Array</span></div>
 				</a>
 			</li>
 			<li>
@@ -65,7 +118,7 @@ carnegie mellon, pipe robot, flexible robot">
 			</li>
 			<li>
 				<a href="SEAModularity.php">
-					<img src="images/snakeMonster.png" alt="SEAModularity.png" width="100%;">
+					<img src="images/SEAModularity.png" alt="SEAModularity.png" width="100%;">
 					<div><span>SEA Modularity</span></div>
 				</a>
 			</li>

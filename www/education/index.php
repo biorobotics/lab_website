@@ -42,12 +42,11 @@
 				</a>
 			</li>
 			<li>
-				<a href="http://www.cs.cmu.edu/~motionplanning/" target="_blank">
-					<img src="images/education-05.png" alt="Motion Planning"/>
-					<div><span>Robotic Motion Planning</span></div>
-					
+				<a href="summerschool/index.html" >
+					<img src="images/Underactuatedrobotics.png" alt="Underactuated robotics"/>
+					<div><span>Underactuated robotics</span></div>
 				</a>
-			</li>				
+			</li>			
 			<li>
 				<a href="http://geometricmechanics.org/">
 					<img src="images/education-07.png" alt="Geometric Mechanics"/>
@@ -61,6 +60,13 @@
 					<div><span>Surgical Summer School</span></div>
 				</a>
 			</li>
+			<li>
+				<a href="http://www.cs.cmu.edu/~motionplanning/" target="_blank">
+					<img src="images/education-05.png" alt="Motion Planning"/>
+					<div><span>Robotic Motion Planning</span></div>
+					
+				</a>
+			</li>	
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>

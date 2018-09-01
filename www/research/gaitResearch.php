@@ -59,6 +59,9 @@
 			low-dimensional framework and extending it include a richer of variety of motions is an area of 
 			ongoing research.
 			</p>
+			<p>
+			Our robots can be rapidly reconfigured into customized articulated legged or legless morphologies capable of mobile manipulation and inspection. We research creating behaviors for modular robots, with algorithms fast enough to match the pace of physical reconfiguration
+			</p>
 			<h5>Papers</h5>
 			<ul>
 				<li><a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/ICRA2012_Gong_1.pdf">
@@ -69,6 +72,18 @@
 				<li><a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/ICRA2010_Hatton_Choset_Sidewinding.pdf">
 					Sidewinding on Slopes (2010)</a></li>
 			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="six columns">
+			<div class="video-container" style="margin-bottom : 6rem">
+				<iframe src="https://www.youtube.com/embed/ajhZiGYq3Pw" frameborder="0"></iframe>
+			</div>
+		</div>
+		<div  class="six columns">
+		<div class="video-container" style="margin-bottom : 6rem">
+				<iframe src="https://www.youtube.com/embed/xXfi55HPOfs" frameborder="0" ></iframe>
+			</div>
 		</div>
 	</div>
 <!-- Footer - Do not change
