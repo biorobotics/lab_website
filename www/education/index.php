@@ -42,8 +42,8 @@
 				</a>
 			</li>
 			<li>
-				<a href="summerschool/index.html" >
-					<img src="images/Underactuatedrobotics.png" alt="Underactuated robotics"/>
+				<a href="https://sites.google.com/site/cmuunderactuatedrobotics/home" >
+					<img src="images/Underactuatedrobotics.jpg" alt="Underactuated robotics"/>
 					<div><span>Underactuated robotics</span></div>
 				</a>
 			</li>			
