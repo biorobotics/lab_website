@@ -105,9 +105,9 @@
 		</div>
 		<div class="seven columns">
 			<div class="video-container" style = "margin-top: 10rem">
-				<iframe src="http://www.youtube.com/embed/AMVO6rI5mL4?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+				<iframe src="https://drive.google.com/file/d/1-N17f8a6vqRMNYKSv0hHak__bPoiX9Xy/preview" frameborder="0"></iframe>
 			</div>
-			<figcaption><strong>Latest Video:</strong>First locomotion tests for a new modular walking robot</figcaption>
+			<figcaption><strong>Latest Video:</strong>Snake Monster Rock Climbing</figcaption>
 		</div>
 		
 	</div>

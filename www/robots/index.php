@@ -69,6 +69,18 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
+				<a href="ConfinedSpaceManipulator.php">
+					<img src="images/ConfinedSpaceManipulator.png" alt="ConfinedSpaceManipulator.png" width="100%;">
+					<div><span>Confined Space Manipulator</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ConfinedSpaceMobileBase.php">
+					<img src="images/ConfinedSpaceMobileBase.png" alt="ConfinedSpaceMobileBase.png" width="100%;">
+					<div><span>Confined Space Mobile Base</span></div>
+				</a>
+			</li>
+			<li>
 				<a href="BackbendingQuadruped.php">
 					<img src="images/BackbendingQuadruped.png" alt="BackbendingQuadruped.png" width="100%;">
 					<div><span>Back-bending Quadruped</span></div>

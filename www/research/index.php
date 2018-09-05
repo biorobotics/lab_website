@@ -94,6 +94,48 @@
 				</a>
 			</li>
 			<li class = "manufacturing">
+				<a href="EmbeddedSystemandMechantronicsl.php">
+					<img src="images/EmbeddedSystemandMechantronicsl.png" alt="EmbeddedSystemandMechantronicsl"/>
+					<div><span>Embedded System and Mechantronics</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="Forcesensors.php">
+					<img src="images/Forcesensors.png" alt="Forcesensors"/>
+					<div><span>Force sensors</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ConfinedSpaceManipulator.php">
+					<img src="images/ConfinedSpaceManipulator.png" alt="ConfinedSpaceManipulator.png" width="100%;">
+					<div><span>Confined Space Manipulator</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ConfinedSpacePerception.php">
+					<img src="images/ConfinedSpacePerception.png" alt="ConfinedSpacePerception.png" width="100%;">
+					<div><span>Confined Space Perception</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="AGVSLAM.php">
+					<img src="images/AGVSLAM.gif" alt="AGVSLAM.png" width="100%;">
+					<div><span>AGV SLAM</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="NovelMechanismDesign.php">
+					<img src="images/NovelMechanismDesign.png" alt="NovelMechanismDesign.png" width="100%;">
+					<div><span>Novel Mechanism Design</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
+				<a href="RIOT.php">
+					<img src="images/RIOT.png" alt="RIOT"/>
+					<div><span>Robotic Internect of Things</span></div>
+				</a>
+			</li>
+			<li class = "manufacturing">
 				<a href="ISCPG.php">
 					<img src="images/ISCPG.jpg" alt="ISCPG"/>
 					<div><span>Inertial-stabilized CPG</span></div>
