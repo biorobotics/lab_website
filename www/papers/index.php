@@ -196,9 +196,12 @@ function displayByType($filteredTable){
 		if($row['Link']!=null){
 			echo "<br /> <a href=\"" . $row['Link'] . "\" > Link </a>";
 		}
-		if($row['Video']!=null){
+		if($row['Video']!=null and $row['Link']!=null){
 			echo " / <a href=\"" . $row['Video'] . "\" > Video </a>";
 		}
+                if($row['Video']!=null and $row['Link']==null){
+                        echo "<br /> <a href=\"" . $row['Video'] . "\" > Video </a>";
+                }
 		echo "</p>";
 	}
 	include $_SERVER['DOCUMENT_ROOT']."/phpincludes/footer.php";
@@ -219,9 +222,12 @@ function displayByDate($filteredTable){
 		if($row['Link']!=null){
 			echo "<br /> <a href=\"" . $row['Link'] . "\" > Link </a>";
 		}
-		if($row['Video']!=null){
-			echo " / <a href=\"" . $row['Video'] . "\" > Video </a>";
-		}
+                if($row['Video']!=null and $row['Link']!=null){
+                        echo " / <a href=\"" . $row['Video'] . "\" > Video </a>";
+                }
+                if($row['Video']!=null and $row['Link']==null){
+                        echo "<br /> <a href=\"" . $row['Video'] . "\" > Video </a>";
+                }
 		echo "<br /><br />";
 	}
 	include $_SERVER['DOCUMENT_ROOT']."/phpincludes/footer.php";
