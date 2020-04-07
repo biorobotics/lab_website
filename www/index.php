@@ -105,7 +105,7 @@
 		</div>
 		<div class="seven columns">
 			<div class="video-container" style = "margin-top: 10rem">
-				<iframe src="https://drive.google.com/file/d/1-N17f8a6vqRMNYKSv0hHak__bPoiX9Xy/preview" frameborder="0"></iframe>
+				<iframe src="https://www.youtube.com/embed/1BBPoczVgdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<figcaption><strong>Latest Video:</strong>Snake Monster Rock Climbing</figcaption>
 		</div>
