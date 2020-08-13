@@ -3,7 +3,7 @@
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
 
-	<title>Micro Scale Locomotion Research - Biorobotics</title>
+	<title>Point cloud registration Research - Biorobotics</title>
 	<meta name="Keywords" content="Registration, Point Cloud, Machine Learning, Neural Network, Deep Learning, Carnegie Mellon University, robotics">
 	<meta name="description" content ="Point cloud registration with neural networks - Carnegie Mellon Biorobotics" />
 
