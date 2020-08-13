@@ -4,8 +4,8 @@
 ============================= -->
 
 	<title>Micro Scale Locomotion Research - Biorobotics</title>
-	<meta name="Keywords" content="Micro Scale Locomotion, Microrobots, Locomotion, Micro Scale, Carnegie Mellon University, robotics">
-	<meta name="description" content ="Micro Scale Locomotion Research - Carnegie Mellon Biorobotics" />
+	<meta name="Keywords" content="Registration, Point Cloud, Machine Learning, Neural Network, Deep Learning, Carnegie Mellon University, robotics">
+	<meta name="description" content ="Point cloud registration with neural networks - Carnegie Mellon Biorobotics" />
 
 	<!-- Banner and Menu - Do not change
 ============================= -->
