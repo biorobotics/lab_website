@@ -80,7 +80,7 @@
 			and planning.  Often, we look to biology for inspiration and sometimes,
 			we return the favor by providing analysis that models biology.</p>
 			<p><a href="mission.php">Mission Statement</a></p>
-			<p><a href="Prospective.php" target="_blank">Prospective
+			<p><a href="prospective.php" target="_blank">Prospective
 			Students &amp; Post-Docs</a></p>
 			<div class="four columns">
 				<div class="card">
