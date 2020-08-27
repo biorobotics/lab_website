@@ -59,7 +59,7 @@ exception. The ordinary path into my group is to become a graduate
 student here and then take an upper-level course from me. If there is
 strong mutual interest between me and a student, chances are good they
 can start working in my group.</P>
-<P>To see who is a good point of contact for each project, see <a href="https://docs.google.com/spreadsheets/d/1-xaMOsPz3xbh-Wd5gdpYTj8F79FffHFfgFt7Q_Yokzs/edit?usp=sharing">this google sheet</a>.
+<P>To see our research directions and who is a good point of contact for each project, see <a href="https://docs.google.com/spreadsheets/d/1-xaMOsPz3xbh-Wd5gdpYTj8F79FffHFfgFt7Q_Yokzs/edit?usp=sharing">this google sheet</a>.
 <P>In any case, good luck with your prospective graduate studies.</P>
 <P>Best wishes,</P>
 <P>Howie Choset, Matthew J. Travers (and Steve LaValle, from whom I copied almost all of this)</P>
