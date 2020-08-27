@@ -3,12 +3,16 @@
 <!-- saved from url=(0044)http://msl.cs.uiuc.edu/~lavalle/message.html -->
 <HTML><HEAD><TITLE>A Message for Prospective Students</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=windows-1252">
-<META content="MSHTML 6.00.2800.1276" name=GENERATOR></HEAD>
-<BODY background=prospective_files/clay.gif>
+<META content="MSHTML 6.00.2800.1276" name=GENERATOR>
+<LINK rel="stylesheet" href="/css/normalize.css">
+<LINK rel="stylesheet" href="/css/skeleton.css">
+<LINK rel="stylesheet" href="/css/biorobotics.css">
+</HEAD>
+<BODY background="prospective_files/clay.gif" style="margin:50px; width:auto; max-width:1000px">
 <H1>
 <CENTER>A Message for Prospective Graduate Students</CENTER></H1>
 <HR>
-Hello,<BR>
+<P>Hello,<BR/></P>
 <P>This message is intended primarily for students who are applying to graduate 
 school, or are starting graduate school, and are considering working in my 
 research group. For students who are already here, you can sign up for an 
@@ -35,13 +39,13 @@ contributions in our research group.</P>
 working with exceptional M.S./Ph.D. students. I intend to give strong personal 
 guidance that will maximize their chances of building a rewarding and enjoyable 
 career in research. Important goals that I have for students are: <br></P>
-<ol>
+<ul>
 	<li>the identification of fundamental research problems by developing a thorough 
 understanding of current literature; </li>
 	<li>the development of a strong technical background that enables the proposal of independent and innovative solutions to challenging problems;</li> 
 	<li>the presentation and publication of research in the most prestigious journals and conferences;</li> 
 	<li>the development of personal communication and presentation skills that are needed to maximize visibility in the research community, and increase chances of future success. If you find this emphasis and my research area appealing, I believe our group could provide you with a vibrant and exciting educational experience. </li>
-</ol>
+</ul>
 <P><B>How to possibly squeeze in:</B> Admissions to Carnegie Mellon
 are based on merit, and teaching assistantships or fellowships are
 usually awarded to the admitted students. I would suggest contacting a
@@ -58,7 +62,7 @@ can start working in my group.</P>
 <P>To see who is a good point of contact for each project, see <a href="https://docs.google.com/spreadsheets/d/1-xaMOsPz3xbh-Wd5gdpYTj8F79FffHFfgFt7Q_Yokzs/edit?usp=sharing">this google sheet</a>.
 <P>In any case, good luck with your prospective graduate studies.</P>
 <P>Best wishes,</P>
-<P>Howie Choset, Matthew J. Travers(and Steve LaValle, from whom I copied almost all of this)</P>
+<P>Howie Choset, Matthew J. Travers (and Steve LaValle, from whom I copied almost all of this)</P>
 <P></P>
 <HR>
 </BODY></HTML>
