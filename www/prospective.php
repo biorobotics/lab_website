@@ -8,7 +8,7 @@
 <LINK rel="stylesheet" href="/css/skeleton.css">
 <LINK rel="stylesheet" href="/css/biorobotics.css">
 </HEAD>
-<BODY background="prospective_files/clay.gif" style="margin:50px; width:auto; max-width:1000px">
+<BODY background="prospective_files/clay.gif" style="margin:25px auto; width:60%; min-width:450px">
 <H1>
 <CENTER>A Message for Prospective Graduate Students</CENTER></H1>
 <HR>
