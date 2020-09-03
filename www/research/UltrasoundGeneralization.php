@@ -16,7 +16,7 @@
 ============================= -->
     
 	<div class="row">
-		<div class="six columns">
+		<div class="eight columns">
 			<h3><b>Efficient Generalization of Ultrasound Imaging for Medical Robotics</b></h3>
 			<p>
 				Ultrasound is small, cost-effective, and portable, but to be useful in clinical scenarios, such technology must be accurate and robust to variations in unseen domains, such as anatomical variations, different scanners and imaging settings, external artifacts, probe position etc. As such, using ultrasound to automatically identify classes such as arteries, veins, ligaments, and nerves would be useful in providing diagnostic measures (ex. intima-media thickness), catheter placement, and in robot-assisted interventions.  The caveat is that such performance is too often only applicable to a single domain. Especially within the field of medical imaging, a major hurdle in applicability to real clinical scenarios requires that the model be able to achieve superior performance on as many different scenarios as possible. Standard approaches that use a single-distribution training dataset will often produce good inference results only on a test set drawn from a similar or equivalent distribution. A theoretical brute-force approach would be to create a training dataset consisting of all possible distributions, but present methods are far from even beginning to approach this seemingly unbounded very high dimensional space in which every patient is unique. When coupled with the extensive time and medical expertise often required for gathering labelled data, achieving appropriate generalization capabilities by merely obtaining massive amounts of labelled data becomes prohibitive. Therefore, our ultimate goal is to be able to achieve little to no performance degradation on unseen ultrasound image domains in as much of a time and data efficient manner as possible.
@@ -32,15 +32,14 @@
 				With the goal being to embed this work within the medical robotics space, we are also actively exploring methods for using the computer-vision based results to inform robot mechanical motion during ultrasound scanning – a form of active vision recognition. In doing so, we aim to develop methods for more efficiently and actively training and enhancing model generalization along with intelligently searching for health-critical points on the subject. Along with the success of this work, similar concepts can be utilized in all other areas of medical imaging to advance the state of AI-enabled health care.
 			</p> 
 		</div>
-		<div class="six columns">
-			<img src="images/UltrasoundGeneralization/robot-1.jpg" alt="UltrasoundGeneralizationF1" width="100%;" style="padding-left:1rem; padding-top:5rem;">
-			<img src="images/UltrasoundGeneralization/robot-4.jpg" alt="UltrasoundGeneralizationF2" width="100%;" style="padding-left:1rem; padding-top:5rem;">
-		</div>
-		<div class="six columns">
-			<img src="images/UltrasoundGeneralization/vessels-1.png" alt="UltrasoundGeneralizationF3" width="100%;" style="padding-left:1rem; padding-top:5rem;">
-			<img src="images/UltrasoundGeneralization/vessels-2.png" alt="UltrasoundGeneralizationF4" width="100%;" style="padding-left:1rem; padding-top:5rem;">
-			<img src="images/UltrasoundGeneralization/vessels-3.png" alt="UltrasoundGeneralizationF5" width="100%;" style="padding-left:1rem; padding-top:5rem;">
-			<img src="images/UltrasoundGeneralization/vessels-4.png" alt="UltrasoundGeneralizationF6" width="100%;" style="padding-left:1rem; padding-top:5rem;">			
+		<div class="four columns">
+			<img src="images/UltrasoundGeneralization/robot-4.jpg" alt="UltrasoundGeneralizationF2" width="100%;" style="">
+			<img src="images/UltrasoundGeneralization/vessels-1.png" alt="UltrasoundGeneralizationF3" width="49.5%;" style="">
+			<img src="images/UltrasoundGeneralization/vessels-2.png" alt="UltrasoundGeneralizationF4" width="49.5%;" style="">
+			<img src="images/UltrasoundGeneralization/vessels-3.png" alt="UltrasoundGeneralizationF5" width="49.5%;" style="">
+			<img src="images/UltrasoundGeneralization/vessels-4.png" alt="UltrasoundGeneralizationF6" width="49.5%;" style="">
+			</div>
+
 		</div>
 	</div>
 	<div class="row" style= "padding-top: 3rem;">
