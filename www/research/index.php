@@ -19,10 +19,10 @@
 				href="?"><h4>All</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="locomotion") echo " class=\"active\""; ?> 
 				href="?sort=locomotion"><h4>Locomotion</h4></li></a>
-		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Multi-agent") echo " class=\"active\""; ?> 
-				href="?sort=Multi-agent"><h4>Multi-agent</h4></li></a>
-		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Learning") echo " class=\"active\""; ?> 
-				href="?sort=Learning"><h4>Learning</h4></li></a>
+		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="multi-agent") echo " class=\"active\""; ?> 
+				href="?sort=multi-agent"><h4>Multi-agent</h4></li></a>
+		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="learning") echo " class=\"active\""; ?> 
+				href="?sort=learning"><h4>Learning</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="medical") echo " class=\"active\""; ?> 
 				href="?sort=medical"><h4>Medical</h4></li></a>
 		<li><a <?php if (!empty($_GET) && $_GET["sort"]=="manufacturing") echo " class=\"active\""; ?> 
@@ -45,7 +45,7 @@
 					<div><span>Series Elasticity</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "manufacturing locomotion">
 				<a href="Modularity.php">
 					<img src="images/Modularity.png" alt="Modularity"/>
 					<div><span>Modularity</span></div>
@@ -57,37 +57,37 @@
 					<div><span>Human Robot Collaboration</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "multi-agent">
 				<a href="MRErgodicSearch.php">
 					<img src="images/MRErgodicSearch.jpg" alt="MRErgodicSearch"/>
 					<div><span>Multi-Robot Ergodic Search</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "manufacturing multi-agent">
 				<a href="MAPathFinding.php">
 					<img src="images/MAPathFinding.jpg" alt="MAPathFinding"/>
 					<div><span>Multi-Agent Path Finding</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "manufacturing learning">
 				<a href="MRConstruction.php">
 					<img src="images/MRConstruction.gif" alt="MRConstruction"/>
 					<div><span>Multi-Robot Construction</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "locomotion learning">
 				<a href="Graphicalmodels.php">
 					<img src="images/Graphicalmodels.png" alt="Graphicalmodels"/>
 					<div><span>Graphical models</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "locomotion learning">
 				<a href="Shakyperception.php">
 					<img src="images/Shakyperception.gif" alt="Shakyperception"/>
 					<div><span>Shaky perception</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "locomotion">
 				<a href="DRLfordecentralizedcontrol.php">
 					<img src="images/DRLfordecentralizedcontrol.gif" alt="DRLfordecentralizedcontrol"/>
 					<div><span>Distributed RL for decentralized control</span></div>
@@ -99,25 +99,31 @@
 					<div><span>Embedded System and Mechantronics</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "medical learning">
+				<a href="UltrasoundGeneralization.php">
+					<img src="images/UltrasoundGeneralization.png" alt="Ultrasound"/>
+					<div><span>Ultrasound segmentation</span></div>
+				</a>
+			</li>
+			<li class = "medical manufacturing">
 				<a href="Forcesensors.php">
 					<img src="images/Forcesensors.png" alt="Forcesensors"/>
 					<div><span>Force sensors</span></div>
 				</a>
 			</li>
-			<li>
+			<li class="manufacturing">
 				<a href="ConfinedSpaceManipulator.php">
 					<img src="images/ConfinedSpaceManipulator.png" alt="ConfinedSpaceManipulator.png" width="100%;">
 					<div><span>Confined Space Manipulator</span></div>
 				</a>
 			</li>
-			<li>
+			<li class="medical manufacturing">
 				<a href="ConfinedSpacePerception.php">
 					<img src="images/ConfinedSpacePerception.png" alt="ConfinedSpacePerception.png" width="100%;">
 					<div><span>Confined Space Perception</span></div>
 				</a>
 			</li>
-			<li>
+			<li class="locomotion learning">
 				<a href="AGVSLAM.php">
 					<img src="images/AGVSLAM.gif" alt="AGVSLAM.png" width="100%;">
 					<div><span>AGV SLAM</span></div>
@@ -135,19 +141,19 @@
 					<div><span>Robotic Internect of Things</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "locomotion learning">
 				<a href="ISCPG.php">
 					<img src="images/ISCPG.jpg" alt="ISCPG"/>
 					<div><span>Inertial-stabilized CPG</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "medical">
 				<a href="ARforMedicalSystem.php">
 					<img src="images/ARforMedicalSystem.png" alt="ARforMedicalSystem"/>
 					<div><span>Augmented reality for medical system</span></div>
 				</a>
 			</li>
-			<li class = "manufacturing">
+			<li class = "locomotion">
 				<a href="MicroScaleLocomotion.php">
 					<img src="images/MicroScaleLocomotion.png" alt="MicroScaleLocomotion"/>
 					<div><span>Micro Scale Locomotion</span></div>
@@ -178,15 +184,15 @@
 					<div><span>Geometric Mechanics</font></span></div>
 				</a>
 			</li>
-			<li class = "medical Multi-agent">
+			<li class = "medical">
 				<a href="BodySLAM.php">
 					<img src="images/BodySLAM.png"alt="Body SLAM"/>
 					<div><span>Body SLAM</span></div>
 				</a>
 			</li>
-			<li class = "Multi-agent">
+			<li class = "multi-agent">
 				<a href="multi-robot.php">
-					<img src="images/multiRobot.png" alt="Series Elasticity"/>
+					<img src="images/multiRobot.png" alt="multi-Agent"/>
 					<div><span>Multi-Robot Planning</span></div>
 				</a>
 			</li>
