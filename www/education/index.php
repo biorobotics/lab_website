@@ -67,6 +67,12 @@
 					
 				</a>
 			</li>	
+			<li>
+				<a href="https://sassafras13.github.io/" target="_blank">
+					<img src="images/blog.png" alt="Emma Benjaminson Blog"/>
+					<div><span>Emma's Blog</span></div>
+				</a>
+			</li>	
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
 			<li class="placeholder"></li>
