@@ -33,15 +33,21 @@ carnegie mellon, pipe robot, flexible robot">
 				</a>
 			</li>
 			<li>
-				<a href="ModularCobots.php">
-					<img src="images/ModularCobots.png" alt="ModularCobots.png" width="100%;">
-					<div><span>Modular Co-bots</span></div>
-				</a>
-			</li>
-			<li>
 				<a href="ModularSEASnake.php">
 					<img src="images/ModularSEASnake.png" alt="ModularSEASnake.png" width="100%;">
 					<div><span>Modular SEA Snake</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="UnderWaterSnakeHUMRS.php">
+					<img src="images/HUMRS_Logo.png" alt="HUMRS_Logo.png" width="100%;">
+					<div><span>Hardened Underwater Snake (HUMRS)</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="ModularCobots.php">
+					<img src="images/ModularCobots.png" alt="ModularCobots.png" width="100%;">
+					<div><span>Modular Co-bots</span></div>
 				</a>
 			</li>
 			<li>
