@@ -16,11 +16,17 @@
 ============================= -->
     
 	<div class="row">
+		<div class="twelve columns">
 		<h3><b>Hardened Underwater Modular Robot Snake (HUMRS)</h3> 
 		<img src="images/UnderWaterSnakeHUMRS/UnderWaterSnakeHUMRS.png" alt="UnderWaterSnakeHUMRSF1" width="100%;" style="padding-left:2rem; padding-top:5rem;">
+		</div>
 	</div>
 	<div class="row">
-		<iframe width="605"height="300" src="https://drive.google.com/file/d/1OozugUImvyGsRH0U9GcJK1S_7jfENMj5/view?usp=sharing" frameborder="0"></iframe>
+		<div class="three columns"></div>
+		<div class="six columns">
+			<iframe width="605"height="300" src="https://drive.google.com/file/d/1OozugUImvyGsRH0U9GcJK1S_7jfENMj5/preview" frameborder="0"></iframe>
+		</div>
+		<div class="three columns"></div>
 	</div>
 	
 	
