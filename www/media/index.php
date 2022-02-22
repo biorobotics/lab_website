@@ -21,7 +21,7 @@
 		<div class="grid">
 			<ul>
 				<li>
-					<a href="https://drive.google.com/file/d/0B2LF_3WEQeImX0oxalpjTnBVTEE/preview" rel="prettyPhoto[mixed]" title="">
+					<a href="https://drive.google.com/file/d/0B2LF_3WEQeImX0oxalpjTnBVTEE/view?usp=sharing&resourcekey=0-CgPlZ4jTVf1vthLvboofTA" rel="prettyPhoto[mixed]" title="">
 					<img src="images/video-thumbnails/overview-thumb.jpg" alt="" />
 					<span>Snake Robot Overview</span></a>
 				</li>
