@@ -3,104 +3,38 @@
 <!-- Basic Page Needs - Edit keywords and page title here
 ============================= -->
 	<title>Body SLAM - Biorobotics</title>
-	<meta name="Keywords" content="Biorobotics, SLAM, Medical robot, surgical robot, medical slam, localization, mapping, simultaneous localization, minimally invasive surgery, surgery robot, HARP, extended kalman filter, kalman filter">
-	<meta name="description" content ="Body SLAM - Carnegie Mellon Biorobotics" />
-<!-- Banner and Menu - Do not change
+	<meta name="Keywords" content="Carnegie Mellon University, robotics, Medical Robotics">
+	<meta name="description" content ="Body SLAM - Carnegie Mellon Biorobotics" /><!-- Banner and Menu - Do not change
 ============================= -->
 <?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/banner.php";?>
 
 <!-- Content - Add content for your page here
 ============================= -->
-    <div class="row">
-		<div class="twelve columns">       
-			<h3>Body<b> SLAM </b></h3>
-		</div>	
-	</div>
-	<div class="row">
-		<div class="twelve columns">	
-			<image src="images/BodySLAM/Heart1.png" alt="Heart rendering" width="100%;">
-			<p style="text-align:justify;">
-			Minimally invasive surgery (MIS) has been shown to reduce patient trauma
-			and shorten hospitalization stays, but when operating through a small incision,
-			a surgeon loses the "bird's eye view" of the operation that he or she is
-			accustomed to with open surgery. A recent approach to surgical guidance, called
-			image-guidance, combines tool tracking with patient specific rendered organ
-			models to display a detailed computer generated 3D rendered visualization
-			that the surgeon can rotate the 3D rendered models on the computer screen to
-			gain a better spatial understanding of where the tool or robot is located with
-			respect to an anatomical target (see above).
-		
-			Current image-guidance systems are limited to only specific surgeries, can be
-			inaccurate, and do convey all available information. The goal of our Medical
-			SLAM project is to improve the accuracy and efficacy of IGS through the adoption
-			of mobile robot simultaneous localization and mapping (SLAM) algorithms to the
-			medical field. SLAM is the problem of estimating an environment map with a mobile
-			robot while simultaneously estimating the pose of the robot in the incrementally
-			constructed map. The advantages of using SLAM for surgery are 1) the potential
-			improvement in accuracy, 2) the estimation of dynamic information, and 3) the
-			inference of deformation and stiffness.
-			</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="twelve columns" >
-		<div class="five columns" class="u-pull-left">
-		<image src = "images/BodySLAM/Heart2.jpg" alt="Snake Estimation" width="100%;">
-		</div>
-		
-		<p>Another sub-topic of our Medical SLAM project is constrained filtering for registering
-		a tool to the surface models. The registration problem involves aligning the coordinate
-		frame of the tool to the coordinate frame of a preoperative surface model.
-		Conventionally, to register a surgical tool to medical images, the iterative closest
-		point (ICP) algorithm is used. This works by touching the tool to many locations on the
-		surface of an anatomical structure and then aligning the resulting point cloud with a
-		point cloud extracted from the preoperative models.</p>
-	
-		We have developed a novel method for registration using constrained Kalman filtering.
-		The technique we introduced estimates parameters for the registration problem with a
-		Kalman filter. When the uncertainty of the Kalman filter reduces to a small region, the
-		registration problem is solved. The filter gains information by recognizing when the
-		tool/robot is in an infeasible state. To incorporate this information, we have developed
-		a new method for constrained filtering called uncertainty projection. We have been able
-		to demonstrate the feasibility of our constrained filtering approach with data collected
-		from an experiment involving a surgical robot navigating on the epicardial surface of a
-		porcine heart (see above).
-		</div>
-	</div>
-	<h5> Papers </h5>
-	<ul id="bullets">
-		<li >
-			<p>				
-			<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/paperv7.pdf">
-			Using Lie Algebra to estimate the shape of medical snake robots.</a> In the proceedings of the 27th IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Chicago, USA, September 2014
-			</p>
-		</li>
-		<li >
-			<p>				
-			<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/ICRA2012_Tully.pdf">
-			Constrained Filtering with Contact Detection Data for the Localization 
-			and Registration of Continuum Robots in Flexible Environments</a>
-			. Proc. 2012 IEEE International Conference on Robotics and Automation (ICRA), May, 2012. 
-			</p>
-		</li>
-		<li >
+    
+	<div class="row"><h3 class="c27" id="h.rm315i657ofo"><span>Medical Robotics</b> - Body SLAM</span></h3><p class="c52"><b><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 165.33px;"><img alt="Heart rendering" src="images/BodySLAM/image27.png" style="width: 624.00px; height: 165.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c68"><span class="c5 c8">Minimally invasive surgery (MIS) has been shown to reduce patient trauma and shorten hospitalization stays, but when operating through a small incision, a surgeon loses the &quot;bird&#39;s eye view&quot; of the operation that he or she is accustomed to with open surgery. A recent approach to surgical guidance, called image-guidance, combines tool tracking with patient specific rendered organ models to display a detailed computer generated 3D rendered visualization that the surgeon can rotate the 3D rendered models on the computer screen to gain a better spatial understanding of where the tool or robot is located with respect to an anatomical target (see above). Current image-guidance systems are limited to only specific surgeries, can be inaccurate, and do not convey all available information. The goal of our Medical SLAM project is to improve the accuracy and efficacy of IGS through the adoption of mobile robot simultaneous localization and mapping (SLAM) algorithms to the medical field. SLAM is the problem of estimating an environment map with a mobile robot while simultaneously estimating the pose of the robot in the incrementally constructed map. The advantages of using SLAM for surgery are 1) the potential improvement in accuracy, 2) the estimation of dynamic information, and 3) the inference of deformation and stiffness.</span></p><p class="c52"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 475.00px; height: 192.00px;"><img alt="Snake Estimation" src="images/BodySLAM/image48.jpg" style="width: 475.00px; height: 192.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c47"><span class="c5 c8">Another sub-topic of our Medical SLAM project is constrained filtering for registering a tool to the surface models. The registration problem involves aligning the coordinate frame of the tool to the coordinate frame of a preoperative surface model. Conventionally, to register a surgical tool to medical images, the iterative closest point (ICP) algorithm is used. This works by touching the tool to many locations on the surface of an anatomical structure and then aligning the resulting point cloud with a point cloud extracted from the preoperative models.</span></p><p class="c52"><span class="c5 c8">We have developed a novel method for registration using constrained Kalman filtering. The technique we introduced estimates parameters for the registration problem with a Kalman filter. When the uncertainty of the Kalman filter reduces to a small region, the registration problem is solved. The filter gains information by recognizing when the tool/robot is in an infeasible state. To incorporate this information, we have developed a new method for constrained filtering called uncertainty projection. We have been able to demonstrate the feasibility of our constrained filtering approach with data collected from an experiment involving a surgical robot navigating on the epicardial surface of a porcine heart (see above).</span></p><p class="c84"><span class="c3 c1">Papers</span></p><ul class="c40 lst-kix_c0v5cbe9awkk-0 start"><li class="c23 li-bullet-0"><span class="c8 c32"><a class="c24" href="https://www.google.com/url?q=http://biorobotics.ri.cmu.edu/papers/paperUploads/paperv7.pdf&amp;sa=D&amp;source=editors&amp;ust=1671230812179095&amp;usg=AOvVaw3rzVEI0-yf8gUviBUW-pFp">Using Lie Algebra to estimate the shape of medical snake robots.</a></span><span class="c5 c8">&nbsp;In the proceedings of the 27th IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Chicago, USA, September 2014</span></li><li class="c23 li-bullet-0"><span class="c32 c8"><a class="c24" href="https://www.google.com/url?q=http://biorobotics.ri.cmu.edu/papers/paperUploads/ICRA2012_Tully.pdf&amp;sa=D&amp;source=editors&amp;ust=1671230812179442&amp;usg=AOvVaw3zomjeNZGDiWko5h8r0UKD">Constrained Filtering with Contact Detection Data for the Localization and Registration of Continuum Robots in Flexible Environments</a></span><span class="c5 c8">&nbsp;. Proc. 2012 IEEE International Conference on Robotics and Automation (ICRA), May, 2012.</span></li><li class="c23 li-bullet-0"><span class="c32 c8"><a class="c24" href="https://www.google.com/url?q=http://biorobotics.ri.cmu.edu/papers/paperUploads/iros11constrained.pdf&amp;sa=D&amp;source=editors&amp;ust=1671230812179788&amp;usg=AOvVaw2L_S7-9WIm0X463d0zxkSX">Inequality Constrained Kalman Filtering for the Localization and Registration of a Surgical Robot</a></span><span class="c5 c8">. Proc. 2011 IEEE International Conference on Intelligent Robots and Systems (IROS), Sept, 2011.</span></li><li class="c23 li-bullet-0"><span class="c32 c8"><a class="c24" href="https://www.google.com/url?q=http://biorobotics.ri.cmu.edu/papers/paperUploads/iros11snakeEstimation.pdf&amp;sa=D&amp;source=editors&amp;ust=1671230812180164&amp;usg=AOvVaw36-X-V5wBoOQr-EV6THOVu">Constrained Filtering with Contact Detection Data for the Localization and Registration of Continuum Robots in Flexible Environments</a></span><span class="c5 c8">. Proc. 2011 IEEE International Conference on Intelligent Robots and Systems (IROS), Sept, 2011.</span></li></ul><!-- <div class="six columns">
+			<h3><b>Modularity</b> - Modular manipulators</h3>
 			<p>
-			<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/iros11constrained.pdf">
-			Inequality Constrained Kalman Filtering for the Localization and Registration of
-			a Surgical Robot</a>. Proc. 2011 IEEE International Conference on Intelligent
-			Robots and Systems (IROS), Sept, 2011.  
+				<b>Modular robotic systems</b> have the potential to be adapted to varying tasks using a single set of reconfigurable hardware, enabling customizable robots to be developed faster and more economically than conventional robots. Currently, even with the engineering experience, calculations and intuitions, it is not immediately evident how to construct and program a modular robot for a task. We research methods to automatically synthesize the design and controllers for modular robot arms.
 			</p>
-		</li>
-		<li >
-			<p>
-			<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/iros11snakeEstimation.pdf">
-			Constrained Filtering with Contact Detection Data for the Localization 
-			and Registration of Continuum Robots in Flexible Environments</a>. Proc. 2011 IEEE
-			International Conference on Intelligent Robots and Systems (IROS), Sept, 2011. 
+			<div class="eleven columns u-pull-left">
+				<img src="images/Modularity/fig2.png" alt="ModularityF2" width="100%;" style="padding-left:1rem;">
+				<p class="caption"> Figure2 : A prototype of a robot arm made from HEBI modular actuators.
+				</p>
+		</div>
+		</div>
+		<div class="five columns u-pull-right">
+			<img src="images/Modularity/fig1.png" alt="ModularityF1" width="100%;" style="padding-left:1rem;">
+			<p class="caption"> Figure 1:  Supernumerary arm implemented in hardware, reaching  one  of  the  targets  on  the  overhead  workpiece.  The  end
+			effector  is  a  flat  rubberized  plate  with  spring-loaded  hinge.
+			The  arm,  attached  to  a  backpack  control  and  power  pack,
+			lends the user a helping hand
 			</p>
-		</li>
-	</ul>
+		</div> -->
+	</div>
+<!-- Gallery - include if page has gallery elements
+============================= -->
+<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/gallery.php";?>
 
 <!-- Footer - Do not change
 ============================= -->
-<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/footer.php";?>		                        
+<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/footer.php";?>

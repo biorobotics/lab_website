@@ -1,0 +1,40 @@
+<?php include $_SERVER['DOCUMENT_ROOT'].'/phpincludes/header.php'; ?>
+
+<!-- Basic Page Needs - Edit keywords and page title here
+============================= -->
+	<title>Shakey Perception - Biorobotics</title>
+	<meta name="Keywords" content="Carnegie Mellon University, robotics, Locomoting Systems">
+	<meta name="description" content ="Shakey Perception - Carnegie Mellon Biorobotics" /><!-- Banner and Menu - Do not change
+============================= -->
+<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/banner.php";?>
+
+<!-- Content - Add content for your page here
+============================= -->
+    
+	<div class="row"><h3 class="c27" id="h.ontwk7q9bbzm"><b><span class="c56">Locomoting Systems</b> - Shakey Perception</span></h3><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10"><span class="c3 c1">Methods for state estimation that rely on visual information are challenging on dynamic</span></p><p class="c10"><span class="c3 c1">robots because of rapid changes in the viewing angle of onboard cameras and other sensors. Conventional techniques that perform state estimation over the full cycle of a gait suffer from poor performance, likely because information (ie landmarks) are not being considered in the proper sequence, e.g., landmarks that are visible when the robot is at the &ldquo;top&rdquo; of its gait cycle may not correspond to landmarks that are at the &ldquo;bottom&rdquo; of the gait cycle, causing estimators to diverge or produce poor estimates. </span></p><p class="c10 c13"><span class="c3 c1"></span></p><p class="c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 256.00px;"><img alt="" src="images/ShakeyPerception/image85.png" style="width: 624.00px; height: 256.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c10 c13"><span class="c3 c1"></span></p><p class="c10"><span class="c3 c1">Our work leverages structure in the way that dynamic robots locomote to increase the feasibility of performing state estimation despite these challenges. In particular, our method takes advantage of the underlying periodic predictability that is often present in the motion of legged robots to improve the performance of the front-end (feature tracking) of a visual-inertial SLAM system. Inspired by previous work on coordinated mapping with multiple robots, our method performs multi-session SLAM on a single robot, where each session is responsible for mapping a distinct portion of the robot&rsquo;s gait cycle. Our method outperforms several state-of-the-art methods for visual and visual-inertial SLAM in both a simulated environment and on data collected from a real-world quadrupedal robot.</span></p><p class="c10 c13"><span class="c3 c1"></span></p><p class="c10 c13"><span class="c3 c1"></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 598.50px; height: 184.15px;"><img alt="" src="images/ShakeyPerception/image56.png" style="width: 598.50px; height: 184.15px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c10 c13"><span class="c38 c62 c42 c1 c56"></span></p><p class="c10"><span class="c3 c1">The above figure shows an example of how a legged robot that is periodically</span></p><p class="c10"><span class="c3 c1">pitching could maintain two separate SLAM sessions: one for when it is looking</span></p><p class="c10"><span class="c3 c1">upwards and one for when it is looking downwards. Our method constrains each</span></p><p class="c10"><span class="c3 c1">SLAM session running on the robot with relative pose constraints from inertial measurements from an IMU attached to the robot. By tightly coupling each individual SLAM session to one another in a factor graph based optimization framework, our method is able to produce a unified SLAM estimate that achieves greater combined performance than any single SLAM session. Converting the above figure to a cyclic representation, but with three SLAM sessions gives rise to the below figure:</span></p><p class="c10 c13"><span class="c25 c1"></span></p><p class="c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 337.84px; height: 359.50px;"><img alt="" src="images/ShakeyPerception/image25.png" style="width: 337.84px; height: 359.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10"><span class="c3 c1">We then construct a factor graph and use the machinery from factor graphs to efficiently run separate SLAM processes.</span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 278.67px;"><img alt="" src="images/ShakeyPerception/image58.png" style="width: 624.00px; height: 278.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c10 c13"><span class="c18 c1"></span></p><p class="c10 c13"><span class="c18 c1"></span></p><hr style="page-break-before:always;display:none;"><p class="c10 c13"><span class="c18 c1"></span></p><!-- <div class="six columns">
+			<h3><b>Modularity</b> - Modular manipulators</h3>
+			<p>
+				<b>Modular robotic systems</b> have the potential to be adapted to varying tasks using a single set of reconfigurable hardware, enabling customizable robots to be developed faster and more economically than conventional robots. Currently, even with the engineering experience, calculations and intuitions, it is not immediately evident how to construct and program a modular robot for a task. We research methods to automatically synthesize the design and controllers for modular robot arms.
+			</p>
+			<div class="eleven columns u-pull-left">
+				<img src="images/Modularity/fig2.png" alt="ModularityF2" width="100%;" style="padding-left:1rem;">
+				<p class="caption"> Figure2 : A prototype of a robot arm made from HEBI modular actuators.
+				</p>
+		</div>
+		</div>
+		<div class="five columns u-pull-right">
+			<img src="images/Modularity/fig1.png" alt="ModularityF1" width="100%;" style="padding-left:1rem;">
+			<p class="caption"> Figure 1:  Supernumerary arm implemented in hardware, reaching  one  of  the  targets  on  the  overhead  workpiece.  The  end
+			effector  is  a  flat  rubberized  plate  with  spring-loaded  hinge.
+			The  arm,  attached  to  a  backpack  control  and  power  pack,
+			lends the user a helping hand
+			</p>
+		</div> -->
+	</div>
+<!-- Gallery - include if page has gallery elements
+============================= -->
+<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/gallery.php";?>
+
+<!-- Footer - Do not change
+============================= -->
+<?php include $_SERVER['DOCUMENT_ROOT']."/phpincludes/footer.php";?>
