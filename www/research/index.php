@@ -19,33 +19,32 @@ error_reporting(E_ALL); ?>
 ============================= -->
 <div class="row">	
 	<ul class="sub-categories">
-		<li><h2>Our Research</h2></li>
 		<li><a <?php if (empty($_GET)) echo " class=\"active\""; ?> 
-                href="?"><h4>All</h4></li></a>
+                href="?"><h6>All</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="MedicalRobotics") echo " class=\"active\""; ?>
-            href="?sort=MedicalRobotics"><h4>Medical Robotics</h4></li></a>
-        <li><a <?php if (!empty($_GET) && $_GET["sort"]=="FullStack") echo " class=\"active\""; ?>
-            href="?sort=FullStack"><h4>Full Stack</h4></li></a>
+            href="?sort=MedicalRobotics"><h6>Medical Robotics</h6></li></a>
+        <li><a <?php if (!empty($_GET) && $_GET["sort"]=="FullStackAutonomy") echo " class=\"active\""; ?>
+            href="?sort=FullStackAutonomy"><h6>Full Stack Autonomy</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="SpaceRobotics") echo " class=\"active\""; ?>
-            href="?sort=SpaceRobotics"><h4>Space Robotics</h4></li></a>
+            href="?sort=SpaceRobotics"><h6>Space Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="UnderwaterRobotics") echo " class=\"active\""; ?>
-            href="?sort=UnderwaterRobotics"><h4>Underwater Robotics</h4></li></a>
+            href="?sort=UnderwaterRobotics"><h6>Underwater Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="RecyclingRobotics") echo " class=\"active\""; ?>
-            href="?sort=RecyclingRobotics"><h4>Recycling Robotics</h4></li></a>
+            href="?sort=RecyclingRobotics"><h6>Recycling Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="ModularRobotics") echo " class=\"active\""; ?>
-            href="?sort=ModularRobotics"><h4>Modular Robotics</h4></li></a>
+            href="?sort=ModularRobotics"><h6>Modular Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="MultiAgentPlanning") echo " class=\"active\""; ?>
-            href="?sort=MultiAgentPlanning"><h4>Multi-Agent Planning</h4></li></a>
+            href="?sort=MultiAgentPlanning"><h6>Multi-Agent Planning</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="Manufacturing") echo " class=\"active\""; ?>
-            href="?sort=Manufacturing"><h4>Manufacturing</h4></li></a>
+            href="?sort=Manufacturing"><h6>Manufacturing</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="LocomotingSystems") echo " class=\"active\""; ?>
-            href="?sort=LocomotingSystems"><h4>Locomoting Systems</h4></li></a>
+            href="?sort=LocomotingSystems"><h6>Locomoting Systems</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="ConfinedSpaceRobotics") echo " class=\"active\""; ?>
-            href="?sort=ConfinedSpaceRobotics"><h4>Confined Space Robotics</h4></li></a>
+            href="?sort=ConfinedSpaceRobotics"><h6>Confined Space Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="ExpeditionaryRobotics") echo " class=\"active\""; ?>
-            href="?sort=ExpeditionaryRobotics"><h4>Expeditionary Robotics</h4></li></a>
+            href="?sort=ExpeditionaryRobotics"><h6>Expeditionary Robotics</h6></li></a>
         <li><a <?php if (!empty($_GET) && $_GET["sort"]=="SkillLearning") echo " class=\"active\""; ?>
-            href="?sort=SkillLearning"><h4>Skill Learning</h4></li></a></ul>
+            href="?sort=SkillLearning"><h6>Skill Learning</h6></li></a></ul>
 	<style>
 		.grid li:not(.<?php
 			if (!empty($_GET)){
@@ -66,13 +65,13 @@ error_reporting(E_ALL); ?>
             <li class = "MedicalRobotics">
 				<a href="TowardPracticalUltrasoundAIAcrossRealWorldPatientDiversity.php">
 					<img src="images/TowardPracticalUltrasoundAIAcrossRealWorldPatientDiversity.png" alt="Toward Practical Ultrasound AI Across Real-World Patient Diversity"/>
-					<div><span>Toward Practical Ultrasound AI Across Real-World Patient Diversity</span></div>
+					<div><span style="line-height:25px;">Toward Practical Ultrasound AI Across Real-World Patient Diversity</span></div>
 				</a>
 			</li>
             <li class = "MedicalRobotics">
-				<a href="AutonomousForcecontrolledUltrasoundScanning.php">
-					<img src="images/AutonomousForcecontrolledUltrasoundScanning.png" alt="Autonomous Force-controlled Ultrasound Scanning"/>
-					<div><span>Autonomous Force-controlled Ultrasound Scanning</span></div>
+				<a href="AutonomousForceControlledUltrasoundScanning.php">
+					<img src="images/AutonomousForceControlledUltrasoundScanning.png" alt="Autonomous Force-Controlled Ultrasound Scanning"/>
+					<div><span style="line-height:25px;">Autonomous Force-Controlled Ultrasound Scanning</span></div>
 				</a>
 			</li>
             <li class = "MedicalRobotics">
@@ -89,7 +88,7 @@ error_reporting(E_ALL); ?>
 			</li>
             <li class = "MedicalRobotics">
 				<a href="SurgicalSnakeRobot.php">
-					<img src="images/SurgicalSnakeRobot.jpg" alt="Surgical Snake Robot"/>
+					<img src="images/SurgicalSnakeRobot.png" alt="Surgical Snake Robot"/>
 					<div><span>Surgical Snake Robot</span></div>
 				</a>
 			</li>
@@ -105,16 +104,16 @@ error_reporting(E_ALL); ?>
 					<div><span>Punctate Pressure</span></div>
 				</a>
 			</li>
-            <li class = "FullStack">
+            <li class = "FullStackAutonomy">
 				<a href="HybridRobotExploration.php">
 					<img src="images/HybridRobotExploration.jpg" alt="Hybrid Robot Exploration"/>
 					<div><span>Hybrid Robot Exploration</span></div>
 				</a>
 			</li>
-            <li class = "FullStack">
-				<a href="DARPARACERCHALLENGE.php">
-					<img src="images/DARPARACERCHALLENGE.png" alt="DARPA RACER CHALLENGE"/>
-					<div><span>DARPA RACER CHALLENGE</span></div>
+            <li class = "FullStackAutonomy">
+				<a href="DARPARACERChallenge.php">
+					<img src="images/DARPARACERChallenge.png" alt="DARPA RACER Challenge"/>
+					<div><span>DARPA RACER Challenge</span></div>
 				</a>
 			</li>
             <li class = "SpaceRobotics">
@@ -126,25 +125,25 @@ error_reporting(E_ALL); ?>
             <li class = "SpaceRobotics">
 				<a href="MechanicalandReflexiveIntelligencefortheExobiologyExtantLifeSurveyorEELS.php">
 					<img src="images/MechanicalandReflexiveIntelligencefortheExobiologyExtantLifeSurveyorEELS.png" alt="Mechanical and Reflexive Intelligence for the Exobiology Extant Life Surveyor (EELS)"/>
-					<div><span>Mechanical and Reflexive Intelligence for the Exobiology Extant Life Surveyor (EELS)</span></div>
+					<div><span style="line-height:25px;">Mechanical and Reflexive Intelligence for the Exobiology Extant Life Surveyor (EELS)</span></div>
 				</a>
 			</li>
             <li class = "UnderwaterRobotics">
 				<a href="UnderwaterConfinedSpaceNavigationandInspectionHUMRS.php">
-					<img src="images/UnderwaterConfinedSpaceNavigationandInspectionHUMRS.jpg" alt="Underwater Confined Space Navigation and Inspection (HUMRS)"/>
-					<div><span>Underwater Confined Space Navigation and Inspection (HUMRS)</span></div>
+					<img src="images/UnderwaterConfinedSpaceNavigationandInspectionHUMRS.png" alt="Underwater Confined Space Navigation and Inspection (HUMRS)"/>
+					<div><span style="line-height:25px;">Underwater Confined Space Navigation and Inspection (HUMRS)</span></div>
 				</a>
 			</li>
             <li class = "RecyclingRobotics">
-				<a href="MaterialTrackingonmovingConveyorbelts.php">
-					<img src="images/MaterialTrackingonmovingConveyorbelts.png" alt="Material Tracking on moving Conveyor belts"/>
-					<div><span>Material Tracking on moving Conveyor belts</span></div>
+				<a href="MaterialTrackingonMovingConveyorBelts.php">
+					<img src="images/MaterialTrackingonMovingConveyorBelts.png" alt="Material Tracking on Moving Conveyor Belts"/>
+					<div><span style="line-height:25px;">Material Tracking on Moving Conveyor Belts</span></div>
 				</a>
 			</li>
             <li class = "RecyclingRobotics">
-				<a href="Electronicswasterecycling.php">
-					<img src="images/Electronicswasterecycling.png" alt="Electronics waste recycling"/>
-					<div><span>Electronics waste recycling</span></div>
+				<a href="ElectronicWasteRecycling.php">
+					<img src="images/ElectronicWasteRecycling.png" alt="Electronic Waste Recycling"/>
+					<div><span>Electronic Waste Recycling</span></div>
 				</a>
 			</li>
             <li class = "ModularRobotics">
@@ -162,7 +161,7 @@ error_reporting(E_ALL); ?>
             <li class = "MultiAgentPlanning">
 				<a href="HeteroAgentMultiObjectiveTravelingSalesmanProblems.php">
 					<img src="images/HeteroAgentMultiObjectiveTravelingSalesmanProblems.png" alt="Hetero-Agent, Multi-Objective, Traveling Salesman Problems"/>
-					<div><span>Hetero-Agent, Multi-Objective, Traveling Salesman Problems</span></div>
+					<div><span style="line-height:25px;">Hetero-Agent, Multi-Objective, Traveling Salesman Problems</span></div>
 				</a>
 			</li>
             <li class = "MultiAgentPlanning">
@@ -174,7 +173,7 @@ error_reporting(E_ALL); ?>
             <li class = "MultiAgentPlanning">
 				<a href="DistributedLearningforCollaborativePolicies.php">
 					<img src="images/DistributedLearningforCollaborativePolicies.png" alt="Distributed Learning for Collaborative Policies"/>
-					<div><span>Distributed Learning for Collaborative Policies</span></div>
+					<div><span style="line-height:25px;">Distributed Learning for Collaborative Policies</span></div>
 				</a>
 			</li>
             <li class = "MultiAgentPlanning">
@@ -186,19 +185,19 @@ error_reporting(E_ALL); ?>
             <li class = "MultiAgentPlanning">
 				<a href="CommunicationLearningonDiscreteBandwidthConstrainedNetworks.php">
 					<img src="images/CommunicationLearningonDiscreteBandwidthConstrainedNetworks.png" alt="Communication Learning on Discrete Bandwidth-Constrained Networks"/>
-					<div><span>Communication Learning on Discrete Bandwidth-Constrained Networks</span></div>
+					<div><span style="line-height:25px;">Communication Learning on Discrete Bandwidth-Constrained Networks</span></div>
 				</a>
 			</li>
             <li class = "MultiAgentPlanning">
-				<a href="AssigningCreditwithPartialRewardDecouplingforEfficientLargeScaleMultiAgentLearning.php">
-					<img src="images/AssigningCreditwithPartialRewardDecouplingforEfficientLargeScaleMultiAgentLearning.png" alt="Assigning Credit with Partial Reward Decoupling for Efficient Large-Scale Multi-Agent Learning"/>
-					<div><span>Assigning Credit with Partial Reward Decoupling for Efficient Large-Scale Multi-Agent Learning</span></div>
+				<a href="PartialRewardDecouplingforEfficientLargeScaleMultiAgentLearning.php">
+					<img src="images/PartialRewardDecouplingforEfficientLargeScaleMultiAgentLearning.png" alt="Partial Reward Decoupling for Efficient Large-Scale Multi-Agent Learning"/>
+					<div><span style="line-height:25px;">Partial Reward Decoupling for Efficient Large-Scale Multi-Agent Learning</span></div>
 				</a>
 			</li>
             <li class = "Manufacturing">
 				<a href="SemiSupervisedLearningforDefectDetectioninAdditiveManufacturing.php">
 					<img src="images/SemiSupervisedLearningforDefectDetectioninAdditiveManufacturing.png" alt="Semi-Supervised Learning for Defect Detection in Additive Manufacturing"/>
-					<div><span>Semi-Supervised Learning for Defect Detection in Additive Manufacturing</span></div>
+					<div><span style="line-height:25px;">Semi-Supervised Learning for Defect Detection in Additive Manufacturing</span></div>
 				</a>
 			</li>
             <li class = "Manufacturing">
@@ -240,7 +239,7 @@ error_reporting(E_ALL); ?>
             <li class = "LocomotingSystems">
 				<a href="MagneticallyControlledMicroLocomotion.php">
 					<img src="images/MagneticallyControlledMicroLocomotion.png" alt="Magnetically Controlled Micro Locomotion"/>
-					<div><span>Magnetically Controlled Micro Locomotion</span></div>
+					<div><span style="line-height:25px;">Magnetically Controlled Micro Locomotion</span></div>
 				</a>
 			</li>
             <li class = "LocomotingSystems">
@@ -262,21 +261,21 @@ error_reporting(E_ALL); ?>
 				</a>
 			</li>
             <li class = "ConfinedSpaceRobotics">
-				<a href="PipelineSLAMRobustmappinginconfinedspaces.php">
-					<img src="images/PipelineSLAMRobustmappinginconfinedspaces.png" alt="Pipeline SLAM - Robust mapping in confined spaces"/>
-					<div><span>Pipeline SLAM - Robust mapping in confined spaces</span></div>
+				<a href="PipelineSLAMRobust.php">
+					<img src="images/PipelineSLAMRobust.png" alt="Pipeline SLAM - Robust"/>
+					<div><span>Pipeline SLAM - Robust</span></div>
 				</a>
 			</li>
             <li class = "ConfinedSpaceRobotics">
 				<a href="InsituPipeRepair.php">
-					<img src="images/InsituPipeRepair.gif" alt="In-situ Pipe Repair"/>
+					<img src="images/InsituPipeRepair.png" alt="In-situ Pipe Repair"/>
 					<div><span>In-situ Pipe Repair</span></div>
 				</a>
 			</li>
             <li class = "ConfinedSpaceRobotics">
-				<a href="ForcePerceptionLuLi.php">
-					<img src="images/ForcePerceptionLuLi.png" alt="Force Perception (Lu Li)"/>
-					<div><span>Force Perception (Lu Li)</span></div>
+				<a href="ForcePerception.php">
+					<img src="images/ForcePerception.png" alt="Force Perception"/>
+					<div><span>Force Perception</span></div>
 				</a>
 			</li>
             <li class = "ConfinedSpaceRobotics">
@@ -298,9 +297,9 @@ error_reporting(E_ALL); ?>
 				</a>
 			</li>
             <li class = "SkillLearning">
-				<a href="LearningSkillsandTemporallyAbstractWorldModelsfromOfflineDemonstrationData.php">
-					<img src="images/LearningSkillsandTemporallyAbstractWorldModelsfromOfflineDemonstrationData.png" alt="Learning Skills and Temporally Abstract World Models from Offline Demonstration Data"/>
-					<div><span>Learning Skills and Temporally Abstract World Models from Offline Demonstration Data</span></div>
+				<a href="LearningSkillsandTemporallyAbstractWorldModelsfromOfflineDemonstration.php">
+					<img src="images/LearningSkillsandTemporallyAbstractWorldModelsfromOfflineDemonstration.png" alt="Learning Skills and Temporally Abstract World Models from Offline Demonstration"/>
+					<div><span style="line-height:25px;">Learning Skills and Temporally Abstract World Models from Offline Demonstration</span></div>
 				</a>
 			</li><!-- <li class = "locomotion">
 				<a href="seriesElastic.php">

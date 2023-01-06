@@ -104,11 +104,13 @@
 			</div>
 		</div>
 		<div class="seven columns">
+			<h3>Our Research</h3>
+			<div class="five columns">
 			<ul style="list-style-type: none;">
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="MedicalRobotics") echo " class=\"active\""; ?>
 					href="research/index.php?sort=MedicalRobotics"><h4>Medical Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="FullStack") echo " class=\"active\""; ?>
-					href="research/index.php?sort=FullStack"><h4>Full Stack</h4></li></a>
+				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="FullStackAutonomy") echo " class=\"active\""; ?>
+					href="research/index.php?sort=FullStackAutonomy"><h4>Full Stack Autonomy</h4></li></a>
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="SpaceRobotics") echo " class=\"active\""; ?>
 					href="research/index.php?sort=SpaceRobotics"><h4>Space Robotics</h4></li></a>
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="UnderwaterRobotics") echo " class=\"active\""; ?>
@@ -117,6 +119,10 @@
 					href="research/index.php?sort=RecyclingRobotics"><h4>Recycling Robotics</h4></li></a>
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="ModularRobotics") echo " class=\"active\""; ?>
 					href="research/index.php?sort=ModularRobotics"><h4>Modular Robotics</h4></li></a>
+			</ul>
+			</div>
+			<div class="six columns">
+			<ul style="list-style-type: none;">
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="MultiAgentPlanning") echo " class=\"active\""; ?>
 					href="research/index.php?sort=MultiAgentPlanning"><h4>Multi-Agent Planning</h4></li></a>
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Manufacturing") echo " class=\"active\""; ?>
@@ -130,6 +136,7 @@
 				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="SkillLearning") echo " class=\"active\""; ?>
 					href="research/index.php?sort=SkillLearning"><h4>Skill Learning</h4></li></a>
 			</ul>
+			</div>
 		</div>
 		
 	</div>

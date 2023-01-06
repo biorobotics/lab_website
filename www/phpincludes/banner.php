@@ -6,7 +6,7 @@
 	<h1 class='logo'>
 		<div class="container">
 			<a href='/index.php'>Biorobotics Laboratory</a>
-			<img src='/images/RI.svg' alt="RI Logo">
+			<img src='/images/RI.png' alt="RI Logo">
 		</div>
 	</h1>
 </div>
