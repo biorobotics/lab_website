@@ -22,7 +22,7 @@
 				echo " class=\"active\""; ?>>Robots</a>
 			</li>
 			<li>
-				<a href='/research/index.php'<?php if ($section=="research") 
+				<a href='/research/index_landing.php'<?php if ($section=="research") 
 				echo " class=\"active\""; ?>>Research</a>
 			</li>
 			<li>

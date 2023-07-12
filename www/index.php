@@ -104,39 +104,10 @@
 			</div>
 		</div>
 		<div class="seven columns">
-			<h3>Our Research</h3>
-			<div class="five columns">
-			<ul style="list-style-type: none;">
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="MedicalRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=MedicalRobotics"><h4>Medical Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="FullStackAutonomy") echo " class=\"active\""; ?>
-					href="research/index.php?sort=FullStackAutonomy"><h4>Full Stack Autonomy</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="SpaceRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=SpaceRobotics"><h4>Space Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="UnderwaterRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=UnderwaterRobotics"><h4>Underwater Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="RecyclingRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=RecyclingRobotics"><h4>Recycling Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="ModularRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=ModularRobotics"><h4>Modular Robotics</h4></li></a>
-			</ul>
+			<div class="video-container" style = "margin-top: 10rem">
+				<iframe src="https://www.youtube.com/embed/tGJvrKFQcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
-			<div class="six columns">
-			<ul style="list-style-type: none;">
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="MultiAgentPlanning") echo " class=\"active\""; ?>
-					href="research/index.php?sort=MultiAgentPlanning"><h4>Multi-Agent Planning</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="Manufacturing") echo " class=\"active\""; ?>
-					href="research/index.php?sort=Manufacturing"><h4>Manufacturing</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="LocomotingSystems") echo " class=\"active\""; ?>
-					href="research/index.php?sort=LocomotingSystems"><h4>Locomoting Systems</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="ConfinedSpaceRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=ConfinedSpaceRobotics"><h4>Confined Space Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="ExpeditionaryRobotics") echo " class=\"active\""; ?>
-					href="research/index.php?sort=ExpeditionaryRobotics"><h4>Expeditionary Robotics</h4></li></a>
-				<li><a <?php if (!empty($_GET) && $_GET["sort"]=="SkillLearning") echo " class=\"active\""; ?>
-					href="research/index.php?sort=SkillLearning"><h4>Skill Learning</h4></li></a>
-			</ul>
-			</div>
+			<figcaption><strong>Latest Video:</strong>Hardened Underwater Modular Robot Snake (HUMRS)</figcaption>
 		</div>
 		
 	</div>
