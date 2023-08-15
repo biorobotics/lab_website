@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% if page.toc %}
+    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
+{% endif %}
+<div class="content">
+    {{ content }}
+    <div class="columns is-multiline">
+        <div class="column is-5">
+            <div class="columns is-multiline is-mobile">
+                {% for pi in page.pis %}
+                <div class="column is-quarter">
+                    <a href="{{ pi.link | absolute_url}}">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image {{ pi.ratio | default: is-16by9 }}">
+                                <img src="{{ pi.image }}" alt="{{ pi.name }}" />
+                              </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    {{ pi.name | markdownify }}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="column is-7">
+            {% include youtube.html video=page.video %}
+        </div>
+    </div>
+</div>

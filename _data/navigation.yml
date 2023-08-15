@@ -1,0 +1,10 @@
+- name: Robots
+  link: /robots/
+- name: Research
+  link: /research/
+- name: Applications
+  link: /applications/
+- name: Pictures & Video
+  link: /media/
+- name: Publications
+  link: /publications/
