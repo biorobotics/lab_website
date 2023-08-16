@@ -4,10 +4,9 @@ published: true
 title: power-plant-application
 category:
   - applications
+image: img/posts/power-plant-application/powerplant.png
 ---
 ## Power Plant & Industrial Inspection
-
-![Power plant]({{site.baseurl}}/img/posts/power-plant-application/powerplant.png)
 
 Current power plant and industrial inspection tools are limited in their ability to access difficult-to-reach locations. Some systems like inspection crawlers can easily drive towards a destination, but cannot fit through small openings or navigate tight turns. Other systems like borescopes are flexible and can fit through small cross-sectional access points, but are limited in their ability to push through turns or up vertical sections of piping. Snake robots combine the best of both types of tools: a small cross-section, flexibility to navigate bends, and the ability to locomote and even climb vertically. This enables the snake robots to reach locations that are otherwise inaccessible. The robots are ideal for performing remote visual inspection (RVI) or carrying a sensor payload to conduct nondestructive 
 evaluations (NDE).
