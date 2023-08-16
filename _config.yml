@@ -89,7 +89,7 @@ prose:
   # rooturl: '_posts'
   siteurl: 'http://biorobotics.github.io/lab_website'
   relativeLinks: 'http://biorobotics.github.io/lab_website/links.jsonp'
-  media: 'img/posts'
+  media: img/posts/:year-:month-:day-:title/
   metadata:
     _posts:
       - name: "category"
