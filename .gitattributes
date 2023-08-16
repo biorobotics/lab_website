@@ -7,3 +7,10 @@
 *.JPEG filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
 *.GIF filter=lfs diff=lfs merge=lfs -text
+*.GIF !text !filter !merge !diff
+*.gif !text !filter !merge !diff
+*.jpg !text !filter !merge !diff
+*.png !text !filter !merge !diff
+*.PNG !text !filter !merge !diff
+*.PDF !text !filter !merge !diff
+*.pdf !text !filter !merge !diff
