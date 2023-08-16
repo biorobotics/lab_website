@@ -108,6 +108,11 @@ prose:
           element: "text"
           label: "Title"
           value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Publish Date"
+          value: CURRENT_DATETIME
       - name: "tags"
         field:
           element: "multiselect"
@@ -117,7 +122,7 @@ prose:
             - name: "Medical Robotics"
               value: "medical_robotics"
             - name: "Full Stack Autonomy"
-              value: "full_stack autonomy"
+              value: "full_stack_autonomy"
             - name: "Space Robotics"
               value: "space_robotics"
             - name: "Underwater Robotics"
