@@ -2,7 +2,6 @@
 title:  "Autonomous Force-Controlled Ultrasound Scanning"
 categories: research
 description: "Autonomous Force-Controlled Ultrasound Scanning"
-permalink: ultrasound-scanning
 published: true
 image: /img/posts/2023-08-15-ultrasound-scanning/image81.png
 tags: MedicalRobotics

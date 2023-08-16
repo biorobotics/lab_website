@@ -2,7 +2,6 @@
 title:  "Deformation Modeling"
 categories: research
 description: "Deformation Modeling"
-permalink: deformation-modelling
 published: true
 image: /img/posts/2023-08-15-ultrasound-deformation-modelling/image46.png
 tags: MedicalRobotics

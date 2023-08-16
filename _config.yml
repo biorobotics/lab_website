@@ -69,6 +69,7 @@ defaults:
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
+      permalink: /posts/:year/:month/:day/:title/
       hide_hero: true
       summary: |
 

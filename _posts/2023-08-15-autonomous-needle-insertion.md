@@ -2,7 +2,6 @@
 title:  "Automatic Needle Insertion for Vessel Access"
 categories: research
 description: "Automatic Needle Insertion for Vessel Access"
-permalink: autonomous-needle-insertion
 published: true
 image: /img/posts/2023-08-15-autonomous-needle-insertion/AutoNeedleInsertionforVesselAccess.png
 ---
