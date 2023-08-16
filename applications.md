@@ -1,5 +1,5 @@
 ---
 layout: posts
 category: applications
-title:  Biorobotics - Research
+title:  Biorobotics - Applications
 ---

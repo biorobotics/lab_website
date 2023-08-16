@@ -1,13 +1,11 @@
 ---
-date: '2023-08-16 18:20 -0400'
 published: true
-title: power-plant-application
-category:
+title: "Power Plant & Industrial Inspection"
+description: "Autonomous Force-Controlled Ultrasound Scanning"
+categories:
   - applications
-image: img/posts/power-plant-application/powerplant.png
+image: img/posts/2023-08-16-power-plant-application/powerplant.png
 ---
-## Power Plant & Industrial Inspection
-
 Current power plant and industrial inspection tools are limited in their ability to access difficult-to-reach locations. Some systems like inspection crawlers can easily drive towards a destination, but cannot fit through small openings or navigate tight turns. Other systems like borescopes are flexible and can fit through small cross-sectional access points, but are limited in their ability to push through turns or up vertical sections of piping. Snake robots combine the best of both types of tools: a small cross-section, flexibility to navigate bends, and the ability to locomote and even climb vertically. This enables the snake robots to reach locations that are otherwise inaccessible. The robots are ideal for performing remote visual inspection (RVI) or carrying a sensor payload to conduct nondestructive 
 evaluations (NDE).
 
