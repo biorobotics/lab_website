@@ -83,3 +83,58 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://biorobotics.github.io/'
+  relativeLinks: 'http://biorobotics.github.io/links.jsonp'
+  media: 'img/posts'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Select Category"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Research"
+              value: research
+            - name: "Robots"
+              value: robots
+            - name: "Applications"
+              value: applications
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Medical Robotics"
+              value: "medical_robotics"
+            - name: "Full Stack Autonomy"
+              value: "full_stack autonomy"
+            - name: "Space Robotics"
+              value: "space_robotics"
+            - name: "Underwater Robotics"
+              value: "underwater_robotics"
+            - name: "Recycling Robotics"
+              value: "recycling_robotics"
+            - name: "Modular Robotics"
+              value: "modular_robotics"
+            - name: "Multi-Agent Planning"
+              value: "multi-agent_planning"
+            - name: "Manufacturing"
+              value: "manufacturing"
+            - name: "Locomoting Systems"
+              value: "locomoting_systems"
+            - name: "Confined Space Robotics"
+              value: "confined_space_robotics"
+            - name: "Expeditionary Robotics"
+              value: "expeditionary_robotics"
+            - name: "Skill Learning"
+              value: "skill_learning"
