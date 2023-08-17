@@ -12,8 +12,6 @@ Certain areas of nuclear power plants or nuclear waste storage locations are hig
 
 {% youtube QQSHFkITIiI %}
 
-![nuclear.png]({{site.baseurl}}/img/posts/nuclear.png)
-
 
 **Remote access to radioactive areas**
 
