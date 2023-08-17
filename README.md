@@ -10,7 +10,15 @@ Either click one of the existing posts or press "New File" to make a new one
 
 On the right hand side are several buttons. The topmost lets you edit markdown, the second gives a simple preview, the third one shows you metadata, the fourth lets you see your filepath, and the last one lets you commit your changes
 
-## Steps:
+## If you are making large changes:
+
+1. Make a fork of this repository
+2. Make a new branch with a descriptive name
+3. Make the changes you need using GIT
+4. Push changes to your repository's new branch
+5. Make a pull request with your changes to the gh-pages branch
+
+## Steps for beginners:
 
 1. ### Editing markdown (Pencil icon)
 	This is where you will add the content of your site.
