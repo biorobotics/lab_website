@@ -1,8 +1,9 @@
 <div class="card">
     {% if post.image %}
-    <div class="card-image">
-        <img src="{{ post.image }}" alt="{{ post.title }}" style="width:100%;">
-    </div>
+    <figure class="image is-1by1">
+        <img src="{{ post.image | absolute_url }}" alt="{{ post.title }}">
+    </figure>
+    
     {% else %}
     <header class="card-header">
         <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
