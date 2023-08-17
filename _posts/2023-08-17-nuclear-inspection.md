@@ -24,3 +24,7 @@ The robots can squeeze through small openings to access tanks or storage casks. 
 ## Zwentendorf Nuclear Power Plant Deployment
 
 In May of 2013, researchers from the CMU Biorobotics Lab performed test deployments inside of the Zwentendorf Nuclear Power Plant in Zwentendorf, Austria. The snake robots were sent inside of several steam pipes, vessels, and other confined spaces to test the robots' ability to perform useful inspections inside a nuclear power plant environment. The robot was able to capture high-quality, well-lit images from areas that would not have been accessible with borescopes or other conventional inspection tools.
+
+[Zwentendorf Deployment Press Release](http://biorobotics.ri.cmu.edu/applications/images/SnakeRobotZwentendorfPressRelease.pdf)
+
+[Zwentendorf Deployment Pictures, Videos, and Report](http://biorobotics.ri.cmu.edu/applications/ZwentendorfPics.php)
