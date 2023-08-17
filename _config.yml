@@ -92,10 +92,15 @@ prose:
   media: img/posts/
   metadata:
     _posts:
+      - name: "image"
+        field:
+          label: "Image (Required)"
+          element: "text"
+          value: "img/posts/default.png"
       - name: "categories"
         field:
-          element: "multiselect"
-          label: "Select Category"
+          element: "select"
+          label: "Select Category (Required)"
           placeholder: "Choose Tags"
           options:
             - name: "Research"
@@ -107,7 +112,7 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
+          label: "Title (Required)"
           value: ""
       - name: "date"
         field:
@@ -144,7 +149,3 @@ prose:
               value: "expeditionary_robotics"
             - name: "Skill Learning"
               value: "skill_learning"
-      - name: "image"
-        field:
-          element: "text"
-          value: "img/posts/"
