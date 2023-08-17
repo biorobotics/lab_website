@@ -1,7 +1,7 @@
 ---
 image: img/posts/scouting.png
 date: '2023-08-17 15:02 -0400'
-published: false
+published: true
 title: Scouting & Recon
 categories: applications
 tags:
