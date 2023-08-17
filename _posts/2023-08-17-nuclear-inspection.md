@@ -1,8 +1,12 @@
 ---
 date: '2023-08-17 13:37 -0400'
-image: img/posts/
+image: img/posts/nuclear.png
 published: false
 title: Nuclear Inspection
+categories:
+  - applications
+tags:
+  - expeditionary_robotics
 ---
 Certain areas of nuclear power plants or nuclear waste storage locations are highly radioactive and cannot be safely accessed by people. While a variety of conventional robots have been developed to help provide access to radioactive locations, there are still limitations to where these robots can access and move. Snakelike robots' size and maneuverability could provide access to otherwise unreachable locations within these radioactive environments. In particular, these robots could address the challenge of inspecting inside of dry storage casks, waste storage tanks, piping within nuclear power plants or waste vitrification plants, or in other radioactive locations. The robot's ability to swim could also enable them to perform underwater tasks such as spent fuel pool inspection or reaching locations within boiling water reactors.
 
