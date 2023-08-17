@@ -4,9 +4,10 @@
 
 1. Make a fork of this repository
 2. Make a new branch with a descriptive name
-3. Make the changes you need using GIT
-4. Push changes to your repository's new branch
-5. Make a pull request with your changes to the gh-pages branch
+3. Follow these steps to preview your changes live https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+4. Make the changes you need using GIT
+5. Push changes to your repository's new branch
+6. Make a pull request with your changes to the gh-pages branch
 
 ## Steps for beginners:
 
