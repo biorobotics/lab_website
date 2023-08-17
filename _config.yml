@@ -86,7 +86,7 @@ collections:
     show_sidebar: false
 
 prose:
-  # rooturl: '_posts'
+  rooturl: '_posts'
   siteurl: 'http://biorobotics.github.io/lab_website'
   relativeLinks: 'http://biorobotics.github.io/lab_website/links.jsonp'
   media: img/posts/
