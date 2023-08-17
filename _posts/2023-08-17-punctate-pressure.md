@@ -1,5 +1,5 @@
 ---
-image: img/posts/image106.png
+image: img/posts/image106.jpg
 date: '2023-08-17 15:29 -0400'
 published: true
 title: Punctate Pressure
