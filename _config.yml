@@ -6,7 +6,7 @@ email: choset@andrew.cmu.edu
 description: >
   The website for the Carnegie Mellon Biorobitcs lab
 baseurl: "/lab_website"
-url: "https://www.biorobotics.org"
+# url: "https://biorobotics.github.io/"
 permalink: pretty
 #favicon: /path/to/favicon.png
 # gh_sponsor: chrisrhymes
