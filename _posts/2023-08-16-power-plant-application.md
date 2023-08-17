@@ -11,7 +11,7 @@ evaluations (NDE).
 
 Snake robots' capabilities can be applied to performing inspections in turbines, in piping systems, or in other power generation equipment such as Heat Recovery Steam Generators (HRSGs). By reaching these locations and performing an inspection during planned maintenance periods, problems can be found and addressed to avoid unplanned downtime.
 
-{% youtube fIXnjnEpMDs %}
+<figure class="image is-16by9"><iframe class="has-ratio" src="http://www.youtube.com/embed/fIXnjnEpMDs" frameborder="0" allowfullscreen></iframe></figure>
 
 **Small & Flexible Like a Borescope**
 
