@@ -1,15 +1,5 @@
 # Lab webiste
 
-How to edit:
-
-Go to [https://prose.io/#biorobotics/lab_website](https://prose.io/#biorobotics/lab_website)
-
-You have to have a valid github ID and be part of the biorobotics organization to allow prose permission to access the lab website
-
-Either click one of the existing posts or press "New File" to make a new one
-
-On the right hand side are several buttons. The topmost lets you edit markdown, the second gives a simple preview, the third one shows you metadata, the fourth lets you see your filepath, and the last one lets you commit your changes
-
 ## If you are making large changes:
 
 1. Make a fork of this repository
@@ -19,6 +9,14 @@ On the right hand side are several buttons. The topmost lets you edit markdown, 
 5. Make a pull request with your changes to the gh-pages branch
 
 ## Steps for beginners:
+
+Go to [https://prose.io/#biorobotics/lab_website](https://prose.io/#biorobotics/lab_website)
+
+You have to have a valid github ID and be part of the biorobotics organization to allow prose permission to access the lab website
+
+Either click one of the existing posts or press "New File" to make a new one
+
+On the right hand side are several buttons. The topmost lets you edit markdown, the second gives a simple preview, the third one shows you metadata, the fourth lets you see your filepath, and the last one lets you commit your changes
 
 1. ### Editing markdown (Pencil icon)
 	This is where you will add the content of your site.
