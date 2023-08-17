@@ -12,6 +12,9 @@ Certain areas of nuclear power plants or nuclear waste storage locations are hig
 
 {% youtube QQSHFkITIiI %}
 
+![nuclear.png]({{site.baseurl}}/img/posts/nuclear.png)
+
+
 **Remote access to radioactive areas**
 
 The robot's wide range of locomotion capabilities allow it to remotely access radioactive environments, while keeping workers away from harmful radiation.
