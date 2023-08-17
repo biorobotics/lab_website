@@ -89,10 +89,10 @@ prose:
   # rooturl: '_posts'
   siteurl: 'http://biorobotics.github.io/lab_website'
   relativeLinks: 'http://biorobotics.github.io/lab_website/links.jsonp'
-  media: img/posts/:year-:month-:day-:title/
+  media: img/posts/
   metadata:
     _posts:
-      - name: "category"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Select Category"
@@ -144,3 +144,7 @@ prose:
               value: "expeditionary_robotics"
             - name: "Skill Learning"
               value: "skill_learning"
+      - name: "image"
+        field:
+          element: "text"
+          value: "img/posts/"

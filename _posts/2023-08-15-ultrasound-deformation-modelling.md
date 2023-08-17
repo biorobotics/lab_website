@@ -1,14 +1,15 @@
 ---
 title:  "Deformation Modeling"
-categories: research
+categories:
+    - research
 description: "Deformation Modeling"
 published: true
-image: img/posts/2023-08-15-ultrasound-deformation-modelling/image46.png
+image: img/posts/image46.png
 tags: MedicalRobotics
 ---
 
 <figure>
- <img src="img/posts/2023-08-15-ultrasound-deformation-modelling/image46.png" alt="" />
+ <img src="img/posts/image46.png" alt="" />
 </figure>
 
 While the human body is rigid to a certain degree based on the skeleton, soft tissue is
