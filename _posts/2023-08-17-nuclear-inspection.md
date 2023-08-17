@@ -1,7 +1,7 @@
 ---
 date: '2023-08-17 13:37 -0400'
 image: img/posts/nuclear.png
-published: false
+published: true
 title: Nuclear Inspection
 categories:
   - applications
