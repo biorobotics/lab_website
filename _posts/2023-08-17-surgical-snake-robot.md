@@ -11,7 +11,7 @@ tags:
 ---
 
 
-<figure class="image is-16by9"><iframe class="has-ratio" src="http://www.youtube.com/embed/QqpWGpVGd9c" frameborder="0" allowfullscreen></iframe></figure>
+<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/QqpWGpVGd9c" frameborder="0" allowfullscreen></iframe></figure>
 
 Progression of medical technology has brought dramatic improvements in surgical outcomes and prognosis. Recently, minimally invasive surgery has been emphasized for reducing large invasiveness of traditional surgical techniques. In particular, robotic-assisted surgery is playing an important role in minimally invasive surgery. Minimally invasive robotic surgery has been applied in the cardiothoracic, abdominal, urologic, and gynecologic fields.
 

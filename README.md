@@ -26,7 +26,7 @@ On the right hand side are several buttons. The topmost lets you edit markdown, 
 
 	If you need to embed a youtube video, do the following
 
-	`<figure class="image is-16by9"><iframe class="has-ratio" src="http://www.youtube.com/embed/YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe></figure>`
+	`<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe></figure>`
 
 	making sure to replace YOUTUBE_VIDEO_ID with the 11 character video ID. It will not show up in the preview but it will show up on the site
 

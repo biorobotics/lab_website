@@ -9,7 +9,7 @@ tags:
 ---
 The snake robot's versatile abilities make it a useful tool for reaching locations or viewpoints that humans or other equipment cannot. The robots are able to climb to a high vantage point, maneuver through a variety of terrains, and fit through tight spaces like fences or pipes. These abilities can be useful for scouting and reconnaissance applications in either urban or natural environments.
 
-<figure class="image is-16by9"><iframe class="has-ratio" src="http://www.youtube.com/embed/YlnXNLcwfFY" frameborder="0" allowfullscreen></iframe></figure>
+<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/YlnXNLcwfFY" frameborder="0" allowfullscreen></iframe></figure>
 
 **Climbing to high vantage points**
 The snake robots can be deployed to quickly climb a flagpole, structural support, gutter downspout, pipe, or tree and provide a view from a high vantage point.
