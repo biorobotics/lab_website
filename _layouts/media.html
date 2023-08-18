@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+{% if page.menubar or page.menubar_toc %}
+{% endif %}
+
+<html
+ dir="{{ site.direction | default: 'ltr' }}"
+ lang="{{ site.lang | default: 'en' }}"
+ {% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% include callouts.html %}
+
+    <section class="section">
+        <div class="container">
+            <div class="column is-12">
+                <div class="column is-12">
+                    <p class="title is-3 has-text-centered">Videos</p>
+                </div>
+
+                <div class="columns is-multiline">
+                    {% for video in page.videos %}
+                        {% if video.type=="youtube" %}
+                        <div class="column is-4">
+                            <figure class="image is-16by9">
+                                <iframe class="has-ratio" src="http://www.youtube.com/embed/{{ video.id }}" frameborder="0" allowfullscreen></iframe>
+                            </figure>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="column is-12">
+
+                <div class="column is-12">
+                    <p class="title is-3 has-text-centered">Images</p>
+                </div>
+
+                <div class="columns is-multiline">
+                    {% for image in page.images %}
+                    <div class="column is-3-desktop is-4-tablet">
+                        <div class="card">
+                            <div class="card-image">
+                                {% include image-modal.html ratio=is4x3 link=image.link alt=image.alt large_link=image.large_link %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% unless page.hide_footer %}
+        {% include footer.html %}
+    {% endunless %}
+    <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+    {%- include footer-scripts.html -%}
+  </body>
+</html>
