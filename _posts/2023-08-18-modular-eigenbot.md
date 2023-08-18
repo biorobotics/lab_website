@@ -3,7 +3,7 @@ date: '2023-08-18 12:10 -0400'
 published: true
 title: Modular EigenBot
 categories: robots
-image: /img/posts/EigenBot_Family.png
+image: /img/posts//Eigenbot_Assembly_x8_720x720.gif.gif
 tags:
   - modular_robotics
   - locomoting_systems
