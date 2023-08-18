@@ -1,8 +1,12 @@
 ---
-image: img/posts/default.png
 date: '2023-08-18 12:10 -0400'
-published: false
+published: true
 title: Modular EigenBot
+categories: robots
+image: /img/posts/EigenBot_Family.png
+tags:
+  - modular_robotics
+  - locomoting_systems
 ---
 Modular components need to be developed for both hardware and software modularity. Over the past few years we have been developing systems made of multiple modules that could be replicated to expand or modify an existing robot. We had to develop a full menu of components that work together and allow field technicians and end consumers to assemble components to build a custom modular robot. This approach lets users build robots to meet their needs and the environment; and does not force them to work around the robot.
 
