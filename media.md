@@ -26,7 +26,7 @@ images:
 videos:
   - name: "Snake robot overview"
     type: google_drive
-    id: 0B2LF_3WEQeImX0oxalpjTnBVTEE
+    id: 0B2LF_3WEQeImX0oxalpjTnBVTEE/preview?resourceKey=0-CgPlZ4jTVf1vthLvboofTA
   - name: "Perching"
     type: youtube
     id: te4M-b69fVs
