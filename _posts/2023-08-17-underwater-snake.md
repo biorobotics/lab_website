@@ -1,7 +1,7 @@
 ---
 image: img/posts/HUMRS_Vertical_Pipe.gif
 date: '2023-08-17 20:33 -0400'
-published: false
+published: true
 title: Underwater Snake
 categories: robots
 tags:
