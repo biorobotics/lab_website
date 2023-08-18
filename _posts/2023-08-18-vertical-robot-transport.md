@@ -5,6 +5,8 @@ categories:
 description: "Vertical Robot Transport (VeRT)"
 published: true
 image: img/posts/VeRT.gif
+tags:
+    - locomoting_systems
 ---
 
 <figure>

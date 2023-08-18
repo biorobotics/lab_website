@@ -5,7 +5,7 @@ categories:
 description: "Autonomous Force-Controlled Ultrasound Scanning"
 published: true
 image: img/posts/image81.png
-tags: MedicalRobotics
+tags: medical_robotics
 ---
 
 <figure>

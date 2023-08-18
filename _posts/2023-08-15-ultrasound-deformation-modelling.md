@@ -5,7 +5,7 @@ categories:
 description: "Deformation Modeling"
 published: true
 image: img/posts/image46.png
-tags: MedicalRobotics
+tags: medical_robotics
 ---
 
 <figure>
