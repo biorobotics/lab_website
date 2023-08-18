@@ -1,5 +1,5 @@
 ---
-image: img/posts/default.png
+image: img/posts/MEP_Fast.gif
 date: '2023-08-17 20:24 -0400'
 published: false
 title: On-Orbit Servicing
