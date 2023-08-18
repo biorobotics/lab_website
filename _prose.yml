@@ -1,0 +1,64 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://biorobotics.github.io/lab_website'
+  relativeLinks: 'http://biorobotics.github.io/lab_website/links.jsonp'
+  media: img/posts/
+  metadata:
+    _posts:
+      - name: "image"
+        field:
+          label: "Image (Required)"
+          element: "text"
+          value: "img/posts/default.png"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Select Category (Required)"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Research"
+              value: research
+            - name: "Robots"
+              value: robots
+            - name: "Applications"
+              value: applications
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title (Required)"
+          value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Publish Date"
+          value: CURRENT_DATETIME
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Medical Robotics"
+              value: "medical_robotics"
+            - name: "Full Stack Autonomy"
+              value: "full_stack_autonomy"
+            - name: "Space Robotics"
+              value: "space_robotics"
+            - name: "Underwater Robotics"
+              value: "underwater_robotics"
+            - name: "Recycling Robotics"
+              value: "recycling_robotics"
+            - name: "Modular Robotics"
+              value: "modular_robotics"
+            - name: "Multi-Agent Planning"
+              value: "multi-agent_planning"
+            - name: "Manufacturing"
+              value: "manufacturing"
+            - name: "Locomoting Systems"
+              value: "locomoting_systems"
+            - name: "Confined Space Robotics"
+              value: "confined_space_robotics"
+            - name: "Expeditionary Robotics"
+              value: "expeditionary_robotics"
+            - name: "Skill Learning"
+              value: "skill_learning"
