@@ -2,6 +2,7 @@
   link: /robots/
 - name: Research
   link: /research/
+  dropdown_from_tags: true
 - name: Applications
   link: /applications/
 - name: Pictures & Video

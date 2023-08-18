@@ -20,11 +20,25 @@
                     <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
-                            {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                            {% endfor %}
+                                {% for subitem in item.dropdown %}
+                                <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                                {% endfor %}
                         </div>
                     </div>
+                    {% elsif item.dropdown_from_tags %}
+                    {% assign category = item.name | downcase %}
+                    {% assign posts = site.posts | where:"categories", category | where: 'published', 'true' %}
+                    {% assign tags =  posts | map: 'tags' | join: ','  | split: ',' | uniq %}
+                        <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                            <a href="{{ item.link | relative_url }}?tag=all" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                            <div class="navbar-dropdown">
+                                    <a href="{{ item.link | relative_url }}?tag=all" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">all</a>
+                                    {% for tag in tags %}
+                                    {% assign tagName = tag | replace: "_", " " | capitalize %}
+                                    <a href="{{ item.link | relative_url}}?tag={{ tag }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ tagName }}</a>
+                                    {% endfor %}
+                            </div>
+                        </div>
                     {% else %}
                     <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                     {% endif %}

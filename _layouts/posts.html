@@ -4,11 +4,58 @@ layout: default
 
 {{ content }}
 
-{% assign posts = site.posts | where:"categories",page.category %}
+{% assign posts = site.posts | where:"categories",page.category | where: 'published', 'true' %}
+{% assign tags =  posts | map: 'tags' | join: ','  | split: ',' | uniq %}
+
+<style type="text/css">
+  .button.is-primary:not(.active) {
+    background-color: grey;
+  }
+</style>
+
 <div class="columns is-multiline">
+    {% if page.tag_sort %}
+    <div class="column is-12">
+        <p class="title is-3">Tags</p>
+        <div class="columns is-multiline">
+            <div class="has-text-centered" style="margin:10px">
+                <a href="{{ page.url| absolute_url }}?tag=all" id="all" class="button is-primary">All</a>
+            </div>
+            {% for tag in tags %}
+            {% assign tagName = tag | replace: "_", " " | capitalize %}
+            <div class="has-text-centered" style="margin:10px">
+                <a href="{{ page.url '| absolute_url }}?tag={{ tag  }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
     {% for post in posts %}
-    <div class="column is-3-desktop is-6-tablet">
+    <div class="column is-3-desktop is-6-tablet {% for tag in post.tags %} {{ tag }} {% endfor %}" style="display: none;">
         {% include post-card.html %}
     </div>
     {% endfor %}
 </div>
+
+<script type="text/javascript">
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const tag = urlParams.get("tag");
+    var elems;
+    if (tag != "all" & tag != "")
+    {
+        const elem = document.getElementById(tag);
+        elem.classList.add("active");
+        elems = document.getElementsByClassName(tag);
+    } else {
+        const elem = document.getElementById("all");
+        elem.classList.add("active");
+        elems = document.getElementsByClassName("column");
+    }
+    for (let i = 0; i < elems.length; i++) {
+      elems[i].style.display = 'block';
+    }
+
+</script>
+
