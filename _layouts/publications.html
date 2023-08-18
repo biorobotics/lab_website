@@ -1,0 +1,31 @@
+---
+title:  Biorobotics - Research
+---
+<!DOCTYPE html>
+{% if page.menubar or page.menubar_toc %}
+{% assign has_left_sidebar = true %}
+{% endif %}
+
+<html
+ dir="{{ site.direction | default: 'ltr' }}"
+ lang="{{ site.lang | default: 'en' }}"
+ {% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
+  {% include head.html %}
+  <body styel="overflow:hidden; height:100%">
+    {% include header.html %}
+
+    <section class="section">
+		<div class="container">
+			<iframe id="papers" width="100%" src="http://biorobotics.ri.cmu.edu/papers/embed.php" style="height:80vh"></iframe>
+			<!-- <embed  id="papers" src="http://biorobotics.ri.cmu.edu/papers/embed.php"/> -->
+		</div>
+	</div>
+
+<script>
+var iframe = document.getElementById("papers");
+iframe.onload = function(){ iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px'; }
+</script>
+  </body>
+</html>
+
+
