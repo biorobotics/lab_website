@@ -4,8 +4,9 @@ layout: default
 
 {{ content }}
 
-{% assign posts = site.posts | where:"categories",page.category | where: 'published', 'true' %}
+{% assign posts = site.posts | where:"categories", page.category | where: 'published', 'true' %}
 {% assign tags =  posts | map: 'tags' | join: ','  | split: ',' | uniq %}
+
 
 <style type="text/css">
   .button.is-primary:not(.active) {
@@ -24,7 +25,7 @@ layout: default
             {% for tag in tags %}
             {% assign tagName = tag | replace: "_", " " | capitalize %}
             <div class="has-text-centered" style="margin:10px">
-                <a href="{{ page.url '| absolute_url }}?tag={{ tag  }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
+                <a href="{{ page.url | absolute_url }}?tag={{ tag  }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
             </div>
             {% endfor %}
         </div>
@@ -44,11 +45,11 @@ layout: default
     const tag = urlParams.get("tag");
     var elems;
     elems = document.getElementsByClassName("hider");
-    for (let i = 0; i < elems.length; i++) {
-      elems[i].style.display = 'none';
-    }
-    if (tag != "all" & tag != "")
+    if (tag != "all" && tag != "" && tag != null)
     {
+        for (let i = 0; i < elems.length; i++) {
+          elems[i].style.display = 'none';
+        }
         const elem = document.getElementById(tag);
         elem.classList.add("active");
         elems = document.getElementsByClassName(tag);
