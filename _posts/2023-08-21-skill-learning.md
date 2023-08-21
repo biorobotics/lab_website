@@ -1,5 +1,5 @@
 ---
-image: img/posts/variable_length_skill_execution.png
+image: img/posts/variable_length_skill_execution.gif
 date: '2023-08-21 16:49 -0500'
 published: false
 title: Skill Learning
