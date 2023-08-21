@@ -1,7 +1,7 @@
 ---
 image: img/posts/MMPUG_staircase.gif
 date: '2023-08-21 15:20 -0400'
-published: false
+published: true
 title: Full Stack Autonomy
 categories: research
 tags:

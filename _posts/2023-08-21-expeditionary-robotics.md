@@ -1,7 +1,7 @@
 ---
 image: img/posts/Expeditionary_MACC.gif
 date: '2023-08-21 14:25 -0400'
-published: false
+published: true
 title: Expeditionary Robotics
 categories: research
 tags:

@@ -1,7 +1,7 @@
 ---
 image: img/posts/Wombat_Punchstation.gif
 date: '2023-08-21 15:16 -0400'
-published: false
+published: true
 title: E-waste Recycling
 categories: research
 ---
