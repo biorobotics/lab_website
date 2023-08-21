@@ -23,9 +23,10 @@ layout: default
                 <a href="{{ page.url| absolute_url }}?tag=all" id="all" class="button is-primary">All</a>
             </div>
             {% for tag in tags %}
-            {% assign tagName = tag | replace: "_", " " | capitalize %}
-            <div class="has-text-centered" style="margin:10px">
-                <a href="{{ page.url | absolute_url }}?tag={{ tag  }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
+            {% assign tagName = tag | replace: "_", " "%}
+            {% assign url =  page.url | absolute_url | append: "?tag=" | append: tag %}
+            <div class="has-text-centered" style="margin:10px; text-transform:capitalize;">
+                <a href="{{ url }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
             </div>
             {% endfor %}
         </div>
