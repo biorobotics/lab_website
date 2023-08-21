@@ -1,7 +1,7 @@
 ---
 image: img/posts/variable_length_skill_execution.gif
 date: '2023-08-21 16:49 -0500'
-published: false
+published: true
 title: Skill Learning
 categories: research
 tags:
