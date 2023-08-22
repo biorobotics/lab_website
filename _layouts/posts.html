@@ -24,7 +24,7 @@ layout: default
             </div>
             {% for tag in tags %}
             {% assign tagName = tag | replace: "_", " "%}
-            {% assign url =  page.url | absolute_url | append: "?tag=" | append: tag %}
+            {% assign url =  page.url | relative_url | append: "?tag=" | append: tag %}
             <div class="has-text-centered" style="margin:10px; text-transform:capitalize;">
                 <a href="{{ url }}" id="{{ tag }}" class="button is-primary">{{ tagName }}</a>
             </div>

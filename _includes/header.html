@@ -35,7 +35,7 @@
                                     <a href="{{ item.link | relative_url }}?tag=all" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">All</a>
                                     {% for tag in tags %}
                                     {% assign tagName = tag | replace: "_", " " %}
-                                    {% assign url =  page.url | absolute_url | append: "?tag=" | append: tag %}
+                                    {% assign url =  item.link | relative_url | append: "?tag=" | append: tag %}
                                     <a href="{{ url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ tagName }}</a>
                                     {% endfor %}
                             </div>
