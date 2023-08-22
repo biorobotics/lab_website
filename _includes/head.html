@@ -20,4 +20,5 @@
     {%- endif -%}
     {%- include head-scripts.html -%}
     <base href="{{ site.baseurl }}/">
+    <META HTTP-EQUIV='Content-Security-Policy' CONTENT="default-src * 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' http://biorobotics.ri.cmu.edu/papers/embed.php https://unpkg.com"
 </head>
