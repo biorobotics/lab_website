@@ -5,7 +5,7 @@ tagline: Biorobotics lab website
 email: choset@andrew.cmu.edu
 description: >
   The website for the Carnegie Mellon Biorobitcs lab
-baseurl: "/lab_website"
+# baseurl: "/lab_website"
 url: "http://biorobotics.org/"
 permalink: pretty
 #favicon: /path/to/favicon.png
