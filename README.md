@@ -1,5 +1,10 @@
 # Lab webiste
 
+## First steps
+
+1. Make a fork of this repository
+2. Make a new branch with a descriptive name
+
 ## If you are making large changes:
 
 1. Make a fork of this repository
@@ -11,9 +16,9 @@
 
 ## Steps for beginners:
 
-Go to [https://prose.io/#biorobotics/lab_website](https://prose.io/#biorobotics/lab_website)
+Go to https://prose.io/#YOUR_USER_NAME/lab_website/tree/YOUR_BRANCH_NAME
 
-You have to have a valid github ID and be part of the biorobotics organization to allow prose permission to access the lab website
+On the top right there should be a drop down that lets you switch to the branch you made
 
 Either click one of the existing posts or press "New File" to make a new one
 
@@ -42,11 +47,12 @@ On the right hand side are several buttons. The topmost lets you edit markdown, 
 
 	Adding tags for posts is necessary for them to show up when sorted. You can add multiple tags to each post.
 
+under "Raw Metadata" you can add 'published: true' if you are ready to publish.
+
 5. ### Preview (Eye icon)
    Make sure to preview your work before publishing it
 
 6. ### Publish (Floppy disk icon)
    This is where you will save the file. Make sure to edit your commit message to be very clear.
 
-4. ### Ready for publishing?
-   Go back to the markdown section (pencil icon) and click the checkmark at the top right.
+7. Open a pull request from your branch.
