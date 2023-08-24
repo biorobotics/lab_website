@@ -22,7 +22,7 @@ Relevant industries include but are not limited to natural gas, infrustructure (
 
 ### Cloud-Based Data Storage and Web-Based Visualization
 
-To facilitate downstream usage, we are in the process of developing a in-pipe scanning database and user interfaces for interactive visualizating the scans. [This website](vis.pipe.report) shows a sample point cloud of the pipe interior we reconstructed.
+To facilitate downstream usage, we are developing a in-pipe scanning database and user interfaces for interactive visualizating the scans. [This website](vis.pipe.report) shows a reconstructed point cloud sample of the pipe interior.
 
 ### Data Capturing for Anomaly Detection and Predictive Maintenance
 
