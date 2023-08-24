@@ -8,7 +8,6 @@ published: true
 image: img/posts/ground_exploration_crop.gif
 tags:
   - multi_agent
-  - expeditionary_robotics
   - full_stack_autonomy
 ---
 
