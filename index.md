@@ -18,7 +18,7 @@ pis:
       name: Matthew Travers
 ---
 
-# Our lab
+# Our Lab
 
 The Biorobotics Lab reduces complicated high-dimensional problems found in robotics to low-dimensional simpler ones for design, analysis, and planning. Often, we look to biology for inspiration and sometimes, we return the favor by providing analysis that models biology.
 
