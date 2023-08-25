@@ -7,6 +7,7 @@ published: true
 image: img/posts/reu_system.png
 tags:
     - locomoting_systems
+    - modular_robotics
 ---
 
 <figure>

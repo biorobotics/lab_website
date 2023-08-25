@@ -6,7 +6,8 @@ date: '2023-08-23 16:29 -0400'
 published: true
 title: 'Confined-Space Sensing and 3D Reconstruction'
 tags:
-    - confined-space_perception
+    - confined_space_robotics
+    - simultaneous_localization_and_mapping
 ---
 Confined-space applications require specialized 3D sensors to scan the environment, detect objects, and avoid obstacles. Compared to mainstream sensors being widely used among the robotics community, such as Lidar and machine vision cameras, 3D sensors for confined spaces have additional requirements on the miniature size, ultra-short sensing ranges, and high accuracy.
 

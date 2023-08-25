@@ -4,6 +4,9 @@ title: "Pipe Inspection"
 categories:
   - applications
 image: img/posts/pipe-inspection-application-cover.png
+tags:
+  - inspection_and_repair
+  - confined_space_robotics
 ---
 
 

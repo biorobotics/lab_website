@@ -5,6 +5,8 @@ categories:
 description: "Toward Practical Ultrasound AI Across Real-World Patient Diversity"
 published: true
 image: img/posts/image100.png
+tags: 
+    - medical_robotics
 ---
 
 <figure>

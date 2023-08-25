@@ -5,6 +5,8 @@ categories:
 description: "Automatic Needle Insertion for Vessel Access"
 published: true
 image: img/posts/AutoNeedleInsertionforVesselAccess.png
+tags: 
+    - medical_robotics
 ---
 
 <figure>
