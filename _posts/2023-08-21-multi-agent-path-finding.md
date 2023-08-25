@@ -11,9 +11,13 @@ tags:
 
 ### Table of Contents
 
-1. [Multi-Agent Path Finding](#multi-agent-path-finding)
-2. [Multi-Agent Multi-Objective Path Planning](#multi-agent-multi-objective-path-planning)
-3. [Multi-Agent Target Sequencing Path Finding](#multi-agent-target-sequencing-path-planning)
+
+<A href="#multi-agent-path-finding">1. Multi-Agent Path Finding</A>
+
+<A href="#multi-agent-multi-objective-path-planning">2. Multi-Agent Multi-Objective Path Planning</A>
+
+<A href="#multi-agent-target-sequencing-path-planning">3. Multi-Agent Target Sequencing Path Finding</A>
+
 
 
 ### Multi Agent Path Finding
