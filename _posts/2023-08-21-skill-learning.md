@@ -29,3 +29,10 @@ Our approach consists of an offline skill-learning phase and an online planning 
 We further extend this approach to build agents that can dynamically vary the coarseness of their temporal abstractions. We do so by assuming an underlying hierarchical data-generating process where skills of variable length are responsible for producing the trajectories in the dataset we are given. We then use an unsupervised, variational approach to learn the unobserved segmentation points between skills. Once we have a decomposition of trajectories into skills of variable length, we follow our previous work by learning a space of skills, policies, and abstract dynamics. In addition, we also learn a __state-dependent__ termination condition that allows us to end the execution of a skill only after its intended goal has been accomplished and not just after a predetermined amount of time. We find that allowing for skills of variable lengths allows us to learn more accurate and precise temporally abstract dynamics and perform better in downstream planning than skills of fixed-length.
 
 ![variable_length_skill_pgm.png]({{site.baseurl}}/img/posts/variable_length_skill_pgm.png)
+
+
+If you are interested in this project, or related areas in reinforcement learning, please contact Ben Freed (bfreed@andrew.cmu.edu).
+
+
+[1] Freed, B., Venkatraman, S., Sartoretti, G.A., Schneider, J. & Choset, H.. (2023). Learning Temporally AbstractWorld Models without Online Experimentation. <i>Proceedings of the 40th International Conference on Machine Learning</i>, in <i>Proceedings of Machine Learning Research</i> 202:10338-10356 Available from https://proceedings.mlr.press/v202/freed23a.html.
+
