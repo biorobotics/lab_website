@@ -11,9 +11,13 @@ tags:
 
 ### Table of Contents
 
-1. [Multi-Agent Path Finding](#multi-agent-path-finding)
-2. [Multi-Agent Multi-Objective Path Planning](#multi-agent-multi-objective-path-planning)
-3. [Multi-Agent Target Sequencing Path Finding](#multi-agent-target-sequencing-path-planning)
+
+<A href="#multi-agent-path-finding">1. Multi-Agent Path Finding</A>
+
+<A href="#multi-agent-multi-objective-path-finding">2. Multi-Agent Multi-Objective Path Finding</A>
+
+<A href="#multi-agent-target-sequencing-path-finding">3. Multi-Agent Target Sequencing Path Finding</A>
+
 
 
 ### Multi Agent Path Finding
@@ -30,7 +34,7 @@ Subdimensional expansion is an approach that is able to adapt existing planners,
 M* can be proven to find an optimal path in finite time, or to terminate in finite time that no path exists.
 
 
-### Multi Agent Multi-Objective Path Planning
+### Multi Agent Multi Objective Path Finding
 
 
 <figure>
@@ -49,7 +53,7 @@ E-MO-A* expedites the existing multi-objective search for up to an order of magn
 Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
 
 
-### Multi Agent Target Sequencing Path Planning
+### Multi Agent Target Sequencing Path Finding
 
 
 <figure>
