@@ -4,6 +4,7 @@ title:  Biorobotics - Pictures and Video
 images:
   - link: img/media/barbiebot.jpg
   - link: img/media/snake1.jpg
+  - link: img/media/exploration.png
   - link: img/media/snake6.jpg
   - link: img/media/snakeMexico2.jpg
   - link: img/media/snoopy.jpg
@@ -33,9 +34,15 @@ videos:
   - name: "Series Elasticity"
     type: youtube
     id: 8jvwrvbYAiY
+  - name: "Autonomous Exploration Aerial"
+    type: youtube
+    id: kbKSOGPYZww
   - name: "Compliant climbing"
     type: youtube
     id: NJ1FIsjt0yE
+  - name: "SubT Exploration"
+    type: youtube
+    id: O3AjmlrafeQ
   - name: "Object tracking"
     type: youtube
     id: tiwB46MSinM
@@ -48,4 +55,13 @@ videos:
   - name: "Medical Snake"
     type: youtube
     id: QqpWGpVGd9c
+  - name: "Autonomous Exploration Ground"
+    type: youtube
+    id: pIo64S-uOoI
+  - name: "Autonomous Exploration Ground"
+    type: youtube
+    id: Jz5MCcLLyh0
+  - name: "SubT Urban"
+    type: youtube
+    id: j1NeZ9R0808
 ---
