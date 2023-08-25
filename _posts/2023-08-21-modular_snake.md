@@ -4,7 +4,8 @@ date: '2023-08-17 20:33 -0400'
 published: true
 title: Modular Snake
 categories: robots
-tags:
+tags: 
+    - modular_robotics
 ---
 
 <figure>

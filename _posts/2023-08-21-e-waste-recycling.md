@@ -4,6 +4,8 @@ date: '2023-08-21 15:16 -0400'
 published: true
 title: E-waste Recycling
 categories: research
+tags:
+  - recycling_robotics
 ---
 We live in a world where most sensitive information is stored on our devices. Eventually, like many things, those devices are thrown away. Existing waste management has more than half a century of experience in handling materials the right way, but dealing with electronics items poses a new challenge and if not done properly can be hazardous to the environment. The main idea is to identify parts that can be remarketed or recycled. In this work, we are trying to classify electronics, develop semantic understanding of their components using X-ray images, manipulate them to respective stations and then autonomously disassemble them to smaller components. 
 

@@ -7,6 +7,7 @@ published: true
 image: img/posts/sidewinding.gif
 tags:
     - locomoting_systems
+    - modular_robotics
 ---
 
 <figure>
