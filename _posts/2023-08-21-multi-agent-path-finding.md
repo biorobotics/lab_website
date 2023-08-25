@@ -11,12 +11,12 @@ tags:
 
 ### Table of Contents
 
-1. [Multi-Agent Path Finding](#sec-1)
-2. [Multi-Agent Multi-Objective Path Planning](#sec-2)
-3. [Multi-Agent Target Sequencing Path Finding](#sec-3)
+1. [Multi-Agent Path Finding](#multi-agent-path-finding)
+2. [Multi-Agent Multi-Objective Path Planning](#multi-agent-multi-objective-path-planning)
+3. [Multi-Agent Target Sequencing Path Finding](#multi-agent-target-sequencing-path-planning)
 
 
-### <a id="sec-1"></a>1. Multi-Agent Path Finding (MA-PF)
+### Multi Agent Path Finding
 
 With the rapid development of affordable robots with embedded sensing and computation capabilities, we are quickly approaching a point at which real-life applications will involve the deployment of hundreds, if not thousands, of robots. Most existing algorithms can be categorized as coupled approaches, which search the full configuration space of a system, and decoupled approaches, which search some low-dimensional representation. Coupled approaches can be guaranteed to find an optimal path, but are computationally infeasible for large numbers of robots. In other words, these approaches suffer from the curse of dimensionality, which states that the size of a system's configuration space grows exponentially with the dimensionality of the system. Decoupled approaches scale better with the number of robots, but cannot generally be guaranteed to find a path. Most prior works give us a choice: scalability or guarantees, but not both.
 
@@ -30,7 +30,7 @@ Subdimensional expansion is an approach that is able to adapt existing planners,
 M* can be proven to find an optimal path in finite time, or to terminate in finite time that no path exists.
 
 
-### <a id="sec-2"></a>2. Multi-Agent Multi-Objective Path Planning (MA-MO-PF)
+### Multi Agent Multi-Objective Path Planning
 
 
 <figure>
@@ -49,7 +49,7 @@ E-MO-A* expedites the existing multi-objective search for up to an order of magn
 Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
 
 
-### <a id="sec-3"></a>3. Multi-Agent Target Sequencing Path Planning (MA-TS-PF)
+### Multi Agent Target Sequencing Path Planning
 
 
 <figure>
