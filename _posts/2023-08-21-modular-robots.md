@@ -7,6 +7,7 @@ published: true
 image: img/posts/eigenbot.gif
 tags:
     - locomoting_systems
+    - modular_robotics
 ---
 
 <figure>
