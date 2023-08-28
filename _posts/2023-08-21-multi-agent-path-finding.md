@@ -11,12 +11,11 @@ tags:
 
 ### Table of Contents
 
+<a href="{{page.url | relative_url}}#multi-agent-path-finding">1. Multi-Agent Path Finding</a>
 
-<A href="#multi-agent-path-finding">1. Multi-Agent Path Finding</A>
+<a href="{{page.url | relative_url}}#multi-agent-multi-objective-path-finding">2. Multi-Agent Multi-Objective Path Finding</a>
 
-<A href="#multi-agent-multi-objective-path-finding">2. Multi-Agent Multi-Objective Path Finding</A>
-
-<A href="#multi-agent-target-sequencing-path-finding">3. Multi-Agent Target Sequencing Path Finding</A>
+<a href="{{page.url | relative_url}}#multi-agent-target-sequencing-path-finding">3. Multi-Agent Target Sequencing Path Finding</a>
 
 
 
