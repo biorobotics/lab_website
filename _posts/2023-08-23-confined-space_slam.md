@@ -26,4 +26,4 @@ We have developed several working prototypes of miniature 3D sensors which are w
 </figure>
 
 **Example use case: Industrial Part 3D Scanning**
-<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/LECQlbpoq1g" frameborder="0" allowfullscreen></iframe></figure>
+{% include youtube.html video="LECQlbpoq1g" %}

@@ -21,20 +21,16 @@
                 <div class="columns is-multiline">
                     {% for video in page.videos %}
                     <div class="column is-4">
-                        <figure class="image is-16by9">
-                            {% if video.type=="youtube" %}
-                                <iframe class="has-ratio" src="https://www.youtube.com/embed/{{ video.id }}" frameborder="0" allowfullscreen></iframe>
-                            {% endif %}
-                            {% if video.type=="google_drive" %}
-                                <iframe class="has-ratio" 
-                                    src="https://drive.google.com/file/d/{{ video.id }}"
-                                    frameborder="0"
-                                    allowfullscreen="true">
-                                </iframe>
-                            {% endif %}
-                        </figure>
+                    {% if video.type=="youtube" %}
+                        {% include youtube.html video=video.id %}
+                    {% endif %}
+                    {% if video.type=="google_drive" %}
+                        {% include google-drive.html video=video.id %}
+                    {% endif %}
+                    {% if video.type=="vimeo" %}
+                        {% include vimeo.html video=video.id %}
+                    {% endif %}
                     </div>
-                        
                     {% endfor %}
                 </div>
             </div>

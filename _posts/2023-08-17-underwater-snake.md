@@ -13,6 +13,4 @@ Currently, no technology exists that can place robot end-effectors into any conf
 
 ![HUMRS Diving Video]({{site.baseurl}}/img/posts/HUMRS diving 1.gif)
 
-
-<iframe src="https://player.vimeo.com/video/637676713?h=2164b289fd" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/637676713">HUMRS - Hardened Underwater Modular Robot Snake</a> from <a href="https://vimeo.com/user155212850">CMU Biorobotics Lab</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+{% include vimeo.html video="637676713" %}

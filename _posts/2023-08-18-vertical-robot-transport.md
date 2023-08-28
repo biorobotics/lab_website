@@ -15,7 +15,7 @@ tags:
 
 Urban combat theaters and disaster scenarios present a unique challenge as personnel must move rapidly to forward positions while transporting heavy mission-critical equipment. These environments are inherently unstructured, which currently limits the use of robots in these missions. This project aims to identify what technology gaps exist to traverse unstructured terrains rapidly. We propose that the correct solution is a dynamic robot that utilizes three key technologies, mass throwing, composite leaf-springs, and articulated mechanisms.
 
-<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/jQMx0oehH3M" frameborder="0" allowfullscreen></iframe></figure>
+{% include youtube.html video="jQMx0oehH3M" %}
 
 
 

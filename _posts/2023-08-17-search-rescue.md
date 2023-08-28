@@ -9,7 +9,7 @@ tags:
 ---
 Similar to performing "minimally invasive surgery" on a collapsed or distressed building, snake robots can navigate through tight spaces and through narrow access points to perform search and rescue tasks. The goal of urban search and rescue (USAR) operations is to quickly and safely locate victims without disrupting the fragile state of the disaster site. Snakelike robots can locomote through rubble or tight spaces in ways that conventional robots cannot, enhancing responder's ability to locate and reach disaster victims. The robot's may also be useful in mine rescue situations where they must be deployed through small diameter access holes and locomote past obstacles within the underground environment.
 
-<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/A9OdUPY3OyE" frameborder="0" allowfullscreen></iframe></figure>
+{% include youtube.html video="A9OdUPY3OyE" %}
 
 **Navigate tightly packed volumes**
 The robots can fit through and locomote within tightly packed volumes that may be encountered in a collapsed building or a pile of rubble.
