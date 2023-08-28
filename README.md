@@ -4,6 +4,7 @@
 
 1. Make a fork of this repository
 2. Make a new branch with a descriptive name
+3. Take a look at the [example post](biorobotics.org/posts/example_post) which shows what can be done, including embedding videos and linking to other posts
 
 ## If you are making large changes:
 
@@ -29,13 +30,10 @@ On the right hand side are several buttons. The topmost lets you edit markdown, 
 
 	Make sure to set the title. This will appear at the top of the page.
 
-	If you need to embed a youtube video, do the following
-
-	`<figure class="image is-16by9"><iframe class="has-ratio" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe></figure>`
-
 	making sure to replace YOUTUBE_VIDEO_ID with the 11 character video ID. It will not show up in the preview but it will show up on the site
 
 	Images can be uploaded and will be saved in the /img/posts directory. Please give these images good names and make sure to add alt-text. We perefer jpegs where possible since they take up less space
+
 
 3. ### Set metadata (Square made of horizontal lines icon)
    
