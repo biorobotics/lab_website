@@ -4,7 +4,7 @@
 
 1. Make a fork of this repository
 2. Make a new branch with a descriptive name
-3. Take a look at the [example post](biorobotics.org/posts/example_post) which shows what can be done, including embedding videos and linking to other posts
+3. Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts
 
 ## If you are making large changes:
 
