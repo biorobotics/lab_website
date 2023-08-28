@@ -11,12 +11,11 @@ tags:
 
 ### Table of Contents
 
-<a href="{{page.url | relative_url}}#multi-agent-path-finding">1. Multi-Agent Path Finding</a>
+1. [Multi-Agent Path Finding]({{page.url | relative_url}}#multi-agent-path-finding)
 
-<a href="{{page.url | relative_url}}#multi-agent-multi-objective-path-finding">2. Multi-Agent Multi-Objective Path Finding</a>
+2. [Multi-Agent Multi-Objective Path Finding]({{page.url | relative_url}}#multi-agent-multi-objective-path-finding)
 
-<a href="{{page.url | relative_url}}#multi-agent-target-sequencing-path-finding">3. Multi-Agent Target Sequencing Path Finding</a>
-
+3. [Multi-Agent Path Finding]({{page.url | relative_url}}#multi-agent-target-sequencing-path-finding)
 
 
 ### Multi Agent Path Finding
@@ -43,13 +42,7 @@ M* can be proven to find an optimal path in finite time, or to terminate in fini
 
 Starting from the subdimensional expansion and the conventional (standard) MA-PF problem, we investigated other variants of MA-PF problems while exploiting the dynamic-coupled planning strategy. Conventional multi-agent path planners typically aim to plan an ensemble of paths that optimizes a single objective, such as path length. Many applications, however, may require multiple objectives, say time-to-completion, fuel use and path risk, to be simultaneously optimized in the planning process. Often, these criteria may not be directly compared and sometimes lie in competition with each other. Simply applying standard multi-objective search algorithms to multi-agent path finding may prove to be inefficient because the size of the space of possible solutions, i.e., the Pareto-optimal set, can grow exponentially with the number of agents. We therefore formulated the problem called Multi-Agent Multi-Objective Path Finding (MA-MO-PF) and developed planners, such as Multi-Objective M* (MO-M*) and Multi-Objective Conflict-Based Search (MO-CBS), to solve the problem, which leverage both dynamic-coupled planning strategy for MA-PF and dominance principles from the multi-objective optimization literature. Consequently, the developed planners are able to compute the entire Pareto-optimal front while searching efficiently by constructing a variable dimensional search space.
 
-The foundation of Multi-Agent Multi-Objective Path Finding (MA-MO-PF) is Single-Agent Multi-Objective Path Finding (SA-MO-PF), which is still an active research area with many open questions.
-A fundamental challenge in SA-MO-PF is the large number of Pareto-optimal solutions, i.e., start-goal paths.
-To find these Pareto-optimal start-goal paths, one has to maintain a large number of Paret-optimal paths from the starting location to any other intermediate location when planning towards the goal.
-We address this challenge by incrementally building a data structure during the planning process to efficiently manage these Pareto-optimal paths.
-We call the resulting algorithm Enhanced Multi-Objective A* (E-MO-A*).
-E-MO-A* expedites the existing multi-objective search for up to an order of magnitude and is particularly advantageous for those hard instances with many Pareto-optimal solutions.
-Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
+The foundation of Multi-Agent Multi-Objective Path Finding (MA-MO-PF) is Single-Agent Multi-Objective Path Finding (SA-MO-PF), which is still an active research area with many open questions. A fundamental challenge in SA-MO-PF is the large number of Pareto-optimal solutions, i.e., start-goal paths. To find these Pareto-optimal start-goal paths, one has to maintain a large number of Paret-optimal paths from the starting location to any other intermediate location when planning towards the goal. We address this challenge by incrementally building a data structure during the planning process to efficiently manage these Pareto-optimal paths. We call the resulting algorithm Enhanced Multi-Objective A* (E-MO-A*). E-MO-A* expedites the existing multi-objective search for up to an order of magnitude and is particularly advantageous for those hard instances with many Pareto-optimal solutions. Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
 
 
 ### Multi Agent Target Sequencing Path Finding
