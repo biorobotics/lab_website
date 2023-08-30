@@ -15,7 +15,7 @@ tags:
 
 2. [Multi-Agent Multi-Objective Path Finding]({{page.url | relative_url}}#multi-agent-multi-objective-path-finding)
 
-3. [Multi-Agent Path Finding]({{page.url | relative_url}}#multi-agent-target-sequencing-path-finding)
+3. [Multi-Agent Target Sequencing Path Finding]({{page.url | relative_url}}#multi-agent-target-sequencing-path-finding)
 
 
 ### Multi Agent Path Finding
