@@ -32,7 +32,7 @@ To efficiently solve {MO-ES}, we develop a framework called Sequential Local Erg
 
 
 <figure>
- <img src="img/posts/MA-MO-ES_alg_overview.png" alt="Algorithm Overview" />
+ <img src="img/posts/mamoes_alg_overview.png" alt="Algorithm Overview" />
 </figure>
 
 
