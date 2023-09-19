@@ -1,8 +1,11 @@
 ---
-image: img/posts/default.png
+image: img/posts/moes_alg_overview.png
 date: '2023-09-18 22:51 -0400'
-published: false
+published: true
 title: Ergodic Search
+categories: research
+tags:
+  - multi-agent_planning
 ---
 ### Table of Contents
 
