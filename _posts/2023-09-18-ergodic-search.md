@@ -7,11 +7,11 @@ categories: research
 tags:
   - multi-agent_planning
 ---
-### Table of Contents
+<!--//### Table of Contents
 
-1. [Multi-Objective Ergodic Search]({{page.url | relative_url}}#multi-objective-ergodic-search)
+//1. [Multi-Objective Ergodic Search]({{page.url | relative_url}}#multi-objective-ergodic-search)
 
-2. [Multi-Agent Multi-Objective Ergodic Search]({{page.url | relative_url}}#multi-agent-multi-objective-ergodic-search)
+//2. [Multi-Agent Multi-Objective Ergodic Search]({{page.url | relative_url}}#multi-agent-multi-objective-ergodic-search)-->
 
 ### Multi Objective Ergodic Search
 
