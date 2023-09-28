@@ -1,7 +1,7 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'http://biorobotics.github.io/lab_website'
-  relativeLinks: 'http://biorobotics.github.io/lab_website/links.jsonp'
+  siteurl: 'https://biorobotics.github.io/lab_website'
+  relativeLinks: 'https://biorobotics.github.io/lab_website/links.jsonp'
   media: img/posts/
   metadata:
     _posts:
