@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 
 {% assign posts = site.posts | where:"categories", page.category | where: 'published', 'true' %}
-{% assign tags =  posts | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% assign tags =  posts | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
 
 
 <style type="text/css">
