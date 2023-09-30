@@ -7,7 +7,7 @@ description: "Autonomous Exploration Using a Fleet of Heterogeneous Robots"
 published: true
 image: img/posts/ground_exploration_crop.gif
 tags:
-  - multi_agent
+  - multi-agent_planning
   - full_stack_autonomy
 ---
 

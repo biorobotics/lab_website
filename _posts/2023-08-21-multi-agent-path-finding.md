@@ -6,7 +6,7 @@ description: "Multi-Agent Path Finding"
 published: true
 image: img/posts/mapf_MATSPF.gif
 tags:
-  - multi_agent
+  - multi-agent_planning
 ---
 
 ### Table of Contents

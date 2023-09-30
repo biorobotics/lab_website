@@ -85,6 +85,20 @@ Try to avoid doing this because of permission problems and ugly thumbnails
 {% include google-drive.html video="0B2LF_3WEQeImX0oxalpjTnBVTEE/preview?resourceKey=0-CgPlZ4jTVf1vthLvboofTA" %}
 </div>
 
+### Make a table
+
+``` liquid
+| Table | Column 1 | Column 2 |
+| :---  |  :----:  |     ---: |
+| Here  | is a     | table    |
+| with  | aligned  | columns  |
+```
+
+| Table | Column 1 | Column 2 |
+| :---  |  :----:  |     ---: |
+| Here  | is a     | table    |
+| with  | aligned  | columns  |
+
 ### Link to a part of a page
 
 ``` liquid
@@ -114,5 +128,6 @@ Try to avoid doing this because of permission problems and ugly thumbnails
 * [Jekyll variables](https://jekyllrb.com/docs/variables/)
 * [Jekyll liquid filters](https://jekyllrb.com/docs/liquid/filters/)
 * [Liquid loops](https://shopify.github.io/liquid/tags/iteration/)
+* [Markdown extended syntax](https://www.markdownguide.org/extended-syntax/)
 
 

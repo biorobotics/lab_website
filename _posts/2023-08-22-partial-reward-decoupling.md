@@ -6,6 +6,8 @@ title: Partial Reward Decoupling for Cooperative Multi-Agent RL
 categories: research
 tags:
   - multi_agent_reinforcement_learning
+  - multi-agent_planning
+  - skill_learning
 ---
 
 Multi-agent reinforcement learning (MARL) has achieved super-human performance on many complex sequential decision-making problems, such as DOTA 2, Starcraft II, and capture the flag.
