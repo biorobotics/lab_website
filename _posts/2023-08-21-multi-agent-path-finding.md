@@ -14,7 +14,7 @@ tags:
 | :-----  | :-------------: | :---------: | :-----------------: |
 | [MA-PF]({{page.url | relative_url}}#multi-agent-path-finding) | ✅ | | |
 | [MA-MO-PF]({{page.url | relative_url}}#multi-agent-multi-objective-path-finding) | ✅ | ✅ | |
-| [MA-TS-PF]({{page.url | relative_url}}#multi-agent-target-sequencing-path-finding) | ✅ | | ✅ |
+| [MA-TS-PF]({{page.url | relative_url}}#multi-agent-target-sequencing-traveling-salesman-path-finding) | ✅ | | ✅ |
 
 <a href="https://docs.google.com/spreadsheets/d/1tfIeQ3ZysSg9gAOFEiNn6DdQYHhKfSv-XekHsSkj_m0/edit?usp=sharing">All Problems</a>
 
