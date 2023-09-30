@@ -8,19 +8,6 @@ image: img/posts/mapf_MATSPF.gif
 tags:
   - multi-agent_planning
 ---
-
-### Table of Contents
-
-<!-- 
-1. [Multi-Agent Path Finding]({{page.url | relative_url}}#multi-agent-path-finding)
-
-2. [Multi-Agent Multi-Objective Path Finding]({{page.url | relative_url}}#multi-agent-multi-objective-path-finding)
-
-3. [Multi-Agent Target Sequencing Path Finding]({{page.url | relative_url}}#multi-agent-target-sequencing-path-finding)
-
-4. <a href="https://docs.google.com/spreadsheets/d/1tfIeQ3ZysSg9gAOFEiNn6DdQYHhKfSv-XekHsSkj_m0/edit?usp=sharing">All Problems</a>.
- -->
-
 ### Table of Contents
 
 | System  | Multi-Agent | Multi-Objective | Traveling Salesman |
