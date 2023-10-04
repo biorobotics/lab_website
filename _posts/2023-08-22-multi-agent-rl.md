@@ -2,7 +2,7 @@
 image: img/posts/prd.jpg
 date: '2023-08-23 14:00 -0500'
 published: true
-title: Partial Reward Decoupling for Cooperative Multi-Agent RL
+title: Reward Decoupling for Multi-Agent RL
 categories: research
 tags:
   - multi_agent_reinforcement_learning

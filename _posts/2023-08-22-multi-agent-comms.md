@@ -2,7 +2,7 @@
 image: img/posts/comms_visualization.gif
 date: '2023-08-22 16:49 -0500'
 published: true
-title: Multi-Agent Communication Learning
+title: Multi-Agent Comms Learning
 categories: research
 tags:
   - multi_agent_reinforcement_learning

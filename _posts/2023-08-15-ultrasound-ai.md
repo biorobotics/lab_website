@@ -1,8 +1,8 @@
 ---
-title:  "Toward Practical Ultrasound AI Across Real-World Patient Diversity"
+title:  "Ultrasound AI"
 categories:
     - research
-description: "Toward Practical Ultrasound AI Across Real-World Patient Diversity"
+description: "Ultrasound AI Across Real-World Patient Diversity"
 published: true
 image: img/posts/image100.png
 tags: 

@@ -4,7 +4,7 @@ categories:
     - research
 date: '2023-08-23 16:29 -0400'
 published: true
-title: 'Confined-Space Sensing and 3D Reconstruction'
+title: 'Confined-Space Sensing'
 tags:
     - confined_space_robotics
     - simultaneous_localization_and_mapping
