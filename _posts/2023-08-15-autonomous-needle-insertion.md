@@ -1,5 +1,5 @@
 ---
-title:  "Automatic Needle Insertion for Vessel Access"
+title:  "Automatic Needle Insertion"
 categories:
     - research
 description: "Automatic Needle Insertion for Vessel Access"

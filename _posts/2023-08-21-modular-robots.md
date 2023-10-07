@@ -1,5 +1,5 @@
 ---
-title:  "Modular Robotics - Mechanism and Control Design"
+title:  "Modular Robotics"
 categories:
     - research
 description: "Modular Robotics"

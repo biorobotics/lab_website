@@ -1,5 +1,5 @@
 ---
-title:  "Autonomous Force-Controlled Ultrasound Scanning"
+title:  "Force-Controlled Ultrasound Scanning"
 categories:
     - research
 description: "Autonomous Force-Controlled Ultrasound Scanning"

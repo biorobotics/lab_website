@@ -3,3 +3,14 @@
 $primary: #C41230;
 // Import Main CSS file from theme
 @import "main";
+
+.card-content > .content {
+  height: 6rem;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.card-content > .content > .title {
+  width: 100%;
+}
