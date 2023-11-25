@@ -1,7 +1,7 @@
 ---
 image: /img/posts/MMPUG_hetero_fleet.jpg
 date: '2023-11-24 20:27 -0500'
-published: false
+published: true
 title: Heterogeneous fleet
 categories: robots
 tags:
