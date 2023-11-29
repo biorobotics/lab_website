@@ -1,8 +1,8 @@
 ---
-title:  "Multi-Agent Path Planning"
+title:  "Multi-Agent Path Finding"
 categories:
     - research
-description: "Multi-Agent Path Planning"
+description: "Multi-Agent Path Finding"
 published: true
 image: img/posts/mapf_MATSPF.gif
 tags:
@@ -31,6 +31,10 @@ We seek to obtain the benefits of both coupled and decoupled approaches: we made
 Subdimensional expansion is an approach that is able to adapt existing planners, such as A* and RRTs, to solve Multi-Agent Path Finding (MA-PF) problems. This approach first generates an individually (sometimes optimal) plan for each agent, ignoring the other agents. For an N-agent system, the initial search yields N paths, which essentially is a one-dimensional subset of the NM-dimensional configuration space where M is the number of degrees of freedom each agent has. Subdimensional expansion that directs the robots to follow these paths until the goal is reached or an agent-agent collision is detected. At the collision, the search space is then locally increased in dimensionality along any path found by the planning algorithm leading to the collision. Such a space grows, as needed, to determine the (optimal) path to the goal. Doing so constructs a variable dimensional search space of minimal size which will contain the optimal path. We implemented subdimensional expansion for the case where the configuration space of each robot can be represented as a graph, using A* as the underlying path planning algorithm. We name the resulting algorithm M*.
 M* can be proven to find an optimal path in finite time, or to terminate in finite time that no path exists.
 
+Read More:
+
+<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/subdim_journal.pdf">Multi-Agent Path Finding (MA-PF)</a>
+
 [Back to top]({{page.url | relative_url}}#table-of-contents)
 
 ### Multi Agent Multi Objective Path Finding
@@ -41,9 +45,23 @@ M* can be proven to find an optimal path in finite time, or to terminate in fini
 </figure>
 
 
-Starting from the subdimensional expansion and the conventional (standard) MA-PF problem, we investigated other variants of MA-PF problems while exploiting the dynamic-coupled planning strategy. Conventional multi-agent path planners typically aim to plan an ensemble of paths that optimizes a single objective, such as path length. Many applications, however, may require multiple objectives, say time-to-completion, fuel use and path risk, to be simultaneously optimized in the planning process. Often, these criteria may not be directly compared and sometimes lie in competition with each other. Simply applying standard multi-objective search algorithms to multi-agent path finding may prove to be inefficient because the size of the space of possible solutions, i.e., the Pareto-optimal set, can grow exponentially with the number of agents. We therefore formulated the problem called Multi-Agent Multi-Objective Path Finding (MA-MO-PF) and developed planners, such as Multi-Objective M* (MO-M*) and Multi-Objective Conflict-Based Search (MO-CBS), to solve the problem, which leverage both dynamic-coupled planning strategy for MA-PF and dominance principles from the multi-objective optimization literature. Consequently, the developed planners are able to compute the entire Pareto-optimal front while searching efficiently by constructing a variable dimensional search space.
+Starting from the subdimensional expansion and the conventional (standard) MA-PF problem, we investigated other variants of MA-PF problems while exploiting the dynamic-coupled planning strategy. Conventional multi-agent path planners typically aim to plan an ensemble of paths that optimizes a single objective, such as path length. Many applications, however, may require multiple objectives, say time-to-completion, fuel use and path risk, to be simultaneously optimized in the planning process. Often, these criteria may not be directly compared and sometimes lie in competition with each other. Simply applying standard multi-objective search algorithms to multi-agent path finding may prove to be inefficient because the size of the space of possible solutions, i.e., the Pareto-optimal set, can grow exponentially with the number of agents. We therefore formulated the problem called Multi-Agent Multi-Objective Path Finding (MA-MO-PF) and developed planners, such as Multi-Objective M* (MO-M\*, also named as MA-MO-A\*) and Multi-Objective Conflict-Based Search (MO-CBS), to solve the problem, which leverage both dynamic-coupled planning strategy for MA-PF and dominance principles from the multi-objective optimization literature. Consequently, the developed planners are able to compute the entire Pareto-optimal front while searching efficiently by constructing a variable dimensional search space.
 
-The foundation of Multi-Agent Multi-Objective Path Finding (MA-MO-PF) is Single-Agent Multi-Objective Path Finding (SA-MO-PF), which is still an active research area with many open questions. A fundamental challenge in SA-MO-PF is the large number of Pareto-optimal solutions, i.e., start-goal paths. To find these Pareto-optimal start-goal paths, one has to maintain a large number of Paret-optimal paths from the starting location to any other intermediate location when planning towards the goal. We address this challenge by incrementally building a data structure during the planning process to efficiently manage these Pareto-optimal paths. We call the resulting algorithm Enhanced Multi-Objective A* (E-MO-A*). E-MO-A* expedites the existing multi-objective search for up to an order of magnitude and is particularly advantageous for those hard instances with many Pareto-optimal solutions. Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
+The foundation of Multi-Agent Multi-Objective Path Finding (MA-MO-PF) is Single-Agent Multi-Objective Path Finding (SA-MO-PF), which is still an active research area with many open questions. A fundamental challenge in SA-MO-PF is the large number of Pareto-optimal solutions, i.e., start-goal paths. To find these Pareto-optimal start-goal paths, one has to maintain a large number of Paret-optimal paths from the starting location to any other intermediate location when planning towards the goal. We address this challenge by incrementally building a data structure during the planning process to efficiently manage these Pareto-optimal paths. We call the resulting algorithm Enhanced Multi-Objective A\* (E-MO-A\*). E-MO-A\* expedites the existing multi-objective search for up to an order of magnitude and is particularly advantageous for those hard instances with many Pareto-optimal solutions. Furthermore, we have also developed multi-objective planners to handle dynamic environments such as planning among moving obstacles and planning in graphs where edge costs can change.
+
+Read More:
+
+<a href="https://browse.arxiv.org/pdf/2102.01353.pdf">Multi-Agent Multi-Objective Path Finding (MA-MO-PF), MA-MO-A\*</a>
+
+<a href="https://arxiv.org/pdf/2101.03805.pdf">Multi-Agent Multi-Objective Path Finding (MA-MO-PF), MO-CBS</a>
+
+<a href="https://ojs.aaai.org/index.php/SOCS/article/view/21764/21528">(Single-Agent) Multi-Objective Path Finding
+ (SA-MO-PF), E-MO-A\*</a>
+
+<a href="https://www.ri.cmu.edu/app/uploads/2022/07/ren22_mosipp_RAL_IROS22.pdf">Single-Agent Multi-Objective Dynamic Obstacle Path Finding (SA-MO-DC-PF), MO-SIPP</a>
+
+<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/ren22_mopbd-RAL_ICRA22.pdf">Single-Agent Multi-Objective Dynamic Environment Path Finding (SA-MO-DE-PF), MO-PB-D\*</a>
+
 
 [Back to top]({{page.url | relative_url}}#table-of-contents)
 
@@ -56,5 +74,13 @@ The foundation of Multi-Agent Multi-Objective Path Finding (MA-MO-PF) is Single-
 
 
 Another important variant of MA-PF we considered is to let a team of agents collectively visit a large number of goal locations (also called waypoints) before reaching their destinations. We call this problem Multi-Agent Traveling-Salesman Path Finding (MA-TS-PF) and this problem arises in applications ranging from surveillance to logistics. MA-TS-PF involves not only planning collision-free paths but also sequencing multiple goal locations, i.e. assigning goals to agents as well as specifying the visiting order of goals. Solving MA-TS-PF to optimality is challenging as it requires addressing simultaneously the curses of dimensionality arising from both MA-PF and traveling salesman problems. We develop a new approach that handles agent-agent conflicts via subdimensional expansion while simultaneously allocating and sequencing targets for agents via state of the art traveling salesman solvers: the subdimensional expansion dynamically modifies the dimension of the new search space based on agent-agent conflicts and defers planning in the joint space until necessary. Concurrently, the complexity in target allocation and sequencing is addressed by embedding the mTSP solvers in the form of (1) heuristics that underestimate the cost-to-go from any state, and (2) individual optimal policies that constructs the low dimensional search space for subdimensional expansion. Numerically, we perform simulations with at most 20 agents and 50 targets to verify the performance of the proposed approach.
+
+
+Read More:
+
+<a href="https://browse.arxiv.org/pdf/2103.09979.pdf">Multi-Agent Traveling Salesman Path Finding (MA-TS-PF), MA-TS-A\*</a>
+
+<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/ren23_CBSS_TRO.pdf">Multi-Agent Traveling Salesman Path Finding (MA-TS-PF), CBSS</a>
+
 
 [Back to top]({{page.url | relative_url}}#table-of-contents)
