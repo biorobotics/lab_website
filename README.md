@@ -54,3 +54,7 @@ under "Raw Metadata" you can add 'published: true' if you are ready to publish.
    This is where you will save the file. Make sure to edit your commit message to be very clear.
 
 7. Open a pull request from your branch.
+
+## Adding publications to the website
+If you are here to add your publications to the website, please use this link: [https://biorobotics.ri.cmu.edu/papers/PHP/index.php](https://biorobotics.ri.cmu.edu/papers/PHP/index.php). You might have to reach out to one of the site admins for login credentials of this page. 
+
