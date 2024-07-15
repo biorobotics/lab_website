@@ -2,7 +2,7 @@
 image: img/posts/Expeditionary_MACC.gif
 date: '2023-08-21 14:25 -0400'
 published: true
-title: Expeditionary Robotics
+title: Global Long-Horizon Planning for Dynamical Systems
 categories: research
 tags:
   - expeditionary_robotics
