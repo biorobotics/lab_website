@@ -51,7 +51,10 @@ layout: default
           elems[i].style.display = 'none';
         }
         const elem = document.getElementById(tag);
-        elem.classList.add("active");
+        if (elem != null) {
+            // If filter menu exists, set that button to active
+            elem.classList.add("active");
+        }
         elems = document.getElementsByClassName(tag);
     } else {
         const elem = document.getElementById("all");
