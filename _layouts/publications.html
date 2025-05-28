@@ -117,6 +117,7 @@ xmlhttp.onload = function() {
   elem.innerHTML=this.responseText;
 }
 xmlhttp.open("GET", "https://biorobotics.ri.cmu.edu/papers/json_request.php" + queryString);
+xmlhttp.overrideMimeType('text/html; charset=iso-8859-1');
 xmlhttp.send();
 </script>
   </body>
