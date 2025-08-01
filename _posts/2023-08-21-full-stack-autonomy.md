@@ -7,6 +7,8 @@ categories: research
 tags:
   - full_stack_autonomy
 ---
+<iframe width="720" height="405" src="https://www.youtube.com/embed/_3MIV58t8Mo?si=7K4P9OPvm7fQSJtq" frameborder="0" allowfullscreen="true"></iframe>
+
 This project seeks novel approaches to rapidly map, navigate, and search environments for situational awareness during time-sensitive combat operations. In particular, the project focuses on fast moving autonomous vehicles designed for multi-modal exploration across various terrains and environments. To do this we integrate and iterate upon previously designed algorithms for exploration, finding areas where common algorithms fail when used on high-speed ugv’s and creating novel solutions to push the boundaries of what these vehicles are capable of. In addition, our system boasts a heterogeneous robot setup via legged robots that can aid exploration between multiple floors. 
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/uW5ALUqfOZs?si=8LgV4xF77iJamrj-" frameborder="0" allowfullscreen="true"></iframe>
