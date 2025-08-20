@@ -11,13 +11,3 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
 end
 
-
-gem "webrick", "~> 1.9"
-
-gem "logger", "~> 1.7"
-
-gem "bigdecimal", "~> 3.2"
-
-gem "wdm", "~> 0.2.0"
-
-gem "fiddle", "~> 1.1"
