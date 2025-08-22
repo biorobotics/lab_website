@@ -24,6 +24,8 @@ The Biorobotics Lab reduces complicated high-dimensional problems found in robot
 
 [Prospective Students & Post-Docs](http://www.cs.cmu.edu/~choset/prospective.html){:target="_blank"} 
 
+[Research and Education Agenda for Howie Choset](research_agenda)
+
 <!-- 
 [![Howie Choset](/img/people/headshot_choset.jpg)](https://www.jetbrains.com/?from=bulma-clean-theme)
 [![Matthew Travers](/img/people/headshot_travers.jpg)](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) -->

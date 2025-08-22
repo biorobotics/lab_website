@@ -64,4 +64,40 @@ videos:
   - name: "SubT Urban"
     type: youtube
     id: j1NeZ9R0808
+  - name: "Stair Case Detection"
+    type: youtube
+    id: oiZEK4yqoMY
+  - name: "LiPO"
+    type: youtube
+    id: IhcWP8s4mYU
+  - name: "Ghost Integration"
+    type: youtube
+    id: M2AJHEAHilQ
+  - name: "High Speed Navigation"
+    type: youtube
+    id: Lv_08I17CuA
+  - name: "MMPUG Overview"
+    type: youtube
+    id: _3MIV58t8Mo
+  - name: "Homogenous Convoy"
+    type: youtube
+    id: bCK_2jl9d1Q
+  - name: "Multi-Robot Control"
+    type: youtube
+    id: -iltX5d7LEk
+  - name: "MMPUG High Speed Autonomy"
+    type: youtube
+    id: Z4q484n5STY
+  - name: "MMPUG Operator Interface"
+    type: youtube
+    id: 9CCraHEbHIw
+  - name: "Multi-staircase navigation"
+    type: youtube
+    id: uW5ALUqfOZs
+  - name: "Decentralized Convoy"
+    type: youtube
+    id: g0br5gaPTPM
+  - name: "MMPUGL Local Planner"
+    type: youtube
+    id: mvTMi0uOae4
 ---
