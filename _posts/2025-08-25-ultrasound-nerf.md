@@ -17,7 +17,7 @@ Ultrasound Imaging is largely still 2 dimensional as 3D probes are very expensiv
 Ultrasound NeRF is an implicit function that uses the physical equations governing ultrasound wave propagation in tissue to learn a 3D volumetric reconstruction from one or more scans. Our student [Ananya Bal](https://ananyabal.github.io/) enhanced this method and made it view-dependent. By using pixel differentials as sparse initialization, Ananya enables the NeRF function to also learn a surface normal field within the ultrasound volume. This, combined with adding the regressed viewing angle to the rendering function, allows her to train the network to identify subtle voxel intensity changes associated with changes in viewing angles. The reconstructed volume can then yield physically accurate pixel intensities that actually capture artifacts such as shadows and energy damping from dense tissues.
 
 <figure>
- <img src="img/posts/ultrasound-nerf-normals.png" width="70%"/>
+ <img src="img/posts/ultrasound-nerf-normals.jpg" width="70%"/>
  <figcaption>Learned Surface Normals by the implicit function</figcaption>
 </figure>
 <figure>
