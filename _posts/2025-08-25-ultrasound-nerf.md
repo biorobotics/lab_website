@@ -2,7 +2,7 @@
 date: '2025-08-25 00:00 -0400'
 image: img/posts/ultrasound-nerf-square.png
 published: true
-title: Ultrasound NeRF
+title: Implicit 3D Functions for Ultrasound
 categories: research
 tags:
   - medical_robotics
