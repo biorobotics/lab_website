@@ -9,7 +9,7 @@ tags:
 ## Holodeck
 ![Holodeck_demo.gif]({{site.baseurl}}/img/posts/Holodeck_demo.gif)
 
-{% include google-drive.html video="1F6HZutNI83FvObev3Zzm9o647Q4LfpR-/view?usp=sharing" %}
+{% include google-drive.html video="1F6HZutNI83FvObev3Zzm9o647Q4LfpR-/view" %}
 
 Holodeck is a versatile emulation platform designed to simulate interactions between multiple physical objects in a free-floating, three-dimensional environment. These objects can be self-actuated, passively floating, or tumbling, and may operate in various domains, including on-orbit, underwater, and aerial environments.
 
