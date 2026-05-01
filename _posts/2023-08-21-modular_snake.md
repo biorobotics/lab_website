@@ -12,6 +12,6 @@ tags:
  <img src="img/posts/reusnake.webp" width="100%"/>
 </figure>
 
-Snake robots can use their many internal degrees of freedom to thread through tightly packed volumes accessing locations that people and machinery otherwise cannot use. Moreover, these highly articulated devices can coordinate their internal degrees of freedom to perform a variety of locomotion capabilities that go beyond the capabilities of conventional wheeled and the recently developed legged robots. The true power of these devices is that they are versatile, achieving behaviors not limited to crawling, climbing, and swimming.
+Snake robots can use their many internal degrees of freedom to thread through tightly packed volumes accessing locations that people and machinery otherwise cannot use. Moreover, these highly articulated devices can coordinate their internal degrees of freedom to perform a variety of locomotion capabilities that go beyond the capabilities of conventional wheeled and the recently developed legged robots. The true power of these devices is that they are versatile, achieving behaviors not limited to crawling, climbing, and swimming. Kell@e, pronounced Kell-at-ee, is our latest generation of snake robot. 
 
 Learn more about our modular snake robots [here](http://biorobotics.ri.cmu.edu/projects/modsnake/index.html).
