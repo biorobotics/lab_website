@@ -1,33 +1,21 @@
 # Lab webiste
 
-## First steps
+## For small changes:
+1. ### Setup
+	Make a fork of this repository or if you already have your own fork, press "sync fork" and discard any changes
+	
+	Make a new branch with a descriptive name
+	
+	Go to https://prose.io/#YOUR_USER_NAME/lab_website/tree/YOUR_BRANCH_NAME
 
-1. Make a fork of this repository or if you already have your own fork, press "sync fork" and discard any changes
-2. Make a new branch with a descriptive name
-3. Make changes on said branch
-4. Commit changes to said branch
-5. Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts
+	On the top right there should be a drop down that lets you switch to the branch you made
 
-## If you are making large changes:
+	Either click one of the existing posts or press "New File" to make a new one
 
-1. Make a fork of this repository
-2. Make a new branch with a descriptive name
-3. Follow these steps to preview your changes live https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
-4. Make the changes you need using GIT
-5. Push changes to your repository's new branch
-6. Make a pull request with your changes to the gh-pages branch
+	On the right hand side are several buttons. The topmost lets you edit markdown, the second gives a simple preview. If you created a new file, the third one shows you metadata, the fourth lets you see your filepath, and the last one lets you commit your changes
 
-## Steps for beginners:
-
-Go to https://prose.io/#YOUR_USER_NAME/lab_website/tree/YOUR_BRANCH_NAME
-
-On the top right there should be a drop down that lets you switch to the branch you made
-
-Either click one of the existing posts or press "New File" to make a new one
-
-On the right hand side are several buttons. The topmost lets you edit markdown, the second gives a simple preview, the third one shows you metadata, the fourth lets you see your filepath, and the last one lets you commit your changes
-
-1. ### Editing markdown (Pencil icon)
+2. ### Editing markdown (Pencil icon)
+	
 	This is where you will add the content of your site.
 
 	Make sure to set the title. This will appear at the top of the page.
@@ -35,7 +23,7 @@ On the right hand side are several buttons. The topmost lets you edit markdown, 
 	making sure to replace YOUTUBE_VIDEO_ID with the 11 character video ID. It will not show up in the preview but it will show up on the site
 
 	Images can be uploaded and will be saved in the /img/posts directory. Please give these images good names and make sure to add alt-text. We perefer jpegs where possible since they take up less space
-
+Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts
 
 3. ### Set metadata (Square made of horizontal lines icon)
    
@@ -56,6 +44,17 @@ under "Raw Metadata" you can add 'published: true' if you are ready to publish.
    This is where you will save the file. Make sure to edit your commit message to be very clear.
 
 7. Open a pull request from your branch.
+
+
+## If you are making large changes:
+
+1. Make a fork of this repository
+2. Make a new branch with a descriptive name
+3. Follow these steps to preview your changes live https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+4. Make the changes you need using GIT
+5. Push changes to your repository's new branch
+6. Make a pull request with your changes to the gh-pages branch
+
 
 ## Adding publications to the website
 If you are here to add your publications to the website, please use this link: [https://biorobotics.ri.cmu.edu/papers/PHP/index.php](https://biorobotics.ri.cmu.edu/papers/PHP/index.php). You might have to reach out to one of the site admins for login credentials of this page. 
