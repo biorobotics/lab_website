@@ -2,9 +2,11 @@
 
 ## First steps
 
-1. Make a fork of this repository
+1. Make a fork of this repository or if you already have your own fork, press "sync fork" and discard any changes
 2. Make a new branch with a descriptive name
-3. Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts
+3. Make changes on said branch
+4. Commit changes to said branch
+5. Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts
 
 ## If you are making large changes:
 
