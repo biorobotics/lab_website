@@ -10,9 +10,9 @@ hero_darken: true
 # hero_link_text: Example Call To Action
 video: tGJvrKFQcpM
 pis:
-    - image: img/people/headshot_travers.jpg
-      link: https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/
-      name: Matthew Travers
+    - image: img/people/headshot_LuLi.jpg
+      link: https://www.ri.cmu.edu/ri-people/lu-li/
+      name: Lu Li
     - image: img/people/headshot_choset.jpg
       link: https://www.ri.cmu.edu/ri-faculty/howie-choset/
       name: Howie Choset
