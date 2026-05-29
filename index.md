@@ -26,6 +26,4 @@ The Biorobotics Lab reduces complicated high-dimensional problems found in robot
 
 [Research and Education Agenda for Howie Choset](research_agenda)
 
-<!-- 
-[![Howie Choset](/img/people/headshot_choset.jpg)](https://www.jetbrains.com/?from=bulma-clean-theme)
-[![Matthew Travers](/img/people/headshot_travers.jpg)](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) -->
+<!-- If you are looking to change the pictures or videos on this page, it's in the metadata. -->
