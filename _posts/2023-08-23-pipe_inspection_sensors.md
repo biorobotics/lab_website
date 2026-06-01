@@ -13,7 +13,7 @@ Various prototypes of in-pipe inspection sensor suites have been developed to pe
 
 
 <figure>
- <img src="img/posts/pipe-robots-3.png" width="100%"/>
+ <img src="/img/posts/pipe-robots-3.png" width="100%"/>
 </figure>
 
 Planned efforts involve further scaling down the sensor package size so that they can be deployed in narrower pipes with a diameter of 2'' or less, while maintaining the localization and mapping capability. The challenge to build smaller sensor suites primarily lies in the tradeoff between size and onboard computational resource.

@@ -32,6 +32,6 @@ To facilitate downstream usage, we are developing a in-pipe scanning database an
 After capturing the visual images and 3D point clouds, it is essential to analyze the data and pinpoint the existing anomalies. Furthermore, we also envision the capability to predict future anomalies, so that a maintenance plan can be preemptively outlined and the defects can be prevented in advance. 
 
 <figure>
- <img src="img/posts/pipe-anomalies.png" width="100%"/>
+ <img src="/img/posts/pipe-anomalies.png" width="100%"/>
 </figure>
 

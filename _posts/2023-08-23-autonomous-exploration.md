@@ -35,5 +35,5 @@ The <a href="https://www.darpa.mil/program/darpa-subterranean-challenge">DARPA S
 We are currently working towards multi-robot exploration with a fleet of heterogeous robots, as shown below. The challenges include coordinating robots with different mobilities and sensor modalities, as well as rendezvous strategies under limited communication. For more information, please contact <a href="https://www.caochao.me/">**Chao Cao**</a>, or visit <a href="https://www.cmu-exploration.com">**cmu-exploration.com**</a>.
 
 <figure>
- <img src="img/posts/multirobot_exploration.jpeg" alt="" />
+ <img src="/img/posts/multirobot_exploration.jpeg" alt="" />
 </figure>

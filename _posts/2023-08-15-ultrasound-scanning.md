@@ -9,7 +9,7 @@ tags: medical_robotics
 ---
 
 <figure>
- <img src="img/posts/image29.png" alt="" />
+ <img src="/img/posts/image29.png" alt="" />
 </figure>
 
 In the case of high-tempo, traumatic scenarios on the battlefield, real-time ultrasound (US) imaging serves as an enabler for countless possible robotic interventions. Ultrasound has the benefit of being  low-cost, portable, and radiation-free. The problem with ultrasound is that it is often difficult to interpret, therefore making interventions even more difficult, both for human caregivers and medical AI that supports them. This project aims to enable robotic-based ultrasound scanning with minimal human help. The challenge is divided into two parts: 

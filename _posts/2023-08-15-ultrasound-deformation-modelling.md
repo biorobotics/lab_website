@@ -9,7 +9,7 @@ tags: medical_robotics
 ---
 
 <figure>
- <img src="img/posts/image46.png" alt="" />
+ <img src="/img/posts/image46.png" alt="" />
 </figure>
 
 While the human body is rigid to a certain degree based on the skeleton, soft tissue is
