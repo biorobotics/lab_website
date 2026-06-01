@@ -25,7 +25,7 @@ With the rapid development of affordable robots with embedded sensing and comput
 We seek to obtain the benefits of both coupled and decoupled approaches: we made the observation that in multi-agent planning, not all agents come into close proximity to each other and therefore do not require a coordinated planner. These agents can simply rely on a computationally efficient single agent planner, until they come into close proximity to each other, at which point the agents nearby to each other must use a coordinated planner among themselves. The idea here is that if agents only coordinate when needed, then the curse of dimensionality may not be realized, but in actuality, in the worst case it will. We call this dynamic coupling of agents, as needed, subdimensional expansion.
 
 <figure>
- <img src="img/posts/mapf_subdimExp.png" alt="" />
+ <img src="/img/posts/mapf_subdimExp.png" alt="" />
 </figure>
 
 Subdimensional expansion is an approach that is able to adapt existing planners, such as A* and RRTs, to solve Multi-Agent Path Finding (MA-PF) problems. This approach first generates an individually (sometimes optimal) plan for each agent, ignoring the other agents. For an N-agent system, the initial search yields N paths, which essentially is a one-dimensional subset of the NM-dimensional configuration space where M is the number of degrees of freedom each agent has. Subdimensional expansion that directs the robots to follow these paths until the goal is reached or an agent-agent collision is detected. At the collision, the search space is then locally increased in dimensionality along any path found by the planning algorithm leading to the collision. Such a space grows, as needed, to determine the (optimal) path to the goal. Doing so constructs a variable dimensional search space of minimal size which will contain the optimal path. We implemented subdimensional expansion for the case where the configuration space of each robot can be represented as a graph, using A* as the underlying path planning algorithm. We name the resulting algorithm M*.
@@ -41,7 +41,7 @@ Read More:
 
 
 <figure>
- <img src="img/posts/mapf_multiObj.png" alt="" />
+ <img src="/img/posts/mapf_multiObj.png" alt="" />
 </figure>
 
 
@@ -69,7 +69,7 @@ Read More:
 
 
 <figure>
- <img src="img/posts/mapf_MATSPF.gif" alt="" />
+ <img src="/img/posts/mapf_MATSPF.gif" alt="" />
 </figure>
 
 

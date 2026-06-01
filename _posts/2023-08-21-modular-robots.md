@@ -11,7 +11,7 @@ tags:
 ---
 
 <figure>
- <img src="img/posts/Eigenbot.png" alt="" />
+ <img src="/img/posts/Eigenbot.png" alt="" />
 </figure>
 
 The Biorobotics group has embraced and advanced modular robot systems, first starting with our snake robots and now virtually all of our hardware and software systems. The obvious immediate benefit for modular robotic systems is that a core set of modules can be combined and recombined to form a customized robot, perhaps on a daily basis. They also allow for better serviceability of the robots because if a modular should fail, it simply needs to be replaced. We have discovered, in our work, that modularity also allows for rapid design of near-final systems, sometimes creating a tight design loop between the designer and the user. 
@@ -28,7 +28,7 @@ Our group’s work toward modularity has taken a comprehensive view, ranging fro
 
 
 <figure>
- <img src="img/posts/EGAN.png" alt="" />
+ <img src="/img/posts/EGAN.png" alt="" />
 </figure> 
 
 ## Design Composition of Fixed Topology Modular Robots

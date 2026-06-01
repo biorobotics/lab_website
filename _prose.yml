@@ -9,7 +9,7 @@ prose:
         field:
           label: "Image (Required)"
           element: "text"
-          value: "img/posts/default.png"
+          value: "/img/posts/default.png"
       - name: "categories"
         field:
           element: "select"

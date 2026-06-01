@@ -31,10 +31,10 @@ The normal setup is out of 12 columns, so 3 would be a quarter of the page width
 {% raw %}
 <div class="columns">
   <div class="column is-3">
-   <img src="img/posts/default.png"/>
+   <img src="/img/posts/default.png"/>
   </div>
   <div class="column is-3">
-   <img src="img/posts/default.png"/>
+   <img src="/img/posts/default.png"/>
   </div>
 </div>
 {% endraw %}
@@ -42,10 +42,10 @@ The normal setup is out of 12 columns, so 3 would be a quarter of the page width
 
 <div class="columns">
   <div class="column is-3">
-   <img src="img/posts/default.png"/>
+   <img src="/img/posts/default.png"/>
   </div>
   <div class="column is-3">
-   <img src="img/posts/default.png"/>
+   <img src="/img/posts/default.png"/>
   </div>
 </div>
 

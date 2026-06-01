@@ -16,13 +16,13 @@ There are no COTS solutions available to fulfill the ultra-short-range but high-
 ### Ultra-Compact Sensor for High-Accuracy Close-Up 3D Reconstruction
 
 <figure>
- <img src="img/posts/blaser-handheld.png" width="55%"/>
+ <img src="/img/posts/blaser-handheld.png" width="55%"/>
 </figure>
 
 We have developed several working prototypes of miniature 3D sensors which are well-suited to confined-space manufacturing and inspection applications. The foundamental and enabling technology behind these sensors is a multi-sensor fusion simultaneous localization and mapping (SLAM) framework. It integrates a camera, a laser profiler, and an inertial measurement unit (IMU) into an ultra-compact sensor package capable of performing real-time, dense, and colorized 3D reconstruction of close-range objects with sub-milimeter-grade scanning accuracy. We are actively working on improving the hardware performance, software efficiency, and integrability with other robotic systems, with the goal to make it the best option for short-range industrial robotic perception solutions for all applications.
 
 <figure>
- <img src="img/posts/blaser-scanning.png" width="70%"/>
+ <img src="/img/posts/blaser-scanning.png" width="70%"/>
 </figure>
 
 **Example use case: Industrial Part 3D Scanning**

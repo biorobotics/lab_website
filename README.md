@@ -63,7 +63,7 @@
 	Take a look at the [example post](http://biorobotics.org/example_post) which shows what can be done, including embedding videos and linking to other posts.
 
 5. ### Preview
-    You can switch between editing and previewing using this toggle <img src="img/docs/edit_preview.png"/>
+    You can switch between editing and previewing using this toggle <img src="/img/docs/edit_preview.png"/>
 
     Make sure to preview your work before publishing it.
     Videos and other embeds will not show up but it will give you an idea of whether the formatting is correct.

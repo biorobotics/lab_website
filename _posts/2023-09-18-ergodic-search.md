@@ -28,7 +28,7 @@ Our work is motivated by humanitarian assistant and disaster relief (HADR) where
 We believe ergodic search can provide a framework for exploiting available information as well as exploring for new information in applications such as HADR. Ergodic search algorithms plan trajectories such that the time spent in a region is proportional to the amount of information in that region, and is able to naturally balance between exploitation and exploration.
 
 <figure>
- <img src="img/posts/moes_alg_overview.png" alt="MO-ES algorithm overview"/>
+ <img src="/img/posts/moes_alg_overview.png" alt="MO-ES algorithm overview"/>
 </figure>
 
 Existing ergodic search methods typically consider search using only a single information map.
@@ -45,7 +45,7 @@ To efficiently solve {MO-ES}, we develop a framework called Sequential Local Erg
 
 
 <figure>
- <img src="img/posts/mamoes_alg_overview.png" alt="Algorithm Overview" />
+ <img src="/img/posts/mamoes_alg_overview.png" alt="Algorithm Overview" />
 </figure>
 
 
@@ -66,7 +66,7 @@ To mitigate the computational challenge of exponential growth, we present a bran
 Multi-robot systems can provide greater sensor coverage and reliability than single robot systems. Among multi-robot applications, significant research effort has been devoted to multi-agent search, where deploying numerous agents can greatly improve the time-efficiency and robustness of search. Motivated by such problems, we consider the large-scale deployment of heterogeneous robots in time-critical scenarios, where search can be further improved by leveraging the natural synergies between agents’ sensing and motion capabilities. By optimizing the formation and coordination of teams of heterogeneous agents, we can efficiently cover a large search area, while managing complexity, to allow for rapid, online re-planning as more information is gathered. This work addresses the question: How can we best form and coordinate heterogeneous agent teams?
 
 <figure>
- <img src="img/posts/dars2021_gaussian.gif" alt="" />
+ <img src="/img/posts/dars2021_gaussian.gif" alt="" />
 </figure>
 
 Our approach is based on ergodic search processes, which, similar to other information-theoretic coverage methods, rely on an a priori information distribution, representing the likelihood of finding a target at any point over the search domain, to guide the search. Ergodicity is a measure of how much time an agent spends in a region of space weighted by the likelihood of a target being located in that region. By optimizing over search paths (really the parameters that describe the paths) the ergodic metric drives agents to spend time in areas of the domain in proportion to the a priori likelihood of finding targets in these areas,  while still covering the whole domain, thus balancing exploration and exploitation. Often, this optimization is performed in the spectral domain, by minimizing the difference between the coefficients associated to the team's time-average statistics (i.e., fraction of the time spent in each area) and those of the information distribution.
