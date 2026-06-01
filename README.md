@@ -38,6 +38,7 @@
 	The current possible tags are:
 
 	- confined_space_robotics
+    - expeditionary_robotics
  	- full_stack_autonomy
   	- locomoting_systems
     - medical_robotics
@@ -48,6 +49,7 @@
     - simultaneous_localization_and_mapping
     - skill_learning
     - space_robotics
+    - underwater_robotics
   
     If you have an idea for a new tag, remember that it really should cover multiple projects.
 
