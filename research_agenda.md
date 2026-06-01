@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  Research and Education Agenda for Howie Choset, Biorobotics Lab, Carnegie Mellon
+title:  Research and Education Agenda, Biorobotics Lab, Carnegie Mellon
 subtitle: 
 ---
 
-# Research and Education Agenda for Howie Choset, Biorobotics Lab, Carnegie Mellon.
+# Research and Education Agenda, Biorobotics Lab, Carnegie Mellon.
 
 <h3>Intro / Snake Robots</h3> Howie Choset has led a comprehensive research program in bio-inspired robotics and AI since he started as a faculty member at Carnegie Mellon in 1996. Perhaps the work for which Professor Choset is best known are his group’s snake robots. This work has garnered much media attention, such as being the first robot to appear on Late Night TV, as well as appearing on Good Morning America, back in 1998. CMU has asked Choset to speak on several occasions about the snake robots, including CMU’s first appearance at the World Economic Forum in 2011 and many appearances on the Hill. The notoriety is only the tip of the iceberg. Choset’s true contributions lie in the fundamental science his group pioneered, as well as, in the systems, his staff and students, designed, built, and deployed in real-world settings. Choset’s group runs the pipeline from basic research, to deployment and sometimes to commercialization, which in turn informs the basic research.
 
