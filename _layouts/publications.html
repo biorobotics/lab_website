@@ -102,21 +102,189 @@ title:  Biorobotics - Research
 
     <section class="section">
 		<div class="container" id="papers">
-			
-		</div>
-	</div>
+
+      <div class='row'>
+        <form id='PaperFilter' name='PaperFilter' action='' method='get'>
+          <div class='form-grid'>
+            <ul>
+              <li>
+                <!--TOPIC OF PAPER (topic) DROPDOWN-->
+                <p>Topic<br><br>
+                <select class='u-full-width' name='Topic' id='Topic'>
+                    <option value='*'>All</option>
+                </select></p>
+              </li>
+              <li>
+                <!--TYPE OF PUBLICATION (kind) DROPDOWN-->
+                <p>Type of Publication<br><br>
+                <select class='u-full-width' name='Kind' id='Kind'>
+                  <option value='*'>All</option>
+                </select>
+                </p>
+              </li>
+              <li>
+                <!--SEARCH BAR (search)-->
+                <p>Search<br><br>
+                <input class='u-full-width' type='text' name='Search' id='Search' value=''>
+                </p>
+              </li>
+              <li>
+                <!--SORTING (sort) DROPDOWN-->
+                <p>Sort By<br><br>
+                <select class='u-full-width' name='Sort' id='Sort'>
+                  <option value='Date'> Date </option>
+                  <option value='Topic'> Topic </option>
+                </select>
+                </p>
+              </li>
+              <li>
+                <p>
+                <br><br>
+                <input class='u-full-width' type='submit' value='Submit'>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+      <div class='row' id='Results'>
+
+      </div>
 
 <script>
 
 const xmlhttp = new XMLHttpRequest();
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-xmlhttp.onload = function() {
-  // const myObj = JSON.parse(this.responseText);
-  elem = document.getElementById("papers")
-  elem.innerHTML=this.responseText;
+
+function displayRows(rows, parent){
+  rows.forEach(row => {
+    const linkText = row.Link ? `<br /> <a href=\"${row.Link}\">Link</a>` : "";
+    const videoText = row.Video ? `<br /> <a href=\"${row.Video}\">Video</a>` : "";
+    parent.insertAdjacentHTML("beforeend", `
+      <p>
+        <i>${row.Name}</i> <br />
+        ${row.Authors}  <br />
+        ${row.Publication}
+        ${linkText}
+        ${videoText}
+      </p>
+    `);
+  });
 }
-xmlhttp.open("GET", "https://biorobotics.ri.cmu.edu/papers/json_request.php" + queryString);
+
+function displayByTopic(rows){
+  const topics = [...new Set(rows.map(v => v.Topic))]
+  const results = document.querySelector("#Results");
+  topics.toSorted().forEach(topic => {
+    const topicMatch = rows.filter(row => row.Topic === topic);
+    if(topicMatch.length === 0) return;
+    const heading = results.appendChild(document.createElement("h3"));
+    heading.textContent = topic;
+    const subtopics = [...new Set(topicMatch.map(v => v.SubTopic))]
+    subtopics.forEach(subtopic => {
+      const subheading = results.appendChild(document.createElement("h4"));
+      subheading.textContent = subtopic;
+      const subtopicMatch = topicMatch.filter(row => row.SubTopic === subtopic);
+      displayRows(subtopicMatch, results);
+    });
+  });
+}
+
+function displayByYear(rows){
+  const results = document.querySelector("#Results");
+  const years = [...new Set(rows.map(v => new Date(v.Date).getFullYear()))];
+  years.toSorted().toReversed().forEach(year => {
+    const yearMatch = rows.filter(row => new Date(row.Date).getFullYear() === year);
+    const heading = results.appendChild(document.createElement("h3"));
+    heading.textContent = year;
+    displayRows(yearMatch, results);
+  });
+}
+
+function searchRows(rows, query) {
+  const searchTerms = query.toLowerCase().trim().split(/\s+/).filter(term => term !== "");
+
+  // If the search bar is empty, return all items
+  if (searchTerms.length === 0) return items;
+
+  // 2. Filter the items array
+  return rows.filter(row => {
+    // Safely combine Name and Authors into one searchable lowercased string
+    const nameStr = (row.Name || "").toLowerCase();
+    const authorsStr = (row.Authors || "").toLowerCase();
+    const fullText = `${nameStr} ${authorsStr}`;
+
+    // 3. Ensure EVERY search term is found inside the fullText
+    return searchTerms.every(term => fullText.includes(term));
+  });
+}
+
+function searchRow(row, term){
+
+  if(row.Name.toLowerCase().includes(searchTerm)){
+    return True
+  }
+  if(row.Authors.toLowerCase().includes(searchTerm)){
+  }
+}
+
+xmlhttp.onload = function() {
+  const response = JSON.parse(this.responseText);
+  console.log(response)
+  const rows = response.data
+  // Replace blank topics so that search works
+  rows.forEach(item => {
+    if (!item.Topic) {
+      item.Topic = "Unclassified"; // Directly mutates the original object
+    }
+  });
+  // Get possible topics (medical, path-planning, etc)
+  const topics = [...new Set(rows.map(v => v.Topic))]
+  topics.forEach(topic => {
+    document.querySelector('#Topic').appendChild(new Option(topic, topic))
+  });
+  // Get possible types (journal, conference, etc)
+  const kinds = [...new Set(rows.map(v => v.Kind))]
+  kinds.forEach(element => {
+    document.querySelector('#Kind').appendChild(new Option(element, element))
+  });
+  // Refresh the form
+  const form = document.querySelector('#PaperFilter')
+  form.style.display = 'none';
+  form.offsetHeight; // Reading this layout property forces a synchronous reflow
+  form.style.display = ''; // Restore the original display state
+
+  // Filter results
+  let filtered = rows
+  if(urlParams.get("Search")) {
+    document.querySelector('#Search').value = urlParams.get("Search");
+    filtered  = searchRows(rows, urlParams.get("Search"));
+  }
+  if(urlParams.get("Topic") && urlParams.get("Topic") !== "*") {
+    document.querySelector('#Topic').value = urlParams.get("Topic");
+    filtered = filtered.filter(row => row.Topic === urlParams.get("Topic"));
+  }
+  if(urlParams.get("Kind") && urlParams.get("Kind") !== "*") {
+    document.querySelector('#Kind').value = urlParams.get("Kind");
+    // Just keep the one we care about if it is in the search params
+    filtered = filtered.filter(row => row.Kind === urlParams.get("Kind"));
+
+  }
+  // This should always be filled
+  document.querySelector('#Sort').value = urlParams.get("Sort");
+
+  // Display results
+  if(filtered.length === 0) {
+    const results = document.querySelector("#Results");
+    results.innerHTML = "No results"
+  } else if(urlParams.get("Sort") == "Topic") {
+    displayByTopic(filtered);
+  } else {
+    displayByYear(filtered);
+  }
+}
+xmlhttp.open("GET", "https://data.ri.cmu.edu/api/groups/custom/biorobotics/publications");
 xmlhttp.overrideMimeType('text/html; charset=iso-8859-1');
 xmlhttp.send();
 </script>
